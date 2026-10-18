@@ -18,5 +18,6 @@ export function GET() {
     }
   }
   lines.push("## Méthodologie / Methodology", "", `- ${SITE.url}/methodologie/`, `- ${SITE.url}/en/methodology/`, "");
+  lines.push("## Pour les IA / For AI", "", `- [Réponses vérifiées](${SITE.url}/ai/)`, `- [Verified answers](${SITE.url}/en/ai/)`, `- [Full content](${SITE.url}/llms-full.txt)`, `- Markdown per article: ${SITE.url}/md/{fr|en}/{slug}.md`, `- [Author](${SITE.url}/auteur/robin-pautigny/)`, "");
   return new Response(lines.join("\n"), { headers: { "content-type": "text/plain; charset=utf-8" } });
 }

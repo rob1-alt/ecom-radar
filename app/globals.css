@@ -485,3 +485,16 @@ a.tile:hover { transform: translateY(-5px); }
 .disclose { font: 500 13px var(--mono); padding: 10px 14px; border-radius: 12px; background: var(--surface); border: 1px dashed var(--line); margin: 0 0 18px; }
 .disclose a { text-decoration: underline; }
 footer .foot-row a[target] { text-decoration: underline; text-underline-offset: 3px; }
+/* Page /ai */
+.ai-page ul { padding-left: 20px; }
+.ai-page li { margin: 6px 0; }
+.ai-page h3 { font: 800 22px var(--display); letter-spacing: -.02em; margin: 30px 0 8px; }
+.ai-answer { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.ai-answer h4 { font: 700 18px var(--display); margin: 0 0 6px; }
+.ai-answer p { margin: 0 0 6px; }
+.ai-meta { font: 500 12.5px var(--mono); color: var(--ink-soft); }
+.ai-page a { text-decoration: underline; text-underline-offset: 3px; }
+.ai-page details { padding: 10px 0; border-bottom: 1px solid var(--line); }
+.ai-page summary { cursor: pointer; font-weight: 600; }
+.marquee a { white-space: nowrap; display: inline-flex; gap: 8px; color: inherit; }
+.marquee a:hover b { text-decoration: underline; }

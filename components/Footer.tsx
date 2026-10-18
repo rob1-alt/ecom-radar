@@ -18,6 +18,7 @@ export default function Footer({ locale }: { locale: Locale }) {
         </div>
         <nav aria-label={t.footNav}>
           <Link href={t.methodPath}>{t.method}</Link>
+          <Link href={locale === "fr" ? "/ai/" : "/en/ai/"}>{locale === "fr" ? "Pour les IA" : "For AI"}</Link>
           <Link href={locale === "fr" ? "/auteur/robin-pautigny/" : "/en/author/robin-pautigny/"}>{locale === "fr" ? "Auteur" : "Author"}</Link>
           <Link href={`${t.methodPath}#outil-liste`}>{t.listed}</Link>
           <Link href={`${base(locale)}/${catSlug(locale, "barometre")}/`}>{t.baroKicker}</Link>

@@ -25,6 +25,7 @@ export type Article = {
   answer?: string;
   faq?: Faq[];
   html: string;
+  body: string;
   headings: { id: string; text: string }[];
 };
 
@@ -103,6 +104,7 @@ export function getArticles(locale: Locale = "fr"): Article[] {
         answer: d.answer as string | undefined,
         faq: (d.faq as Faq[]) || [],
         html,
+        body: content.trim(),
         headings,
       } satisfies Article;
     })

@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: u("/en/"), lastModified: last, alternates: pair("/", "/en/") },
     { url: u("/methodologie/"), alternates: pair("/methodologie/", "/en/methodology/") },
     { url: u("/en/methodology/"), alternates: pair("/methodologie/", "/en/methodology/") },
+    { url: u("/ai/"), lastModified: last, alternates: pair("/ai/", "/en/ai/") },
+    { url: u("/en/ai/"), lastModified: last, alternates: pair("/ai/", "/en/ai/") },
     { url: u("/auteur/robin-pautigny/"), alternates: pair("/auteur/robin-pautigny/", "/en/author/robin-pautigny/") },
     { url: u("/en/author/robin-pautigny/"), alternates: pair("/auteur/robin-pautigny/", "/en/author/robin-pautigny/") },
   ];

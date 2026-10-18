@@ -78,6 +78,7 @@ export default function ArticleView({ a }: { a: Article }) {
 
   return (
     <main>
+      {!a.sample && <link rel="alternate" type="text/markdown" href={`/md/${a.locale}/${a.slug}.md`} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <article className="wrap article">
         <Link className="back" href={catUrl}>
