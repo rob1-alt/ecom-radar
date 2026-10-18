@@ -10,7 +10,7 @@ import { SITE } from "@/lib/site";
 
 const display = localFont({ src: "./fonts/bricolage-grotesque-latin-wght-normal.woff2", weight: "200 800", variable: "--f-display", display: "optional", fallback: ["Arial Black", "system-ui", "sans-serif"] });
 const body = localFont({ src: "./fonts/geist-latin-wght-normal.woff2", weight: "100 900", variable: "--f-body", display: "optional", fallback: ["Helvetica Neue", "Arial", "sans-serif"] });
-const mono = localFont({ src: "./fonts/geist-mono-latin-wght-normal.woff2", weight: "100 900", variable: "--f-mono", display: "optional", fallback: ["ui-monospace", "Menlo", "monospace"] });
+const mono = localFont({ src: "./fonts/geist-mono-latin-wght-normal.woff2", weight: "100 900", variable: "--f-mono", preload: false, display: "optional", fallback: ["ui-monospace", "Menlo", "monospace"] });
 
 const FAVICON =
   "data:image/svg+xml," +
