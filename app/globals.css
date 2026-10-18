@@ -451,3 +451,10 @@ html.lenis, html.lenis body { height: auto; }
 /* Taille du logo identique avant/après chargement (évite le CLS) */
 .lg img { width: 100%; height: 100%; object-fit: contain; }
 .lg:not(.ok) img { opacity: 0; }
+/* Pas de rotation : logos et badges restent droits */
+.sticker, .t-feature:hover .sticker { animation: none; transform: rotate(12deg); }
+.t-vs:hover .vs span { transform: rotate(-8deg); }
+a.tile:hover { transform: translateY(-5px); }
+.intro h1 .hl:hover { transform: rotate(-2deg); }
+.logos .lg:hover, .tool-cloud button:hover .lg { transform: none; }
+.bento > .tile.tilting, .mega-tile.tilting { transform: translateY(-4px); }
