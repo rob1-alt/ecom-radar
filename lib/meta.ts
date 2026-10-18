@@ -8,13 +8,12 @@ export function pageMeta(locale: Locale, paths: Partial<Record<Locale, string>>,
   if (paths.fr) languages["fr-FR"] = paths.fr;
   if (paths.en) languages["en"] = paths.en;
   if (paths.fr) languages["x-default"] = paths.fr;
-  const images = [{ url: `/og-${locale}.png`, width: 1200, height: 630, alt: SITE.name }];
   const og = (extra.openGraph || {}) as Record<string, unknown>;
   return {
     metadataBase: new URL(SITE.url),
     alternates: { canonical: paths[locale], languages },
     ...extra,
-    openGraph: { siteName: SITE.name, locale: T[locale].ogLocale, type: "website", url: paths[locale], images, ...og } as Metadata["openGraph"],
-    twitter: { card: "summary_large_image", images: images.map((i) => i.url) },
+    openGraph: { siteName: SITE.name, locale: T[locale].ogLocale, type: "website", url: paths[locale], ...og } as Metadata["openGraph"],
+    twitter: { card: "summary_large_image" },
   };
 }
