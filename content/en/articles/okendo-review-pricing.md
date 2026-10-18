@@ -7,7 +7,7 @@ date: 2026-10-05
 updated: 2026-10-05
 readTime: 6
 tools: ["Okendo", "Judge.me", "Yotpo"]
-cited: [0, 1, 0, 0]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Okendo** suits growing DTC brands that want reviews, surveys and loyalty in a single tool. On a small budget, **Judge.me** covers the essentials."
 slug: okendo-review-pricing

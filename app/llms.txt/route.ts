@@ -5,7 +5,7 @@ import { CAT_TEXT, T, type Locale } from "@/lib/i18n";
 export const dynamic = "force-static";
 
 export function GET() {
-  const lines = [`# ${SITE.name}`, "", `> ${T.fr.siteDesc}`, `> ${T.en.siteDesc}`, ""];
+  const lines = [`# ${SITE.name}`, "", `> ${T.fr.siteDesc}`, `> ${T.en.siteDesc}`, "", "Publisher: Refine (https://getrefine.ai), a GEO tool that measures and improves how AI assistants recommend brands. The AI barometer is measured with Refine. Éditeur : Refine, outil GEO.", ""];
   for (const l of ["fr", "en"] as Locale[]) {
     const articles = getArticles(l);
     lines.push(l === "fr" ? "# Français" : "# English", "");

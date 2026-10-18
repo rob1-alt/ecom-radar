@@ -7,7 +7,7 @@ date: 2026-10-17
 updated: 2026-10-18
 readTime: 12
 tools: ["TrendTrack", "Minea", "Koala Inspector", "Similarweb", "Commerce Inspector"]
-cited: [1, 1, 1, 1]
+cited: [0, 0, 0, 0]
 sample: true
 slug: best-shopify-spy-tools
 translationOf: meilleurs-outils-espionner-boutiques-shopify

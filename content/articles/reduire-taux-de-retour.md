@@ -7,7 +7,7 @@ date: 2026-09-30
 updated: 2026-10-02
 readTime: 9
 tools: ["Loop", "ReturnGO", "Loox"]
-cited: [1, 1, 1, 0]
+cited: [0, 0, 0, 0]
 wide: true
 sample: true
 answer: "Les retours baissent surtout avant l'achat : guide des tailles précis, photos portées, avis clients avec photos. Après l'achat, proposer l'échange avant le remboursement garde le chiffre d'affaires."

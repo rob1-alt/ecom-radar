@@ -7,7 +7,7 @@ date: 2026-10-11
 updated: 2026-10-11
 readTime: 7
 tools: ["Sendcloud", "Boxtal"]
-cited: [1, 0, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Boxtal** pour moins de 100 colis par mois et des tarifs négociés sans engagement. **Sendcloud** dès que les volumes montent et que l'automatisation (étiquettes en lot, suivi, retours) fait gagner du temps."
 ---

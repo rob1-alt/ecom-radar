@@ -7,7 +7,7 @@ date: 2026-09-30
 updated: 2026-10-02
 readTime: 9
 tools: ["Loop", "ReturnGO", "Loox"]
-cited: [1, 1, 1, 0]
+cited: [0, 0, 0, 0]
 wide: true
 sample: true
 answer: "Most of the reduction in returns happens before the purchase: an accurate size guide, photos of the product being worn, customer reviews with photos. After the purchase, offering an exchange before a refund keeps the revenue."

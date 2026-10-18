@@ -7,7 +7,7 @@ date: 2026-10-14
 updated: 2026-10-14
 readTime: 10
 tools: ["Sendcloud", "Boxtal", "Shippingbo", "Cubyn"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Sendcloud** est le plus complet pour gérer soi-même ses expéditions multi-transporteurs. **Boxtal** est le plus simple pour les petits volumes. **Shippingbo** sert aux boutiques multicanales, et **Cubyn** quand on veut externaliser toute la logistique."
 ---

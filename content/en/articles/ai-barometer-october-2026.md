@@ -7,7 +7,7 @@ date: 2026-10-18
 updated: 2026-10-18
 readTime: 5
 tools: ["Judge.me", "Yotpo", "Brevo", "Klaviyo", "Gorgias"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "In October, **Judge.me** gains 9 points in ChatGPT on customer reviews, while **Yotpo** loses 6. In email marketing, **Brevo** confirms its breakthrough in Gemini."
 slug: ai-barometer-october-2026

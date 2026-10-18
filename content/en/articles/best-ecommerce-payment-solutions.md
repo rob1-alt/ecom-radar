@@ -7,7 +7,7 @@ date: 2026-10-13
 updated: 2026-10-13
 readTime: 11
 tools: ["Stripe", "Mollie", "PayPal", "Shopify Payments", "Alma"]
-cited: [1, 1, 1, 1]
+cited: [0, 0, 0, 0]
 sample: true
 slug: best-ecommerce-payment-solutions
 translationOf: meilleures-solutions-paiement-ecommerce

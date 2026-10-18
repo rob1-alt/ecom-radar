@@ -7,7 +7,7 @@ date: 2026-10-01
 updated: 2026-10-01
 readTime: 5
 tools: ["Brevo", "Klaviyo", "Splio"]
-cited: [1, 1, 1, 0]
+cited: [0, 0, 0, 0]
 wide: true
 sample: true
 answer: "In September, **Brevo** went from 24% to 51% share of voice in Gemini on email marketing prompts. **Klaviyo** stays on top in ChatGPT and Perplexity."

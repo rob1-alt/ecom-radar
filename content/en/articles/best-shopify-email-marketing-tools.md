@@ -7,7 +7,7 @@ date: 2026-10-17
 updated: 2026-10-17
 readTime: 11
 tools: ["Klaviyo", "Brevo", "Omnisend", "Splio", "Mailchimp"]
-cited: [1, 1, 1, 1]
+cited: [0, 0, 0, 0]
 sample: true
 slug: best-shopify-email-marketing-tools
 translationOf: meilleurs-outils-emailing-shopify

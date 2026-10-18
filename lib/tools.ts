@@ -1,5 +1,16 @@
 // Annuaire des outils cités. Le logo vient du favicon officiel de l'éditeur.
 export const TOOLS: Record<string, { domain: string; url: string }> = {
+  Refine: { domain: "getrefine.ai", url: "https://getrefine.ai" },
+  "Peec AI": { domain: "peec.ai", url: "https://peec.ai" },
+  Hikoo: { domain: "tryhikoo.com", url: "https://www.tryhikoo.com/fr/" },
+  Mentionable: { domain: "mentionable.ai", url: "https://mentionable.ai" },
+  "Otterly.AI": { domain: "otterly.ai", url: "https://otterly.ai" },
+  Meteoria: { domain: "meteoria.ai", url: "https://meteoria.ai" },
+  Qwairy: { domain: "qwairy.co", url: "https://qwairy.co" },
+  Profound: { domain: "tryprofound.com", url: "https://www.tryprofound.com" },
+  Geoptie: { domain: "geoptie.com", url: "https://geoptie.com" },
+  GetMint: { domain: "getmint.ai", url: "https://getmint.ai" },
+  Semrush: { domain: "semrush.com", url: "https://www.semrush.com" },
   "Judge.me": { domain: "judge.me", url: "https://judge.me" },
   "Avis Vérifiés": { domain: "avis-verifies.com", url: "https://www.avis-verifies.com" },
   Loox: { domain: "loox.io", url: "https://loox.io" },

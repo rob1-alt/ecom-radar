@@ -7,7 +7,7 @@ date: 2026-10-17
 updated: 2026-10-18
 readTime: 12
 tools: ["TrendTrack", "Minea", "Koala Inspector", "Similarweb", "Commerce Inspector"]
-cited: [1, 1, 1, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**TrendTrack** est le plus complet pour analyser une marque concurrente de bout en bout (boutique, publicités, emails). **Minea** est fort sur la recherche de publicités. **Koala Inspector** suffit pour inspecter rapidement une boutique, et **Similarweb** pour le trafic de n'importe quel site."
 faq:

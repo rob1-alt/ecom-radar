@@ -7,7 +7,7 @@ date: 2026-10-14
 updated: 2026-10-14
 readTime: 12
 tools: ["Judge.me", "Avis Vérifiés", "Loox", "Okendo", "Trustpilot", "Yotpo"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 slug: best-shopify-review-apps
 translationOf: meilleurs-outils-avis-clients-shopify

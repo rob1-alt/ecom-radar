@@ -6,6 +6,7 @@
     "veille": "competitor-intel",
     "logistique": "shipping",
     "paiement": "payments",
+    "visibilite-ia": "ai-visibility",
     "barometre": "ai-barometer"
   },
   "articles": {
@@ -33,6 +34,7 @@
     "sendcloud-vs-boxtal": "sendcloud-vs-boxtal",
     "trendtrack-avis-prix": "trendtrack-review-pricing",
     "trendtrack-vs-minea": "trendtrack-vs-minea",
-    "trustpilot-vs-avis-verifies": "trustpilot-vs-avis-verifies"
+    "trustpilot-vs-avis-verifies": "trustpilot-vs-avis-verifies",
+    "meilleurs-outils-geo-ecommerce": "best-geo-tools-ecommerce"
   }
 }

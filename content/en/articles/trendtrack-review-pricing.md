@@ -7,7 +7,7 @@ date: 2026-10-18
 updated: 2026-10-18
 readTime: 10
 tools: ["TrendTrack", "Minea", "Koala Inspector", "Similarweb"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 wide: true
 answer: "**TrendTrack** is an e-commerce intelligence tool that brings together Shopify store analysis, Meta and TikTok ad libraries, brand emails and ongoing competitor tracking in a single interface. It starts at €34/month billed annually and targets dropshippers, media buyers and DTC brands."
 faq:
@@ -32,7 +32,6 @@ translationOf: trendtrack-avis-prix
 | Free version | Yes, plus a Chrome extension |
 | Target | Dropshippers, media buyers, DTC brands, freelancers |
 | Data | Shopify stores, Meta and TikTok ads, emails |
-| Radar score | 8.6/10 |
 
 ## What TrendTrack does
 

@@ -7,7 +7,7 @@ date: 2026-10-10
 updated: 2026-10-12
 readTime: 6
 tools: ["Gorgias", "Zendesk"]
-cited: [1, 0, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Gorgias** est le helpdesk le plus adapté à Shopify : il affiche les commandes à côté de chaque ticket. Son prix au ticket le rend cher au-delà de quelques milliers de tickets par mois."
 ---

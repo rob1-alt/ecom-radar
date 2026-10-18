@@ -7,7 +7,7 @@ import { CATEGORIES, type CategoryKey } from "@/lib/site";
 import { getBarometre, getArticles, articlePath } from "@/lib/content";
 import { T, CAT_TEXT, TYPE_TEXT, base, catSlug, type Locale } from "@/lib/i18n";
 
-const NAV: CategoryKey[] = ["veille", "avis-clients", "emailing", "barometre"];
+const NAV: CategoryKey[] = ["veille", "avis-clients", "emailing", "visibilite-ia", "barometre"];
 
 export default function Header({ locale, langMap }: { locale: Locale; langMap: Record<string, string> }) {
   const t = T[locale];

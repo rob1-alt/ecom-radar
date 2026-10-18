@@ -7,7 +7,7 @@ date: 2026-10-14
 updated: 2026-10-14
 readTime: 10
 tools: ["Sendcloud", "Boxtal", "Shippingbo", "Cubyn"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Sendcloud** is the most complete option if you handle multi-carrier shipping yourself. **Boxtal** is the simplest for small volumes. **Shippingbo** is for multichannel stores, and **Cubyn** is for when you want to outsource all your logistics."
 slug: best-ecommerce-shipping-software

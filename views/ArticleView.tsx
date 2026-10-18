@@ -1,5 +1,8 @@
+import { AUTHOR, authorLd } from "@/lib/author";
 import Link from "next/link";
 import ToolLogo from "@/components/ToolLogo";
+import RefineBand from "@/components/RefineBand";
+import { REFINE_TXT, refineLink } from "@/lib/refine";
 import ArticleGrid from "@/components/ArticleGrid";
 import { CATEGORIES, SITE } from "@/lib/site";
 import { getArticles, articlePath, alternatePath, renderInline, type Article } from "@/lib/content";
@@ -42,7 +45,7 @@ export default function ArticleView({ a }: { a: Article }) {
       dateModified: a.updated,
       inLanguage: locale === "en" ? "en" : "fr-FR",
       mainEntityOfPage: url,
-      author: { "@type": "Person", name: SITE.author },
+      author: authorLd(locale),
       publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
       about: a.tools.map((tool) => ({ "@type": "SoftwareApplication", name: tool, url: TOOLS[tool]?.url, applicationCategory: "BusinessApplication" })),
     },
@@ -94,7 +97,7 @@ export default function ArticleView({ a }: { a: Article }) {
           )}
           <div className="byline">
             <span>
-              {t.by} {SITE.author}
+              {t.by} <Link href={AUTHOR.path[locale]} rel="author">{SITE.author}</Link>
             </span>
             <span>
               {t.updatedOn} <time dateTime={a.updated}>{fmtDate(a.updated, locale, true)}</time>
@@ -121,6 +124,14 @@ export default function ArticleView({ a }: { a: Article }) {
                 <span dangerouslySetInnerHTML={{ __html: renderInline(a.answer) }} />
               </div>
             )}
+            {a.category === "visibilite-ia" && (
+              <p className="disclose">
+                {REFINE_TXT[locale].disclose}{" "}
+                <a href={refineLink("disclosure", locale)} rel="noopener" target="_blank">
+                  getrefine.ai
+                </a>
+              </p>
+            )}
             <div dangerouslySetInnerHTML={{ __html: a.html }} />
             {a.faq && a.faq.length > 0 && (
               <>
@@ -133,6 +144,7 @@ export default function ArticleView({ a }: { a: Article }) {
                 ))}
               </>
             )}
+            <RefineBand ctx={a.category === "barometre" ? "baro" : "article"} locale={locale} />
           </div>
         </div>
         {related.length > 0 && (

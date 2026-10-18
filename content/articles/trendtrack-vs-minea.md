@@ -7,7 +7,7 @@ date: 2026-10-16
 updated: 2026-10-18
 readTime: 8
 tools: ["TrendTrack", "Minea"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**TrendTrack** pour suivre des marques concurrentes dans la durée : boutique, publicités et emails. **Minea** pour chercher en masse des publicités et des produits qui marchent sur plusieurs réseaux."
 ---

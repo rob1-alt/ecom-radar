@@ -3,6 +3,7 @@ import ToolLogo from "@/components/ToolLogo";
 import Baro from "@/components/Baro";
 import Newsletter from "@/components/Newsletter";
 import ArticleGrid from "@/components/ArticleGrid";
+import RefineBand from "@/components/RefineBand";
 import { getArticles, getArticleByKey, getBarometre, articlePath } from "@/lib/content";
 import { toCard } from "@/lib/cards";
 import { T, CAT_TEXT, TYPE_TEXT, fmtDate, monthWord, type Locale } from "@/lib/i18n";
@@ -186,7 +187,7 @@ export default function Home({ locale }: { locale: Locale }) {
               </span>
               <span>
                 {t.rating}
-                <b>8{locale === "en" ? "." : ","}6/10</b>
+                <b>{locale === "en" ? "€111/month" : "111 €/mois"}</b>
               </span>
             </div>
             <div className="meta">
@@ -216,6 +217,8 @@ export default function Home({ locale }: { locale: Locale }) {
             </div>
           </div>
         </section>
+
+        <RefineBand ctx="home" locale={locale} />
 
         <ArticleGrid cards={articles.map(toCard)} locale={locale} title={t.latest} />
       </div>

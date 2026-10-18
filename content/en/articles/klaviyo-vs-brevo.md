@@ -7,7 +7,7 @@ date: 2026-10-12
 updated: 2026-10-12
 readTime: 9
 tools: ["Klaviyo", "Brevo"]
-cited: [1, 1, 1, 0]
+cited: [0, 0, 0, 0]
 sample: true
 slug: klaviyo-vs-brevo
 translationOf: klaviyo-vs-brevo

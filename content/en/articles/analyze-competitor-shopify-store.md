@@ -7,7 +7,7 @@ date: 2026-10-15
 updated: 2026-10-15
 readTime: 9
 tools: ["TrendTrack", "Koala Inspector", "Similarweb"]
-cited: [1, 0, 1, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "Start with the store itself (theme, apps, products), then its active ads, then its emails by signing up for its newsletter, and finish with its traffic. **TrendTrack** covers all four steps; **Koala Inspector** and **Similarweb** cover one each."
 slug: analyze-competitor-shopify-store

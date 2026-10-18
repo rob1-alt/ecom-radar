@@ -7,7 +7,7 @@ date: 2026-10-18
 updated: 2026-10-18
 readTime: 5
 tools: ["Judge.me", "Yotpo", "Brevo", "Klaviyo", "Gorgias"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "En octobre, **Judge.me** gagne 9 points dans ChatGPT sur les avis clients, **Yotpo** en perd 6. En emailing, **Brevo** confirme sa percée dans Gemini."
 ---

@@ -7,7 +7,7 @@ date: 2026-10-04
 updated: 2026-10-04
 readTime: 8
 tools: ["Gorgias", "Zendesk"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Gorgias** pour une équipe SAV de 1 à 10 personnes sur Shopify. **Zendesk** pour une grosse équipe multicanale avec des besoins de reporting avancés."
 ---

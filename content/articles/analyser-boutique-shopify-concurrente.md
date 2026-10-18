@@ -7,7 +7,7 @@ date: 2026-10-15
 updated: 2026-10-15
 readTime: 9
 tools: ["TrendTrack", "Koala Inspector", "Similarweb"]
-cited: [1, 0, 1, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "Commence par la boutique elle-même (thème, applications, produits), puis ses publicités actives, puis ses emails en t'inscrivant à sa newsletter, et termine par son trafic. **TrendTrack** couvre les quatre étapes, **Koala Inspector** et **Similarweb** en couvrent une chacun."
 ---

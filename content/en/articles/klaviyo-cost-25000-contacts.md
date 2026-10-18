@@ -7,7 +7,7 @@ date: 2026-10-16
 updated: 2026-10-16
 readTime: 11
 tools: ["Klaviyo", "Brevo", "Omnisend"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 wide: true
 sample: true
 answer: "At 25,000 contacts, expect around $400/month for **Klaviyo** email only, versus about half that for **Brevo** or **Omnisend** at the same volume."

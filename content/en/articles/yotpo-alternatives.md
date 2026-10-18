@@ -7,7 +7,7 @@ date: 2026-10-09
 updated: 2026-10-09
 readTime: 7
 tools: ["Yotpo", "Judge.me", "Loox", "Okendo"]
-cited: [0, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "The best **Yotpo** alternative for most stores is **Judge.me**: the same core features for a fraction of the price."
 slug: yotpo-alternatives

@@ -7,7 +7,7 @@ date: 2026-10-16
 updated: 2026-10-18
 readTime: 8
 tools: ["TrendTrack", "Minea"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**TrendTrack** to track competing brands over time: store, ads and emails. **Minea** to search ads and winning products at scale across several networks."
 slug: trendtrack-vs-minea

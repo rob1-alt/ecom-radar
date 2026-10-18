@@ -7,7 +7,7 @@ date: 2026-10-04
 updated: 2026-10-04
 readTime: 8
 tools: ["Gorgias", "Zendesk"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 slug: gorgias-vs-zendesk
 translationOf: gorgias-vs-zendesk

@@ -9,7 +9,7 @@ import { T, CAT_TEXT, base, catSlug, type Locale } from "@/lib/i18n";
 
 export type MenuItem = { href: string; title: string; type: string; category: CategoryKey; tools: string[] };
 
-const ORDER: CategoryKey[] = ["veille", "avis-clients", "emailing", "retours-sav", "logistique", "paiement", "barometre"];
+const ORDER: CategoryKey[] = ["veille", "avis-clients", "emailing", "retours-sav", "logistique", "paiement", "visibilite-ia", "barometre"];
 
 function norm(s: string) {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");

@@ -7,7 +7,7 @@ date: 2026-10-06
 updated: 2026-10-15
 readTime: 6
 tools: ["Omnisend", "Klaviyo", "Brevo"]
-cited: [0, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Omnisend** est le plus simple pour lancer l'email et le SMS ensemble sur Shopify. Il est moins fin que **Klaviyo** en segmentation, mais moins cher."
 ---

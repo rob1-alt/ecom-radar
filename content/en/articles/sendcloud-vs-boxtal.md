@@ -7,7 +7,7 @@ date: 2026-10-11
 updated: 2026-10-11
 readTime: 7
 tools: ["Sendcloud", "Boxtal"]
-cited: [1, 0, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Boxtal** if you ship fewer than 100 parcels a month and want negotiated rates with no commitment. **Sendcloud** once volumes grow and automation (bulk labels, tracking, returns) saves you time."
 slug: sendcloud-vs-boxtal

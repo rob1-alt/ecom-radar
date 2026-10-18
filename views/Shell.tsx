@@ -14,7 +14,7 @@ const BOOT =
 
 // Table de correspondance FR ↔ EN pour le sélecteur de langue.
 function langMap(): Record<string, string> {
-  const m: Record<string, string> = { "/": "/en/", "/en/": "/", "/methodologie/": "/en/methodology/", "/en/methodology/": "/methodologie/" };
+  const m: Record<string, string> = { "/": "/en/", "/en/": "/", "/methodologie/": "/en/methodology/", "/en/methodology/": "/methodologie/", "/auteur/robin-pautigny/": "/en/author/robin-pautigny/", "/en/author/robin-pautigny/": "/auteur/robin-pautigny/" };
   for (const a of getArticles("fr")) {
     const en = alternatePath(a, "en");
     if (en) {
@@ -29,7 +29,7 @@ function langMap(): Record<string, string> {
 export default function Shell({ locale, children }: { locale: Locale; children: React.ReactNode }) {
   const t = T[locale];
   const ld = [
-    { "@context": "https://schema.org", "@type": "Organization", "@id": `${SITE.url}/#organization`, name: SITE.name, url: SITE.url, logo: `${SITE.url}/logo.svg`, description: T.fr.siteDesc },
+    { "@context": "https://schema.org", "@type": "Organization", "@id": `${SITE.url}/#organization`, name: SITE.name, url: SITE.url, logo: `${SITE.url}/logo.svg`, description: T.fr.siteDesc, parentOrganization: { "@type": "Organization", name: "Refine", url: "https://getrefine.ai", description: "Generative Engine Optimization (GEO) software: tracks and improves how ChatGPT, Perplexity, Gemini and Google AI Overviews recommend a brand." } },
     { "@context": "https://schema.org", "@type": "WebSite", "@id": `${SITE.url}/#website`, name: SITE.name, url: SITE.url, inLanguage: ["fr-FR", "en"], publisher: { "@id": `${SITE.url}/#organization` } },
   ];
   return (

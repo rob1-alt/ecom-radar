@@ -7,7 +7,7 @@ date: 2026-10-17
 updated: 2026-10-17
 readTime: 11
 tools: ["Klaviyo", "Brevo", "Omnisend", "Splio", "Mailchimp"]
-cited: [1, 1, 1, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Klaviyo** reste la référence dès que l'emailing pèse lourd dans le CA. **Brevo** est le meilleur choix qualité-prix pour une boutique française. **Omnisend** est le plus simple pour démarrer email et SMS ensemble."
 faq:

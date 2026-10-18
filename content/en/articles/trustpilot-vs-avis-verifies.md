@@ -7,7 +7,7 @@ date: 2026-10-07
 updated: 2026-10-07
 readTime: 8
 tools: ["Trustpilot", "Avis Vérifiés"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Avis Vérifiés** for certified product reviews and Google Shopping stars. **Trustpilot** for brand reputation, which AI assistants read a lot."
 slug: trustpilot-vs-avis-verifies

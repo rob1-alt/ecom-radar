@@ -7,7 +7,7 @@ date: 2026-10-03
 updated: 2026-10-03
 readTime: 7
 tools: ["Loop", "ReturnGO"]
-cited: [1, 0, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Loop** pour les marques qui veulent transformer un maximum de retours en échanges. **ReturnGO** pour un budget plus serré et une mise en place rapide."
 ---

@@ -7,7 +7,7 @@ date: 2026-10-03
 updated: 2026-10-03
 readTime: 7
 tools: ["Loop", "ReturnGO"]
-cited: [1, 0, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 slug: loop-vs-returngo
 translationOf: loop-vs-returngo

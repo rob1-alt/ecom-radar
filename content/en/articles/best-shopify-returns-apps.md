@@ -7,7 +7,7 @@ date: 2026-10-13
 updated: 2026-10-14
 readTime: 10
 tools: ["Loop", "ReturnGO", "Gorgias"]
-cited: [1, 1, 0, 0]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Loop** is the go-to tool for pushing exchanges over refunds. **ReturnGO** is more affordable for small stores."
 slug: best-shopify-returns-apps

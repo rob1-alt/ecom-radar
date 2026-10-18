@@ -7,7 +7,7 @@ date: 2026-10-09
 updated: 2026-10-09
 readTime: 7
 tools: ["Alma", "Klarna"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Alma** is the natural choice for a French brand that sells mostly in France. **Klarna** is better known among international shoppers, especially in Northern Europe and Germany."
 slug: alma-vs-klarna

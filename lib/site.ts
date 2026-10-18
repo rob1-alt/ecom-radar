@@ -3,11 +3,11 @@ export const SITE = {
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://ecomradar.co").replace(/\/$/, ""),
   description:
     "Comparatifs indépendants des outils e-commerce et baromètre mensuel de ce que ChatGPT, Perplexity, Gemini et Google recommandent aux e-commerçants.",
-  author: "Robin",
+  author: "Robin Pautigny",
   locale: "fr_FR",
 };
 
-export type CategoryKey = "avis-clients" | "emailing" | "retours-sav" | "veille" | "logistique" | "paiement" | "barometre";
+export type CategoryKey = "avis-clients" | "emailing" | "retours-sav" | "veille" | "logistique" | "paiement" | "visibilite-ia" | "barometre";
 
 export const CATEGORIES: Record<CategoryKey, { label: string; color: string; onColor: string; intro: string }> = {
   "avis-clients": {
@@ -45,6 +45,12 @@ export const CATEGORIES: Record<CategoryKey, { label: string; color: string; onC
     color: "var(--sky)",
     onColor: "var(--on-tile)",
     intro: "Les solutions de paiement en ligne et de paiement en plusieurs fois pour les boutiques e-commerce.",
+  },
+  "visibilite-ia": {
+    label: "Visibilité IA",
+    color: "var(--lime)",
+    onColor: "var(--on-tile)",
+    intro: "Les outils GEO pour savoir si ChatGPT, Perplexity, Gemini et Google recommandent ta boutique, et pour y remédier.",
   },
   barometre: {
     label: "Baromètre IA",

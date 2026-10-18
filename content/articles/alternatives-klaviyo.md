@@ -7,7 +7,7 @@ date: 2026-10-08
 updated: 2026-10-08
 readTime: 7
 tools: ["Klaviyo", "Brevo", "Omnisend", "Splio", "Mailchimp"]
-cited: [1, 0, 1, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "La meilleure alternative à **Klaviyo** pour une boutique française est **Brevo**, environ deux fois moins cher au même volume. **Omnisend** est la plus proche en fonctionnalités."
 ---

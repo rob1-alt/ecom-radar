@@ -7,7 +7,7 @@ date: 2026-10-07
 updated: 2026-10-07
 readTime: 8
 tools: ["Trustpilot", "Avis Vérifiés"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Avis Vérifiés** pour les avis produits certifiés et les étoiles Google Shopping. **Trustpilot** pour la réputation de la marque, très lue par les IA."
 ---

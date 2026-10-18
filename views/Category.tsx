@@ -1,5 +1,6 @@
 import ArticleGrid from "@/components/ArticleGrid";
 import Baro from "@/components/Baro";
+import RefineBand from "@/components/RefineBand";
 import { CATEGORIES, type CategoryKey } from "@/lib/site";
 import { getArticles, getBarometre } from "@/lib/content";
 import { toCard } from "@/lib/cards";
@@ -47,6 +48,8 @@ export default function Category({ locale, cat }: { locale: Locale; cat: Categor
             </div>
           </section>
         )}
+        {isBaro && <RefineBand ctx="baro" locale={locale} />}
+        {cat === "visibilite-ia" && <RefineBand ctx="geo" locale={locale} />}
         <ArticleGrid cards={articles.map(toCard)} locale={locale} filters={false} title={isBaro ? t.editions : t.allArticles} />
       </div>
     </main>

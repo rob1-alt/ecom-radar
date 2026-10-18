@@ -7,7 +7,7 @@ date: 2026-10-05
 updated: 2026-10-05
 readTime: 6
 tools: ["Okendo", "Judge.me", "Yotpo"]
-cited: [0, 1, 0, 0]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Okendo** convient aux marques DTC en croissance qui veulent avis, questionnaires et fidélité dans un seul outil. Pour un petit budget, **Judge.me** fait l'essentiel."
 ---

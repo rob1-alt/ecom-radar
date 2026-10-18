@@ -7,7 +7,7 @@ date: 2026-10-13
 updated: 2026-10-13
 readTime: 11
 tools: ["Stripe", "Mollie", "PayPal", "Shopify Payments", "Alma"]
-cited: [1, 1, 1, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "Sur Shopify, **Shopify Payments** est le plus simple. Hors Shopify, **Stripe** est la référence et **Mollie** une alternative européenne simple. Ajoute **PayPal** pour la confiance et **Alma** pour le paiement en plusieurs fois."
 ---

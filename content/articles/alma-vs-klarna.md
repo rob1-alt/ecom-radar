@@ -7,7 +7,7 @@ date: 2026-10-09
 updated: 2026-10-09
 readTime: 7
 tools: ["Alma", "Klarna"]
-cited: [1, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Alma** est le choix naturel pour une marque française qui vend surtout en France. **Klarna** est plus connu des acheteurs à l'international, notamment en Europe du Nord et en Allemagne."
 ---

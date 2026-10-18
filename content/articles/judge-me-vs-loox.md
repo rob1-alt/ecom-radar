@@ -7,7 +7,7 @@ date: 2026-10-11
 updated: 2026-10-11
 readTime: 8
 tools: ["Judge.me", "Loox"]
-cited: [0, 1, 0, 1]
+cited: [0, 0, 0, 0]
 sample: true
 answer: "**Judge.me** pour le rapport qualité-prix, **Loox** si les avis photo sont ton premier argument de vente."
 ---
