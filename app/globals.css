@@ -448,3 +448,6 @@ html.lenis, html.lenis body { height: auto; }
 .grid[data-filter="avis-clients"] .card[data-cat="avis-clients"], .grid[data-filter="emailing"] .card[data-cat="emailing"], .grid[data-filter="retours-sav"] .card[data-cat="retours-sav"], .grid[data-filter="veille"] .card[data-cat="veille"], .grid[data-filter="logistique"] .card[data-cat="logistique"], .grid[data-filter="paiement"] .card[data-cat="paiement"], .grid[data-filter="barometre"] .card[data-cat="barometre"] { display: flex; }
 .grid[data-filter]:not([data-filter="all"]) .card.wide { grid-column: span 4; }
 @media (max-width: 1060px) { .grid[data-filter]:not([data-filter="all"]) .card.wide { grid-column: span 6; } }
+/* Taille du logo identique avant/après chargement (évite le CLS) */
+.lg img { width: 100%; height: 100%; object-fit: contain; }
+.lg:not(.ok) img { opacity: 0; }
