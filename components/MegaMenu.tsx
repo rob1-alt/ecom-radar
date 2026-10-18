@@ -117,6 +117,11 @@ export default function MegaMenu({ items }: { items: MenuItem[] }) {
                   </div>
                 );
               })}
+              <div className="mega-tile m-links" style={{ ["--d" as string]: "250ms" }}>
+                <Link href="/methodologie/">Méthodologie</Link>
+                <Link href="/methodologie/#outil-liste">Votre outil est listé ?</Link>
+                <Link href="/#newsletter">Newsletter du 1er du mois</Link>
+              </div>
               <div className="mega-tile m-tools" style={{ ["--d" as string]: "200ms" }}>
                 <div className="mega-head static">
                   <span className="mega-count">{tools.length}</span>
@@ -130,11 +135,6 @@ export default function MegaMenu({ items }: { items: MenuItem[] }) {
                     </button>
                   ))}
                 </div>
-              </div>
-              <div className="mega-tile m-links" style={{ ["--d" as string]: "250ms" }}>
-                <Link href="/methodologie/">Méthodologie</Link>
-                <Link href="/methodologie/#outil-liste">Votre outil est listé ?</Link>
-                <Link href="/#newsletter">Newsletter du 1er du mois</Link>
               </div>
             </div>
           )}
