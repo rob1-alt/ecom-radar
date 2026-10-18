@@ -462,3 +462,9 @@ a.tile:hover { transform: translateY(-5px); }
 .lang { font: 600 12.5px var(--mono); letter-spacing: .06em; padding: 8px 12px; border-radius: 999px; border: 1.5px solid var(--ink); color: var(--ink); margin-left: 8px; }
 .lang:hover { background: var(--ink); color: var(--bg); }
 @media (max-width: 1060px) { .lang { margin-left: auto; } .bar .menu-btn { margin-left: 8px; } }
+
+/* Logos des moteurs IA (cartes) : couleur si cité, grisé sinon */
+.cited { gap: 6px; }
+.cited i.lg, .card.wide .cited i.lg, .card.on-cobalt .cited i.lg { width: 20px; height: 20px; margin: 0; border: 0; border-radius: 6px; background: #fff; box-shadow: 0 0 0 1px rgba(13,14,26,.14); font: 600 9px var(--mono); font-style: normal; color: #0D0E1A; }
+.cited i.lg img { width: 100%; height: 100%; }
+.cited i.lg:not(.on) { filter: grayscale(1); opacity: .35; }

@@ -55,8 +55,8 @@ export const CATEGORIES: Record<CategoryKey, { label: string; color: string; onC
 };
 
 export const ENGINES = [
-  { key: "chatgpt", label: "ChatGPT", short: "C" },
-  { key: "perplexity", label: "Perplexity", short: "P" },
-  { key: "gemini", label: "Gemini", short: "Ge" },
-  { key: "aio", label: "AI Overviews", short: "G" },
+  { key: "chatgpt", label: "ChatGPT", short: "C", domain: "chatgpt.com" },
+  { key: "perplexity", label: "Perplexity", short: "P", domain: "perplexity.ai" },
+  { key: "gemini", label: "Gemini", short: "Ge", domain: "gemini.google.com" },
+  { key: "aio", label: "AI Overviews", short: "G", domain: "google.com" },
 ] as const;

@@ -56,8 +56,9 @@ export default function ArticleGrid({ cards, locale = "fr", filters = true, titl
                 </span>
                 <span className="cited" role="img" aria-label={t.citedBy(c.cited.filter(Boolean).length)}>
                   {c.cited.map((on, k) => (
-                    <i key={k} className={on ? "on" : ""} aria-hidden="true">
-                      {ENGINES[k].short}
+                    <i key={k} className={`lg${on ? " on" : ""}`} data-i={ENGINES[k].short} title={ENGINES[k].label} aria-hidden="true">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={`https://www.google.com/s2/favicons?domain=${ENGINES[k].domain}&sz=64`} alt="" width={20} height={20} decoding="async" loading="lazy" />
                     </i>
                   ))}
                 </span>
