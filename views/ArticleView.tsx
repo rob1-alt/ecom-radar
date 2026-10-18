@@ -18,6 +18,7 @@ export function articleMeta(a: Article) {
     {
       title: a.title,
       description: a.description,
+      ...(a.sample ? { robots: { index: false, follow: true } } : {}),
       openGraph: { type: "article", title: a.title, description: a.description, publishedTime: a.date, modifiedTime: a.updated, locale: T[a.locale].ogLocale, siteName: SITE.name },
     }
   );

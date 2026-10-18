@@ -10,7 +10,7 @@ export function GET() {
     const articles = getArticles(l);
     lines.push(l === "fr" ? "# Français" : "# English", "");
     for (const k of Object.keys(CATEGORIES) as CategoryKey[]) {
-      const list = articles.filter((a) => a.category === k);
+      const list = articles.filter((a) => a.category === k && !a.sample);
       if (!list.length) continue;
       lines.push(`## ${CAT_TEXT[l][k].label}`, "");
       for (const a of list) lines.push(`- [${a.title}](${SITE.url}${articlePath(a)}): ${a.description}`);

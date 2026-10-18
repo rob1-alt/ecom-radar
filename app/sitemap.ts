@@ -24,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const f = `/${catSlug("fr", k)}/`, e = `/en/${catSlug("en", k)}/`;
     out.push({ url: u(f), alternates: pair(f, e) }, { url: u(e), alternates: pair(f, e) });
   }
-  for (const a of [...fr, ...en]) {
+  for (const a of [...fr, ...en].filter((x) => !x.sample)) {
     const f = alternatePath(a, "fr"), e = alternatePath(a, "en");
     out.push({ url: u(articlePath(a)), lastModified: a.updated, alternates: f ? pair(f, e) : undefined });
   }
