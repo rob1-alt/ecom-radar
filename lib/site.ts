@@ -7,7 +7,7 @@ export const SITE = {
   locale: "fr_FR",
 };
 
-export type CategoryKey = "avis-clients" | "emailing" | "retours-sav" | "barometre";
+export type CategoryKey = "avis-clients" | "emailing" | "retours-sav" | "veille" | "logistique" | "paiement" | "barometre";
 
 export const CATEGORIES: Record<CategoryKey, { label: string; color: string; onColor: string; intro: string }> = {
   "avis-clients": {
@@ -27,6 +27,24 @@ export const CATEGORIES: Record<CategoryKey, { label: string; color: string; onC
     color: "var(--tangerine)",
     onColor: "var(--on-tile)",
     intro: "Les outils de gestion des retours, d'échange et de service client pour Shopify et les autres CMS.",
+  },
+  veille: {
+    label: "Veille & spy",
+    color: "var(--lilac)",
+    onColor: "var(--on-tile)",
+    intro: "Les outils pour analyser les boutiques concurrentes, leurs publicités, leurs produits gagnants et leurs emails.",
+  },
+  logistique: {
+    label: "Logistique",
+    color: "var(--mint)",
+    onColor: "var(--on-tile)",
+    intro: "Les outils d'expédition, d'étiquettes, de suivi de colis et de préparation de commandes pour l'e-commerce.",
+  },
+  paiement: {
+    label: "Paiement",
+    color: "var(--sky)",
+    onColor: "var(--on-tile)",
+    intro: "Les solutions de paiement en ligne et de paiement en plusieurs fois pour les boutiques e-commerce.",
   },
   barometre: {
     label: "Baromètre IA",

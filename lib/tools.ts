@@ -15,6 +15,21 @@ export const TOOLS: Record<string, { domain: string; url: string }> = {
   Loop: { domain: "loopreturns.com", url: "https://www.loopreturns.com" },
   ReturnGO: { domain: "returngo.ai", url: "https://returngo.ai" },
   Zendesk: { domain: "zendesk.com", url: "https://www.zendesk.com" },
+  TrendTrack: { domain: "trendtrack.io", url: "https://www.trendtrack.io" },
+  Minea: { domain: "minea.com", url: "https://www.minea.com" },
+  "Koala Inspector": { domain: "koala-apps.io", url: "https://koala-apps.io" },
+  Similarweb: { domain: "similarweb.com", url: "https://www.similarweb.com" },
+  "Commerce Inspector": { domain: "commerceinspector.com", url: "https://www.commerceinspector.com" },
+  Sendcloud: { domain: "sendcloud.com", url: "https://www.sendcloud.com" },
+  Boxtal: { domain: "boxtal.com", url: "https://www.boxtal.com" },
+  Shippingbo: { domain: "shippingbo.com", url: "https://www.shippingbo.com" },
+  Cubyn: { domain: "cubyn.com", url: "https://www.cubyn.com" },
+  Stripe: { domain: "stripe.com", url: "https://stripe.com" },
+  Mollie: { domain: "mollie.com", url: "https://www.mollie.com" },
+  PayPal: { domain: "paypal.com", url: "https://www.paypal.com" },
+  Alma: { domain: "almapay.com", url: "https://almapay.com" },
+  Klarna: { domain: "klarna.com", url: "https://www.klarna.com" },
+  "Shopify Payments": { domain: "shopify.com", url: "https://www.shopify.com/payments" },
 };
 
 export function logoUrl(name: string) {

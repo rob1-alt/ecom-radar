@@ -8,7 +8,7 @@ import { CATEGORIES, type CategoryKey } from "@/lib/site";
 
 export type MenuItem = { href: string; title: string; type: string; category: CategoryKey; tools: string[] };
 
-const ORDER: CategoryKey[] = ["avis-clients", "emailing", "retours-sav", "barometre"];
+const ORDER: CategoryKey[] = ["veille", "avis-clients", "emailing", "retours-sav", "logistique", "paiement", "barometre"];
 
 function norm(s: string) {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");

@@ -12,7 +12,7 @@ export default function Home() {
   const feature = getArticle("meilleurs-outils-avis-clients-shopify")!;
   const vs = getArticle("klaviyo-vs-brevo")!;
   const alt = getArticle("alternatives-yotpo")!;
-  const fiche = getArticle("gorgias-avis-prix")!;
+  const fiche = getArticle("trendtrack-avis-prix")!;
   const toolCount = new Set(articles.flatMap((a) => a.tools)).size;
   const [p1, p2, p3] = feature.tools;
 
@@ -156,21 +156,21 @@ export default function Home() {
 
           <Link className="tile t-fiche" href={articlePath(fiche)}>
             <div className="kicker">
-              <span>Fiche outil</span>Retours & SAV
+              <span>Fiche outil</span>Veille & spy
             </div>
             <h3>
-              <ToolLogo name="Gorgias" />
-              Gorgias : prix, avis, alternatives
+              <ToolLogo name="TrendTrack" />
+              TrendTrack : avis, prix, fonctionnalités
             </h3>
             <div className="price">
               <span>
-                Dès<b>10 $/mois</b>
+                Dès<b>34 €/mois</b>
               </span>
               <span>
-                Cible<b>Shopify DTC</b>
+                Cible<b>DTC & dropship</b>
               </span>
               <span>
-                Note<b>8,4/10</b>
+                Note<b>8,6/10</b>
               </span>
             </div>
             <div className="meta">

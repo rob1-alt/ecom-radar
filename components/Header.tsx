@@ -5,7 +5,7 @@ import { CATEGORIES, type CategoryKey } from "@/lib/site";
 import { getBarometre, getArticles, articlePath } from "@/lib/content";
 import MegaMenu from "./MegaMenu";
 
-const NAV: CategoryKey[] = ["avis-clients", "emailing", "retours-sav", "barometre"];
+const NAV: CategoryKey[] = ["veille", "avis-clients", "emailing", "barometre"];
 
 export default function Header() {
   const b = getBarometre();
