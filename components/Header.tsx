@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header>
       <div className="wrap bar">
-        <Link className="logo" href="/" aria-label="Radar Ecom, accueil">
+        <Link className="logo" href="/">
           <Logo />
           radar<small>ecom</small>
         </Link>

@@ -60,8 +60,8 @@ export default function MegaMenu({ items }: { items: MenuItem[] }) {
         <kbd>⌘K</kbd>
       </button>
 
-      {mounted && createPortal(
-      <div id="mega" className={`mega${open ? " is-open" : ""}`} role="dialog" aria-modal="true" aria-label="Menu" hidden={!open}>
+      {mounted && open && createPortal(
+      <div data-lenis-prevent id="mega" className={`mega${open ? " is-open" : ""}`} role="dialog" aria-modal="true" aria-label="Menu" hidden={!open}>
         <div className="wrap mega-inner">
           <div className="mega-search">
             <label htmlFor="mega-q" className="vh">

@@ -52,7 +52,7 @@ function enhance(html: string) {
   out = out.replace(/<strong>([^<]+)<\/strong>/g, (m, name: string) => {
     const t = TOOLS[name.trim()];
     if (!t) return m;
-    return `<span class="tool"><span class="lg" aria-hidden="true" data-i="${escapeAttr(name.trim().charAt(0))}"><img src="${logoUrl(name.trim())}" alt="" onload="this.parentNode.classList.add('ok')" onerror="this.remove()"></span><strong>${name}</strong></span>`;
+    return `<span class="tool"><span class="lg" aria-hidden="true" data-i="${escapeAttr(name.trim().charAt(0))}"><img src="${logoUrl(name.trim())}" alt="" width="32" height="32" loading="lazy" decoding="async"></span><strong>${name}</strong></span>`;
   });
   out = out.replace(/<table>/g, '<div class="table-wrap"><table>').replace(/<\/table>/g, "</table></div>");
   return { html: out, headings };

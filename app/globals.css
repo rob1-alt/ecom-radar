@@ -16,9 +16,9 @@
   --sky: #6CC8FF;
   --up: #0A8F5B;
   --down: #D9342A;
-  --display: "Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
-  --body: "Geist", "Helvetica Neue", Arial, sans-serif;
-  --mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --display: var(--f-display), "Arial Black", system-ui, sans-serif;
+  --body: var(--f-body), "Helvetica Neue", Arial, sans-serif;
+  --mono: var(--f-mono), ui-monospace, "SF Mono", Menlo, monospace;
   --r: 26px;
   --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
@@ -61,7 +61,7 @@ nav.cats a:hover { background: var(--surface); color: var(--ink); }
 .marquee { background: var(--cobalt); color: #fff; overflow: hidden; font: 500 12.5px var(--mono); letter-spacing: .02em; }
 .marquee-track { display: flex; gap: 40px; padding-block: 9px; width: max-content; animation: slide 38s linear infinite; }
 .marquee span { white-space: nowrap; display: inline-flex; gap: 8px; }
-.marquee b { font-weight: 500; color: var(--sun); }
+.marquee b { font-weight: 600; color: #fff; }
 @keyframes slide { to { transform: translateX(-50%); } }
 
 /* Intro */
@@ -391,11 +391,12 @@ html.rl-first .loader { display: block; animation: loaderGone 0s linear 2.6s for
 /* ——— Entrées de page ——— */
 @keyframes riseIn { from { transform: translateY(26px) scale(.985); } to { transform: none; } }
 @keyframes riseText { from { transform: translateY(.35em); clip-path: inset(0 0 100% 0); } to { transform: none; clip-path: inset(0 0 -10% 0); } }
-.intro h1, .page-head h1, .a-hero h1 { animation: riseText .9s cubic-bezier(.2,.9,.2,1) both; }
+
 .intro-side, .page-head p { animation: riseIn .9s cubic-bezier(.2,.9,.2,1) .12s both; }
 .bento > .tile { animation: riseIn .8s cubic-bezier(.2,.9,.2,1) both; }
 .bento > .tile:nth-child(1) { animation-delay: .05s } .bento > .tile:nth-child(2) { animation-delay: .1s } .bento > .tile:nth-child(3) { animation-delay: .15s } .bento > .tile:nth-child(4) { animation-delay: .2s } .bento > .tile:nth-child(5) { animation-delay: .25s } .bento > .tile:nth-child(6) { animation-delay: .3s } .bento > .tile:nth-child(7) { animation-delay: .35s } .bento > .tile:nth-child(8) { animation-delay: .4s }
-html.rl-first .intro h1, html.rl-first .page-head h1, html.rl-first .a-hero h1, html.rl-first .intro-side, html.rl-first .bento > .tile { animation-delay: calc(1.75s + var(--dl, 0s)); }
+html.rl-first .intro h1, html.rl-first .intro-side { animation: none; }
+html.rl-first .bento > .tile { animation-delay: calc(1.75s + var(--dl, 0s)); }
 html.rl-first .bento > .tile:nth-child(2) { --dl: .06s } html.rl-first .bento > .tile:nth-child(3) { --dl: .12s } html.rl-first .bento > .tile:nth-child(4) { --dl: .18s } html.rl-first .bento > .tile:nth-child(5) { --dl: .24s } html.rl-first .bento > .tile:nth-child(6) { --dl: .3s } html.rl-first .bento > .tile:nth-child(7) { --dl: .36s } html.rl-first .bento > .tile:nth-child(8) { --dl: .42s }
 
 /* Barres du baromètre qui se remplissent */
@@ -435,3 +436,15 @@ html.rl-first .bar-fill { animation-delay: 2.1s; }
   .intro h1, .page-head h1, .a-hero h1, .intro-side, .page-head p, .bento > .tile, .bar-fill, .card, .prose h2, .table-wrap, .answer, .sticker { animation: none !important; }
   .bento > .tile.tilting, .mega-tile.tilting { transform: none; }
 }
+
+/* Lenis smooth scroll */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.lg.ko img { display: none; }
+/* Filtre des articles (CSS, sans re-rendu) */
+.grid[data-filter]:not([data-filter="all"]) .card { display: none; }
+.grid[data-filter="avis-clients"] .card[data-cat="avis-clients"], .grid[data-filter="emailing"] .card[data-cat="emailing"], .grid[data-filter="retours-sav"] .card[data-cat="retours-sav"], .grid[data-filter="veille"] .card[data-cat="veille"], .grid[data-filter="logistique"] .card[data-cat="logistique"], .grid[data-filter="paiement"] .card[data-cat="paiement"], .grid[data-filter="barometre"] .card[data-cat="barometre"] { display: flex; }
+.grid[data-filter]:not([data-filter="all"]) .card.wide { grid-column: span 4; }
+@media (max-width: 1060px) { .grid[data-filter]:not([data-filter="all"]) .card.wide { grid-column: span 6; } }
