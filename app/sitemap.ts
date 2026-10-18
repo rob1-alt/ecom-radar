@@ -1,15 +1,30 @@
 import type { MetadataRoute } from "next";
-import { SITE, CATEGORIES } from "@/lib/site";
-import { getArticles, articlePath } from "@/lib/content";
+import { SITE, CATEGORIES, type CategoryKey } from "@/lib/site";
+import { getArticles, articlePath, alternatePath } from "@/lib/content";
+import { catSlug } from "@/lib/i18n";
 
 export const dynamic = "force-static";
 
+const u = (p: string) => SITE.url + p;
+const pair = (fr: string, en?: string) => ({ languages: { "fr-FR": u(fr), ...(en ? { en: u(en) } : {}), "x-default": u(fr) } });
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const articles = getArticles();
-  return [
-    { url: `${SITE.url}/`, lastModified: articles[0]?.updated },
-    { url: `${SITE.url}/methodologie/` },
-    ...Object.keys(CATEGORIES).map((k) => ({ url: `${SITE.url}/${k}/` })),
-    ...articles.map((a) => ({ url: SITE.url + articlePath(a), lastModified: a.updated })),
+  const fr = getArticles("fr");
+  const en = getArticles("en");
+  const last = fr[0]?.updated;
+  const out: MetadataRoute.Sitemap = [
+    { url: u("/"), lastModified: last, alternates: pair("/", "/en/") },
+    { url: u("/en/"), lastModified: last, alternates: pair("/", "/en/") },
+    { url: u("/methodologie/"), alternates: pair("/methodologie/", "/en/methodology/") },
+    { url: u("/en/methodology/"), alternates: pair("/methodologie/", "/en/methodology/") },
   ];
+  for (const k of Object.keys(CATEGORIES) as CategoryKey[]) {
+    const f = `/${catSlug("fr", k)}/`, e = `/en/${catSlug("en", k)}/`;
+    out.push({ url: u(f), alternates: pair(f, e) }, { url: u(e), alternates: pair(f, e) });
+  }
+  for (const a of [...fr, ...en]) {
+    const f = alternatePath(a, "fr"), e = alternatePath(a, "en");
+    out.push({ url: u(articlePath(a)), lastModified: a.updated, alternates: f ? pair(f, e) : undefined });
+  }
+  return out;
 }

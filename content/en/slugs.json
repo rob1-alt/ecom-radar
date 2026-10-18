@@ -1,0 +1,38 @@
+{
+  "categories": {
+    "avis-clients": "reviews",
+    "emailing": "email-marketing",
+    "retours-sav": "returns-support",
+    "veille": "competitor-intel",
+    "logistique": "shipping",
+    "paiement": "payments",
+    "barometre": "ai-barometer"
+  },
+  "articles": {
+    "alma-vs-klarna": "alma-vs-klarna",
+    "alternatives-klaviyo": "klaviyo-alternatives",
+    "alternatives-yotpo": "yotpo-alternatives",
+    "analyser-boutique-shopify-concurrente": "analyze-competitor-shopify-store",
+    "barometre-ia-octobre-2026": "ai-barometer-october-2026",
+    "barometre-ia-septembre-2026": "ai-barometer-september-2026",
+    "cout-klaviyo-25000-contacts": "klaviyo-cost-25000-contacts",
+    "gorgias-avis-prix": "gorgias-review-pricing",
+    "gorgias-vs-zendesk": "gorgias-vs-zendesk",
+    "judge-me-vs-loox": "judge-me-vs-loox",
+    "klaviyo-vs-brevo": "klaviyo-vs-brevo",
+    "loop-vs-returngo": "loop-vs-returngo",
+    "meilleures-solutions-paiement-ecommerce": "best-ecommerce-payment-solutions",
+    "meilleurs-outils-avis-clients-shopify": "best-shopify-review-apps",
+    "meilleurs-outils-emailing-shopify": "best-shopify-email-marketing-tools",
+    "meilleurs-outils-espionner-boutiques-shopify": "best-shopify-spy-tools",
+    "meilleurs-outils-expedition-ecommerce": "best-ecommerce-shipping-software",
+    "meilleurs-outils-retours-shopify": "best-shopify-returns-apps",
+    "okendo-avis-prix": "okendo-review-pricing",
+    "omnisend-avis-prix": "omnisend-review-pricing",
+    "reduire-taux-de-retour": "reduce-ecommerce-return-rate",
+    "sendcloud-vs-boxtal": "sendcloud-vs-boxtal",
+    "trendtrack-avis-prix": "trendtrack-review-pricing",
+    "trendtrack-vs-minea": "trendtrack-vs-minea",
+    "trustpilot-vs-avis-verifies": "trustpilot-vs-avis-verifies"
+  }
+}

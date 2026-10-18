@@ -1,39 +1,36 @@
-import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import ToolLogo from "@/components/ToolLogo";
 import ArticleGrid from "@/components/ArticleGrid";
 import { CATEGORIES, SITE } from "@/lib/site";
-import { getArticles, getArticle, articlePath, frDate, renderInline } from "@/lib/content";
+import { getArticles, articlePath, alternatePath, renderInline, type Article } from "@/lib/content";
 import { TOOLS } from "@/lib/tools";
 import { toCard } from "@/lib/cards";
+import { T, CAT_TEXT, TYPE_TEXT, base, catSlug, fmtDate, type Locale } from "@/lib/i18n";
+import { pageMeta } from "@/lib/meta";
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return getArticles().map((a) => ({ category: a.category, slug: a.slug }));
+export function articleMeta(a: Article) {
+  return pageMeta(
+    a.locale,
+    { fr: alternatePath(a, "fr"), en: alternatePath(a, "en") },
+    {
+      title: a.title,
+      description: a.description,
+      openGraph: { type: "article", title: a.title, description: a.description, publishedTime: a.date, modifiedTime: a.updated, locale: T[a.locale].ogLocale, siteName: SITE.name },
+    }
+  );
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ category: string; slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
-  const a = getArticle(slug);
-  if (!a) return {};
-  return {
-    title: a.title,
-    description: a.description,
-    alternates: { canonical: articlePath(a) },
-    openGraph: { type: "article", title: a.title, description: a.description, publishedTime: a.date, modifiedTime: a.updated },
-  };
-}
-
-export default async function ArticlePage({ params }: { params: Promise<{ category: string; slug: string }> }) {
-  const { category, slug } = await params;
-  const a = getArticle(slug);
-  if (!a || a.category !== category) notFound();
+export default function ArticleView({ a }: { a: Article }) {
+  const locale: Locale = a.locale;
+  const t = T[locale];
   const c = CATEGORIES[a.category];
+  const ct = CAT_TEXT[locale][a.category];
   const url = SITE.url + articlePath(a);
-  const toc = [...(a.answer ? [{ id: "reponse", text: "La réponse courte" }] : []), ...a.headings, ...(a.faq?.length ? [{ id: "faq", text: "Questions fréquentes" }] : [])];
-  const related = getArticles().filter((x) => x.slug !== a.slug && (x.category === a.category || x.tools.some((t) => a.tools.includes(t)))).slice(0, 3);
+  const catUrl = `${base(locale)}/${catSlug(locale, a.category)}/`;
+  const toc = [...(a.answer ? [{ id: "reponse", text: t.shortAnswer }] : []), ...a.headings, ...(a.faq?.length ? [{ id: "faq", text: t.faq }] : [])];
+  const related = getArticles(locale)
+    .filter((x) => x.slug !== a.slug && (x.category === a.category || x.tools.some((tool) => a.tools.includes(tool))))
+    .slice(0, 3);
 
   const ld: object[] = [
     {
@@ -43,18 +40,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
       description: a.description,
       datePublished: a.date,
       dateModified: a.updated,
-      inLanguage: "fr-FR",
+      inLanguage: locale === "en" ? "en" : "fr-FR",
       mainEntityOfPage: url,
       author: { "@type": "Person", name: SITE.author },
       publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
-      about: a.tools.map((t) => ({ "@type": "SoftwareApplication", name: t, url: TOOLS[t]?.url, applicationCategory: "BusinessApplication" })),
+      about: a.tools.map((tool) => ({ "@type": "SoftwareApplication", name: tool, url: TOOLS[tool]?.url, applicationCategory: "BusinessApplication" })),
     },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Accueil", item: SITE.url + "/" },
-        { "@type": "ListItem", position: 2, name: c.label, item: `${SITE.url}/${a.category}/` },
+        { "@type": "ListItem", position: 1, name: t.home, item: `${SITE.url}${base(locale)}/` },
+        { "@type": "ListItem", position: 2, name: ct.label, item: SITE.url + catUrl },
         { "@type": "ListItem", position: 3, name: a.title, item: url },
       ],
     },
@@ -64,7 +61,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
       "@context": "https://schema.org",
       "@type": "ItemList",
       name: a.title,
-      itemListElement: a.tools.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t, url: TOOLS[t]?.url })),
+      itemListElement: a.tools.map((tool, i) => ({ "@type": "ListItem", position: i + 1, name: tool, url: TOOLS[tool]?.url })),
     });
   }
   if (a.faq?.length) {
@@ -79,34 +76,38 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <article className="wrap article">
-        <Link className="back" href={`/${a.category}/`}>
-          ← {c.label}
+        <Link className="back" href={catUrl}>
+          ← {ct.label}
         </Link>
         <div className="a-hero" style={{ ["--c" as string]: c.color, ["--c-on" as string]: c.onColor }}>
           <div className="kicker">
-            <span>{a.type}</span>
-            {c.label}
+            <span>{TYPE_TEXT[locale][a.type]}</span>
+            {ct.label}
           </div>
           <h1>{a.title}</h1>
           {a.tools.length > 0 && (
             <div className="logos">
-              {a.tools.map((t) => (
-                <ToolLogo key={t} name={t} />
+              {a.tools.map((tool) => (
+                <ToolLogo key={tool} name={tool} />
               ))}
             </div>
           )}
           <div className="byline">
-            <span>Par {SITE.author}</span>
             <span>
-              Mis à jour le <time dateTime={a.updated}>{frDate(a.updated, true)}</time>
+              {t.by} {SITE.author}
             </span>
-            <span>{a.readTime} min</span>
+            <span>
+              {t.updatedOn} <time dateTime={a.updated}>{fmtDate(a.updated, locale, true)}</time>
+            </span>
+            <span>
+              {a.readTime} {t.min}
+            </span>
           </div>
-          {a.sample && <div className="sample-note">Contenu d'exemple : chiffres et prix à vérifier avant publication</div>}
+          {a.sample && <div className="sample-note">{t.sampleNote}</div>}
         </div>
         <div className="a-body">
-          <nav className="toc" aria-label="Sommaire">
-            <b>Sommaire</b>
+          <nav className="toc" aria-label={t.toc}>
+            <b>{t.toc}</b>
             {toc.map((h) => (
               <a key={h.id} href={`#${h.id}`}>
                 {h.text}
@@ -116,14 +117,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
           <div className="prose">
             {a.answer && (
               <div className="answer" id="reponse">
-                <b className="lbl">La réponse courte</b>
+                <b className="lbl">{t.shortAnswer}</b>
                 <span dangerouslySetInnerHTML={{ __html: renderInline(a.answer) }} />
               </div>
             )}
             <div dangerouslySetInnerHTML={{ __html: a.html }} />
             {a.faq && a.faq.length > 0 && (
               <>
-                <h2 id="faq">Questions fréquentes</h2>
+                <h2 id="faq">{t.faq}</h2>
                 {a.faq.map((f) => (
                   <details key={f.q}>
                     <summary>{f.q}</summary>
@@ -136,7 +137,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
         </div>
         {related.length > 0 && (
           <div className="related">
-            <ArticleGrid cards={related.map((r) => ({ ...toCard(r), wide: false }))} filters={false} title="À lire aussi" />
+            <ArticleGrid cards={related.map((r) => ({ ...toCard(r), wide: false }))} locale={locale} filters={false} title={t.readAlso} />
           </div>
         )}
       </article>

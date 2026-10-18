@@ -19,8 +19,8 @@ answer: "Sur Shopify, **Shopify Payments** est le plus simple. Hors Shopify, **S
 | 1 | **Stripe** | Boutiques sur mesure, international | 9,0 |
 | 2 | **Shopify Payments** | Boutiques Shopify | 8,8 |
 | 3 | **Mollie** | Boutiques européennes, moyens de paiement locaux | 8,4 |
-| 4 | **PayPal** | Rassurer les acheteurs | 8,0 |
-| 5 | **Alma** | Paiement en 3 ou 4 fois | 8,2 |
+| 4 | **Alma** | Paiement en 3 ou 4 fois | 8,2 |
+| 5 | **PayPal** | Rassurer les acheteurs | 8,0 |
 
 Les frais varient selon le pays et le type de carte : vérifie la grille de chaque solution.
 

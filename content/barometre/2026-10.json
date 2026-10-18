@@ -5,19 +5,137 @@
   "prompts": 18,
   "category": "l'emailing",
   "engines": {
-    "chatgpt": [{"tool":"Klaviyo","share":62,"delta":4},{"tool":"Brevo","share":48,"delta":2},{"tool":"Omnisend","share":31,"delta":-2},{"tool":"Splio","share":12,"delta":1}],
-    "perplexity": [{"tool":"Klaviyo","share":55,"delta":4},{"tool":"Omnisend","share":44,"delta":3},{"tool":"Brevo","share":39,"delta":-1},{"tool":"Splio","share":9,"delta":0}],
-    "gemini": [{"tool":"Brevo","share":51,"delta":27},{"tool":"Klaviyo","share":47,"delta":-3},{"tool":"Omnisend","share":22,"delta":1},{"tool":"Splio","share":15,"delta":6}],
-    "aio": [{"tool":"Klaviyo","share":58,"delta":2},{"tool":"Brevo","share":53,"delta":5},{"tool":"Omnisend","share":27,"delta":0},{"tool":"Splio","share":11,"delta":-1}]
+    "chatgpt": [
+      {
+        "tool": "Klaviyo",
+        "share": 62,
+        "delta": 4
+      },
+      {
+        "tool": "Brevo",
+        "share": 48,
+        "delta": 2
+      },
+      {
+        "tool": "Omnisend",
+        "share": 31,
+        "delta": -2
+      },
+      {
+        "tool": "Splio",
+        "share": 12,
+        "delta": 1
+      }
+    ],
+    "perplexity": [
+      {
+        "tool": "Klaviyo",
+        "share": 55,
+        "delta": 4
+      },
+      {
+        "tool": "Omnisend",
+        "share": 44,
+        "delta": 3
+      },
+      {
+        "tool": "Brevo",
+        "share": 39,
+        "delta": -1
+      },
+      {
+        "tool": "Splio",
+        "share": 9,
+        "delta": 0
+      }
+    ],
+    "gemini": [
+      {
+        "tool": "Brevo",
+        "share": 51,
+        "delta": 27
+      },
+      {
+        "tool": "Klaviyo",
+        "share": 47,
+        "delta": -3
+      },
+      {
+        "tool": "Omnisend",
+        "share": 22,
+        "delta": 1
+      },
+      {
+        "tool": "Splio",
+        "share": 15,
+        "delta": 6
+      }
+    ],
+    "aio": [
+      {
+        "tool": "Klaviyo",
+        "share": 58,
+        "delta": 2
+      },
+      {
+        "tool": "Brevo",
+        "share": 53,
+        "delta": 5
+      },
+      {
+        "tool": "Omnisend",
+        "share": 27,
+        "delta": 0
+      },
+      {
+        "tool": "Splio",
+        "share": 11,
+        "delta": -1
+      }
+    ]
   },
   "moves": [
-    {"tool":"Judge.me","engine":"ChatGPT","delta":9},
-    {"tool":"Yotpo","engine":"ChatGPT","delta":-6},
-    {"tool":"Brevo","engine":"Gemini","delta":27},
-    {"tool":"Klaviyo","engine":"Perplexity","delta":4},
-    {"tool":"Gorgias","engine":"AI Overviews","delta":3},
-    {"tool":"Omnisend","engine":"ChatGPT","delta":-2},
-    {"tool":"Loox","engine":"Perplexity","delta":5},
-    {"tool":"Splio","engine":"Gemini","delta":6}
-  ]
+    {
+      "tool": "Judge.me",
+      "engine": "ChatGPT",
+      "delta": 9
+    },
+    {
+      "tool": "Yotpo",
+      "engine": "ChatGPT",
+      "delta": -6
+    },
+    {
+      "tool": "Brevo",
+      "engine": "Gemini",
+      "delta": 27
+    },
+    {
+      "tool": "Klaviyo",
+      "engine": "Perplexity",
+      "delta": 4
+    },
+    {
+      "tool": "Gorgias",
+      "engine": "AI Overviews",
+      "delta": 3
+    },
+    {
+      "tool": "Omnisend",
+      "engine": "ChatGPT",
+      "delta": -2
+    },
+    {
+      "tool": "Loox",
+      "engine": "Perplexity",
+      "delta": 5
+    },
+    {
+      "tool": "Splio",
+      "engine": "Gemini",
+      "delta": 6
+    }
+  ],
+  "label_en": "October 2026",
+  "category_en": "email marketing"
 }

@@ -2,6 +2,7 @@ import Link from "next/link";
 import ToolLogo from "./ToolLogo";
 import GridFilter from "./GridFilter";
 import { CATEGORIES, ENGINES, type CategoryKey } from "@/lib/site";
+import { T, CAT_TEXT, type Locale } from "@/lib/i18n";
 
 export type CardData = {
   href: string;
@@ -17,14 +18,15 @@ export type CardData = {
 };
 
 // Composant serveur : les cartes sont dans le HTML ; seul le filtre est interactif.
-export default function ArticleGrid({ cards, filters = true, title = "Derniers articles", id = "articles" }: { cards: CardData[]; filters?: boolean; title?: string; id?: string }) {
+export default function ArticleGrid({ cards, locale = "fr", filters = true, title, id = "articles" }: { cards: CardData[]; locale?: Locale; filters?: boolean; title?: string; id?: string }) {
+  const t = T[locale];
   const cats = Array.from(new Set(cards.map((c) => c.category)));
   const gridId = `${id}-grid`;
   return (
     <section id={id}>
       <div className="section-head">
-        <h2>{title}</h2>
-        {filters && <GridFilter cats={cats} target={gridId} />}
+        <h2>{title || t.latest}</h2>
+        {filters && <GridFilter cats={cats} target={gridId} locale={locale} />}
       </div>
       <div className="grid" id={gridId} data-filter="all">
         {cards.map((c) => {
@@ -35,7 +37,7 @@ export default function ArticleGrid({ cards, filters = true, title = "Derniers a
               <div className="top">
                 <span className="cat">
                   <span className="dot" style={{ background: c.wide ? "currentColor" : meta.color }} />
-                  {meta.label}
+                  {CAT_TEXT[locale][c.category].label}
                 </span>
                 <span>{c.type}</span>
               </div>
@@ -49,10 +51,10 @@ export default function ArticleGrid({ cards, filters = true, title = "Derniers a
                     ))}
                   </span>
                   <span>
-                    {c.dateLabel} · {c.readTime} min
+                    {c.dateLabel} · {c.readTime} {t.min}
                   </span>
                 </span>
-                <span className="cited" role="img" aria-label={`Cité par ${c.cited.filter(Boolean).length} IA sur 4`}>
+                <span className="cited" role="img" aria-label={t.citedBy(c.cited.filter(Boolean).length)}>
                   {c.cited.map((on, k) => (
                     <i key={k} className={on ? "on" : ""} aria-hidden="true">
                       {ENGINES[k].short}
@@ -65,8 +67,8 @@ export default function ArticleGrid({ cards, filters = true, title = "Derniers a
         })}
       </div>
       <div className="legend">
-        <span>C ChatGPT · P Perplexity · Ge Gemini · G AI Overviews</span>
-        <span>Carré plein : l'article est cité ce mois-ci.</span>
+        <span>{t.legendA}</span>
+        <span>{t.legendB}</span>
       </div>
     </section>
   );

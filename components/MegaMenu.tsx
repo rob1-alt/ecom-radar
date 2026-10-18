@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import ToolLogo from "./ToolLogo";
 import { CATEGORIES, type CategoryKey } from "@/lib/site";
+import { T, CAT_TEXT, base, catSlug, type Locale } from "@/lib/i18n";
 
 export type MenuItem = { href: string; title: string; type: string; category: CategoryKey; tools: string[] };
 
@@ -14,7 +15,8 @@ function norm(s: string) {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 }
 
-export default function MegaMenu({ items }: { items: MenuItem[] }) {
+export default function MegaMenu({ items, locale }: { items: MenuItem[]; locale: Locale }) {
+  const t = T[locale];
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState("");
   const input = useRef<HTMLInputElement>(null);
@@ -56,34 +58,34 @@ export default function MegaMenu({ items }: { items: MenuItem[] }) {
           <i />
           <i />
         </span>
-        <span>{open ? "Fermer" : "Menu"}</span>
+        <span>{open ? t.close : t.menu}</span>
         <kbd>⌘K</kbd>
       </button>
 
       {mounted && open && createPortal(
-      <div data-lenis-prevent id="mega" className={`mega${open ? " is-open" : ""}`} role="dialog" aria-modal="true" aria-label="Menu" hidden={!open}>
+      <div data-lenis-prevent id="mega" className={`mega${open ? " is-open" : ""}`} role="dialog" aria-modal="true" aria-label={t.menu} hidden={!open}>
         <div className="wrap mega-inner">
           <div className="mega-search">
             <label htmlFor="mega-q" className="vh">
-              Rechercher un outil ou un article
+              {t.searchLabel}
             </label>
             <span aria-hidden="true">⌕</span>
-            <input id="mega-q" ref={input} value={q} onChange={(e) => setQ(e.target.value)} placeholder="Klaviyo, avis clients, retours…" autoComplete="off" />
-            <button type="button" className="mega-close" onClick={() => setOpen(false)} aria-label="Fermer le menu">
-              Échap
+            <input id="mega-q" ref={input} value={q} onChange={(e) => setQ(e.target.value)} placeholder={t.searchPh} autoComplete="off" />
+            <button type="button" className="mega-close" onClick={() => setOpen(false)} aria-label={t.close}>
+              {t.esc}
             </button>
           </div>
 
           {q.trim() ? (
             <div className="mega-results">
-              {results.length === 0 && <p className="mega-empty">Aucun article pour « {q} » pour l'instant.</p>}
+              {results.length === 0 && <p className="mega-empty">{t.noResult(q)}</p>}
               {results.map((r) => (
                 <Link key={r.href} href={r.href} className="mega-result" style={{ ["--c" as string]: CATEGORIES[r.category].color }}>
                   <span className="dot" />
                   <span className="t">{r.title}</span>
                   <span className="logos">
-                    {r.tools.slice(0, 3).map((t) => (
-                      <ToolLogo key={t} name={t} />
+                    {r.tools.slice(0, 3).map((tool) => (
+                      <ToolLogo key={tool} name={tool} />
                     ))}
                   </span>
                   <span className="k">{r.type}</span>
@@ -97,9 +99,9 @@ export default function MegaMenu({ items }: { items: MenuItem[] }) {
                 const list = items.filter((i) => i.category === k);
                 return (
                   <div key={k} className={`mega-tile m-${k}`} style={{ ["--c" as string]: c.color, ["--c-on" as string]: c.onColor, ["--d" as string]: `${idx * 50}ms` }}>
-                    <Link href={`/${k}/`} className="mega-head">
+                    <Link href={`${base(locale)}/${catSlug(locale, k)}/`} className="mega-head">
                       <span className="mega-count">{String(list.length).padStart(2, "0")}</span>
-                      <span className="mega-label">{c.label}</span>
+                      <span className="mega-label">{CAT_TEXT[locale][k].label}</span>
                       <span className="arrow" aria-hidden="true">
                         →
                       </span>
@@ -118,20 +120,20 @@ export default function MegaMenu({ items }: { items: MenuItem[] }) {
                 );
               })}
               <div className="mega-tile m-links" style={{ ["--d" as string]: "250ms" }}>
-                <Link href="/methodologie/">Méthodologie</Link>
-                <Link href="/methodologie/#outil-liste">Votre outil est listé ?</Link>
-                <Link href="/#newsletter">Newsletter du 1er du mois</Link>
+                <Link href={t.methodPath}>{t.method}</Link>
+                <Link href={`${t.methodPath}#outil-liste`}>{t.listed}</Link>
+                <Link href={`${base(locale)}/#newsletter`}>{t.newsMonthly}</Link>
               </div>
               <div className="mega-tile m-tools" style={{ ["--d" as string]: "200ms" }}>
                 <div className="mega-head static">
                   <span className="mega-count">{tools.length}</span>
-                  <span className="mega-label">Outils suivis</span>
+                  <span className="mega-label">{t.toolsFollowed}</span>
                 </div>
                 <div className="tool-cloud">
-                  {tools.map((t) => (
-                    <button key={t} type="button" onClick={() => setQ(t)}>
-                      <ToolLogo name={t} />
-                      {t}
+                  {tools.map((tool) => (
+                    <button key={tool} type="button" onClick={() => setQ(tool)}>
+                      <ToolLogo name={tool} />
+                      {tool}
                     </button>
                   ))}
                 </div>

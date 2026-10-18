@@ -4,19 +4,22 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import { TOOLS, logoUrl } from "./tools";
 import type { CategoryKey } from "./site";
+import { ARTICLE_EN, base, catSlug, type Locale } from "./i18n";
 
 export type Faq = { q: string; a: string };
 export type Article = {
+  locale: Locale;
   slug: string;
+  frSlug: string; // clé commune FR/EN
   title: string;
   description: string;
   category: CategoryKey;
   type: "Comparatif" | "Fiche outil" | "Face-à-face" | "Alternatives" | "Guide" | "Baromètre";
-  date: string; // ISO, date de publication
-  updated: string; // ISO, dernière vérification
+  date: string;
+  updated: string;
   readTime: number;
   tools: string[];
-  cited: number[]; // [ChatGPT, Perplexity, Gemini, AI Overviews] : 1 = cité ce mois-ci
+  cited: number[];
   wide?: boolean;
   sample?: boolean;
   answer?: string;
@@ -25,7 +28,10 @@ export type Article = {
   headings: { id: string; text: string }[];
 };
 
-const DIR = path.join(process.cwd(), "content", "articles");
+const DIRS: Record<Locale, string> = {
+  fr: path.join(process.cwd(), "content", "articles"),
+  en: path.join(process.cwd(), "content", "en", "articles"),
+};
 
 function slugify(s: string) {
   return s
@@ -40,19 +46,23 @@ function escapeAttr(s: string) {
   return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;");
 }
 
-// Ajoute le logo devant chaque outil cité en gras, et des ancres aux titres h2.
+// Logo devant chaque outil cité en gras, ancres sur les h2, tableaux défilants.
 function enhance(html: string) {
   const headings: { id: string; text: string }[] = [];
   let out = html.replace(/<h2>(.*?)<\/h2>/g, (_m, inner: string) => {
-    const text = inner.replace(/<[^>]+>/g, "");
+    const text = inner
+      .replace(/<[^>]+>/g, "")
+      .replace(/&#39;|&#x27;/g, "'")
+      .replace(/&quot;/g, '"')
+      .replace(/&amp;/g, "&");
     const id = slugify(text);
     headings.push({ id, text });
     return `<h2 id="${id}">${inner}</h2>`;
   });
   out = out.replace(/<strong>([^<]+)<\/strong>/g, (m, name: string) => {
-    const t = TOOLS[name.trim()];
-    if (!t) return m;
-    return `<span class="tool"><span class="lg" aria-hidden="true" data-i="${escapeAttr(name.trim().charAt(0))}"><img src="${logoUrl(name.trim())}" alt="" width="32" height="32" loading="lazy" decoding="async"></span><strong>${name}</strong></span>`;
+    const n = name.trim();
+    if (!TOOLS[n]) return m;
+    return `<span class="tool"><span class="lg" aria-hidden="true" data-i="${escapeAttr(n.charAt(0))}"><img src="${logoUrl(n)}" alt="" width="32" height="32" loading="lazy" decoding="async"></span><strong>${name}</strong></span>`;
   });
   out = out.replace(/<table>/g, '<div class="table-wrap"><table>').replace(/<\/table>/g, "</table></div>");
   return { html: out, headings };
@@ -62,19 +72,23 @@ function iso(v: unknown) {
   return v instanceof Date ? v.toISOString().slice(0, 10) : String(v).slice(0, 10);
 }
 
-let cache: Article[] | null = null;
+const cache: Partial<Record<Locale, Article[]>> = {};
 
-export function getArticles(): Article[] {
-  if (cache) return cache;
-  const files = fs.readdirSync(DIR).filter((f) => f.endsWith(".md"));
-  cache = files
+export function getArticles(locale: Locale = "fr"): Article[] {
+  if (cache[locale]) return cache[locale]!;
+  const dir = DIRS[locale];
+  const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith(".md")) : [];
+  cache[locale] = files
     .map((file) => {
-      const raw = fs.readFileSync(path.join(DIR, file), "utf8");
+      const raw = fs.readFileSync(path.join(dir, file), "utf8");
       const { data, content } = matter(raw);
       const { html, headings } = enhance(marked.parse(content, { async: false }) as string);
       const d = data as Record<string, unknown>;
+      const slug = (d.slug as string) || file.replace(/\.md$/, "");
       return {
-        slug: (d.slug as string) || file.replace(/\.md$/, ""),
+        locale,
+        slug,
+        frSlug: locale === "fr" ? slug : (d.translationOf as string) || slug,
         title: d.title as string,
         description: d.description as string,
         category: d.category as CategoryKey,
@@ -93,23 +107,39 @@ export function getArticles(): Article[] {
       } satisfies Article;
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1));
-  return cache;
+  return cache[locale]!;
 }
 
-export function getArticle(slug: string) {
-  return getArticles().find((a) => a.slug === slug);
+export function getArticle(slug: string, locale: Locale = "fr") {
+  return getArticles(locale).find((a) => a.slug === slug);
+}
+export function getArticleByKey(frSlug: string, locale: Locale) {
+  return getArticles(locale).find((a) => a.frSlug === frSlug);
 }
 
-export function articlePath(a: Pick<Article, "category" | "slug">) {
-  return `/${a.category}/${a.slug}/`;
+export function articlePath(a: Pick<Article, "category" | "slug" | "locale">) {
+  return `${base(a.locale)}/${catSlug(a.locale, a.category)}/${a.slug}/`;
+}
+
+// URL de la même page dans l'autre langue, si elle existe.
+export function alternatePath(a: Article, to: Locale) {
+  if (to === a.locale) return articlePath(a);
+  const other = getArticleByKey(a.frSlug, to);
+  return other ? articlePath(other) : undefined;
+}
+
+export function enSlugFor(frSlug: string) {
+  return ARTICLE_EN[frSlug];
 }
 
 export type Barometre = {
-  month: string; // "2026-10"
-  label: string; // "Octobre 2026"
+  month: string;
+  label: string;
+  label_en?: string;
   sample: boolean;
   prompts: number;
   category: string;
+  category_en?: string;
   engines: Record<string, { tool: string; share: number; delta: number }[]>;
   moves: { tool: string; engine: string; delta: number }[];
 };
@@ -118,13 +148,6 @@ export function getBarometre(): Barometre {
   const dir = path.join(process.cwd(), "content", "barometre");
   const latest = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort().pop()!;
   return JSON.parse(fs.readFileSync(path.join(dir, latest), "utf8"));
-}
-
-const MONTHS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
-export function frDate(iso: string, long = false) {
-  const [y, m, d] = iso.split("-").map(Number);
-  const day = d === 1 ? "1er" : String(d);
-  return long ? `${day} ${MONTHS[m - 1]} ${y}` : `${day} ${MONTHS[m - 1]}`;
 }
 
 export function renderInline(md: string) {

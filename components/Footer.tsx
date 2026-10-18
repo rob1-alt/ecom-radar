@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { T, base, catSlug, type Locale } from "@/lib/i18n";
 
-export default function Footer() {
+export default function Footer({ locale }: { locale: Locale }) {
+  const t = T[locale];
   return (
     <footer>
       <p className="wordmark" aria-hidden="true">
@@ -8,13 +10,16 @@ export default function Footer() {
       </p>
       <div className="wrap foot-row">
         <div>
-          <b>Radar Ecom</b> · Média indépendant, aucun classement payé. Propulsé par Refine. Logos : propriété de leurs éditeurs.
+          <b>Radar Ecom</b> · {t.footer}
         </div>
-        <nav aria-label="Pied de page">
-          <Link href="/methodologie/">Méthodologie</Link>
-          <Link href="/methodologie/#outil-liste">Votre outil est listé ?</Link>
-          <Link href="/barometre/">Baromètre IA</Link>
-          <Link href="/#newsletter">Newsletter</Link>
+        <nav aria-label={t.footNav}>
+          <Link href={t.methodPath}>{t.method}</Link>
+          <Link href={`${t.methodPath}#outil-liste`}>{t.listed}</Link>
+          <Link href={`${base(locale)}/${catSlug(locale, "barometre")}/`}>{t.baroKicker}</Link>
+          <Link href={`${base(locale)}/#newsletter`}>{t.newsletter}</Link>
+          <Link href={locale === "fr" ? "/en/" : "/"} hrefLang={locale === "fr" ? "en" : "fr"}>
+            {t.switchTo}
+          </Link>
         </nav>
       </div>
     </footer>

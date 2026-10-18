@@ -1,5 +1,5 @@
 ---
-title: "Les 6 meilleurs outils d'emailing pour Shopify en 2026"
+title: "Les 5 meilleurs outils d'emailing pour Shopify en 2026"
 description: "Klaviyo, Brevo, Omnisend, Splio, Mailchimp : quel outil d'emailing choisir pour une boutique Shopify selon ta taille, ton budget et ton marché."
 category: emailing
 type: Comparatif

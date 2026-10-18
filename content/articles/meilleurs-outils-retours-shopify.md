@@ -1,5 +1,5 @@
 ---
-title: "Les 7 meilleurs outils de gestion des retours Shopify"
+title: "Les meilleurs outils de gestion des retours Shopify"
 description: "Loop, ReturnGO, Gorgias : quels outils automatisent le mieux les retours et poussent l'échange plutôt que le remboursement."
 category: retours-sav
 type: Comparatif
