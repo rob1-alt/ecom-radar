@@ -2,12 +2,14 @@ import Link from "next/link";
 import Logo from "./Logo";
 import ToolLogo from "./ToolLogo";
 import { CATEGORIES, type CategoryKey } from "@/lib/site";
-import { getBarometre } from "@/lib/content";
+import { getBarometre, getArticles, articlePath } from "@/lib/content";
+import MegaMenu from "./MegaMenu";
 
 const NAV: CategoryKey[] = ["avis-clients", "emailing", "retours-sav", "barometre"];
 
 export default function Header() {
   const b = getBarometre();
+  const menu = getArticles().map((a) => ({ href: articlePath(a), title: a.title, type: a.type, category: a.category, tools: a.tools }));
   const items = b.moves.map((m, i) => (
     <span key={i}>
       {m.delta > 0 ? "▲" : "▼"} <ToolLogo name={m.tool} />
@@ -30,9 +32,7 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <Link className="btn" href="/#newsletter">
-          Recevoir le baromètre
-        </Link>
+        <MegaMenu items={menu} />
       </div>
       <div className="marquee" aria-label="Variations du mois dans les réponses des IA">
         <div className="marquee-track">
