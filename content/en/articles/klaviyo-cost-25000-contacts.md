@@ -9,8 +9,8 @@ readTime: 6
 tools: ["Klaviyo", "Brevo", "Omnisend"]
 cited: [0, 0, 0, 0]
 wide: true
-sample: true
-answer: "**Klaviyo** bills email on your active profiles (reachable contacts, excluding unsubscribed and suppressed ones). As of Oct 18, 2026, the price at the 25,000-contact tier only appears in the interactive calculator on its pricing page; the readable public pricing starts at $20/month for 251 to 500 contacts. SMS is billed separately. **Omnisend** and **Brevo** don't show a readable price at that volume either."
+sample: false
+answer: "At 25,000 active profiles, **Klaviyo** email costs $400/month (250,000 emails/month included), according to its pricing calculator on Oct 18, 2026, or $4,800 a year. Only reachable contacts count, and SMS is billed separately (from $15/month). **Omnisend** and **Brevo** don't show a readable price at that volume."
 faq:
   - q: "Does Klaviyo count unsubscribed contacts?"
     a: "No. According to Klaviyo, email plans are based on active profiles: unsubscribed and suppressed contacts don't count."
@@ -22,15 +22,27 @@ slug: klaviyo-cost-25000-contacts
 translationOf: cout-klaviyo-25000-contacts
 ---
 
-## What we could verify
+## Klaviyo's price at 25,000 contacts
 
-As of Oct 18, 2026, [Klaviyo's pricing page](https://www.klaviyo.com/pricing) shows its prices in an interactive calculator: the amount at the 25,000-contact tier can't be read outside that calculator. Rather than an approximate figure, here are the verified public prices and the official billing rules. Enter 25,000 in the calculator to get your price, then apply these rules to estimate your 12-month bill.
+We read the Email plan tiers in the calculator on [Klaviyo's pricing page](https://www.klaviyo.com/pricing). The calculator shows prices in US dollars.
+
+| Active profiles | Monthly price | Emails included per month |
+| --- | --- | --- |
+| 10,000 | $150 | 100,000 |
+| 15,000 | $350 | 150,000 |
+| 20,000 | $375 | 200,000 |
+| **25,000** | **$400** | **250,000** |
+| 35,000 | $550 | 350,000 |
+
+Prices read in the calculator on [Klaviyo's pricing page](https://www.klaviyo.com/pricing) on Oct 18, 2026, Email plan, excluding tax and SMS.
+
+At 25,000 active profiles, budget **$400/month, or $4,800 over 12 months**, before SMS. The 25,000-profile tier includes 250,000 sends, that is 10 emails per contact per month.
 
 ## Public starting prices
 
 | Tool | Free plan | First paid tier | At 25,000 contacts |
 | --- | --- | --- | --- |
-| **Klaviyo** | 250 contacts, 150 SMS credits | Email at $20/month (251 to 500 contacts), SMS at $15/month (1,250 credits) | Price shown only in the calculator |
+| **Klaviyo** | 250 contacts, 150 SMS credits | Email at $20/month (251 to 500 contacts), SMS at $15/month (1,250 credits) | $400/month (250,000 emails) |
 | **Omnisend** | 250 contacts, 500 emails/month | Standard at $16/month (500 contacts, 6,000 emails/month) | "23,501 - 25,000" band on the slider, price not readable |
 | **Brevo** | Up to 300 emails/day | Starter from 5,000 emails/month (price not shown) | Plans by email volume, not by contact count |
 

@@ -1,27 +1,80 @@
 ---
 title: "Gorgias vs Zendesk for ecommerce"
-description: "A helpdesk built for Shopify or a general-purpose support platform: Gorgias and Zendesk compared on price, integration and automation."
+description: "A helpdesk built for Shopify or a general-purpose support platform: Gorgias (per ticket) and Zendesk (per agent) compared on verified pricing, Shopify integration and AI."
 category: retours-sav
 type: Face-à-face
 date: 2026-10-04
-updated: 2026-10-04
-readTime: 8
+updated: 2026-10-18
+readTime: 7
 tools: ["Gorgias", "Zendesk"]
 cited: [0, 0, 0, 0]
-sample: true
+sample: false
 slug: gorgias-vs-zendesk
 translationOf: gorgias-vs-zendesk
-answer: "**Gorgias** for a support team of 1 to 10 people on Shopify. **Zendesk** for a large multichannel team that needs advanced reporting."
+answer: "**Gorgias** bills by ticket volume ($10 to $900/month, agents not billed beyond Starter) and lets you edit, refund or cancel a Shopify order from the ticket. **Zendesk** bills per agent ($19 to $115/agent/month on annual billing) and connects to Shopify through its app. Many agents and few tickets: Gorgias. Few agents and many tickets: Zendesk often comes out cheaper."
+faq:
+  - q: "Gorgias or Zendesk: which is cheaper?"
+    a: "It depends on your ticket-to-agent ratio. Gorgias bills per ticket (Basic: $60/month for 300 tickets, unlimited agents). Zendesk bills per agent (Suite Team: $55/agent/month on annual billing). With 5 agents and 300 tickets, Gorgias Basic costs $60 versus $275 for Zendesk Suite Team."
+  - q: "Does Zendesk integrate with Shopify?"
+    a: "Yes, through the Zendesk app published on the Shopify App Store, which lets you process refunds and cancellations from the Zendesk Support sidebar."
+  - q: "Is AI included in Gorgias and Zendesk?"
+    a: "Zendesk includes AI agents in its plans, with 5 automated resolutions per agent per month (10 on Suite Professional), then $1.50 or $2 per resolution. Gorgias offers its AI Agent on every plan, paid per resolution, without showing the rate."
 ---
 
 ## Head to head
 
 | Criterion | **Gorgias** | **Zendesk** |
 | --- | --- | --- |
-| Shopify integration | Native, orders shown in the ticket | Via an app |
-| Pricing | Per ticket | Per agent |
-| Learning curve | Fast | Longer |
+| Billing | By ticket volume | Per agent |
+| Starting price | $10/month (50 tickets, 3 agents) | $19/agent/month on annual billing (Support Team) |
+| Shopify integration | Shopify app: edit, refund, cancel an order from the ticket | Zendesk app on the Shopify App Store: refunds and cancellations from the sidebar |
+| AI | AI Agent on every plan, paid per resolution (rate not shown) | AI agents included, 5 to 10 automated resolutions per agent per month, then $1.50 to $2 |
+| Free trial | 7 days | 14 days (Suite Professional) |
+| Channels | Email, chat, SMS, social, voice (voice and SMS as add-ons) | Email and ticketing from Support Team; messaging, chat and telephony from Suite Team |
 
-## The per-ticket pricing trap
+Pricing checked on the [Gorgias Shopify App Store listing](https://apps.shopify.com/helpdesk), the [Gorgias pricing page](https://www.gorgias.com/pricing), the [Zendesk pricing page](https://www.zendesk.com/pricing/) and the [Zendesk Shopify App Store listing](https://apps.shopify.com/zendesk) on Oct 18, 2026, in US dollars.
 
-With **Gorgias**, a spike in requests (sales, Black Friday) drives up your bill. With **Zendesk**, what counts is the number of agents.
+## Pricing in detail
+
+| Gorgias | Monthly price | Tickets included | Extra tickets |
+| --- | --- | --- | --- |
+| Starter | $10 | 50 | $0.40 each |
+| Basic | $60 ($600/year) | 300 | $40 per 100 |
+| Pro | $360 ($3,600/year) | 2,000 | $36 per 100 |
+| Advanced | $900 ($9,000/year) | 5,000 | $36 per 100 |
+
+| Zendesk | Annual, per agent/month | Monthly, per agent/month |
+| --- | --- | --- |
+| Support Team | $19 | $25 |
+| Suite Team | $55 | $69 |
+| Suite Professional | $115 | $149 |
+| Suite Enterprise + Copilot | Custom quote | Custom quote |
+
+Pricing checked on the [Gorgias Shopify App Store listing](https://apps.shopify.com/helpdesk) and the [Zendesk pricing page](https://www.zendesk.com/pricing/) on Oct 18, 2026.
+
+## The math at your volume
+
+Calculated from the rates above (Zendesk Suite Team on annual billing, which includes messaging, chat and telephony):
+
+| Situation | **Gorgias** | **Zendesk** Suite Team |
+| --- | --- | --- |
+| 2 agents, 300 tickets/month | $60 (Basic) | $110 |
+| 5 agents, 300 tickets/month | $60 (Basic) | $275 |
+| 5 agents, 800 tickets/month (sales) | $260 (Basic + 500 tickets) | $275 |
+| 3 agents, 3,000 tickets/month | $720 (Pro + 1,000 tickets) | $165 |
+
+With **Gorgias**, a spike in requests (sales, Black Friday) drives up your bill. With **Zendesk**, what counts is the number of agents, whatever the ticket volume. Also factor in Zendesk's AI resolutions beyond the included quota.
+
+## What sets them apart
+
+**Gorgias** is built around Shopify: its [App Store listing](https://apps.shopify.com/helpdesk) highlights order actions from the ticket, ecommerce integrations (Klaviyo, Loop Returns, Recharge, Yotpo, AfterShip) and tracking of revenue generated by support. The app is in English.
+
+**Zendesk** is a general-purpose customer service platform. Its Suite plans add a knowledge base, omnichannel routing and telephony, then on Suite Professional skills-based routing, an IVR phone tree and Admin Copilot, according to its [pricing page](https://www.zendesk.com/pricing/).
+
+## Which one to choose
+
+- **Many agents, moderate ticket volume, everything on Shopify:** **Gorgias**.
+- **Few agents handling lots of tickets:** **Zendesk** comes out cheaper on the math.
+- **Need a knowledge base, telephony with IVR or skills-based routing:** **Zendesk** Suite.
+
+See also our [Gorgias review: pricing, pros and cons, alternatives](/en/returns-support/gorgias-review-pricing/).
