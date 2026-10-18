@@ -362,3 +362,76 @@ html.menu-open .marquee { display: none; }
 .mega-tile.m-tools { grid-column: span 12; }
 @media (max-width: 1060px) { .mega-tile.m-links { grid-column: span 6; } }
 @media (max-width: 640px) { .mega-tile.m-links { grid-column: 1 / -1; } }
+
+/* ——— Loader du premier chargement ——— */
+.loader { position: fixed; inset: 0; z-index: 200; pointer-events: none; display: none; }
+html.rl-first .loader { display: block; animation: loaderGone 0s linear 2.6s forwards; }
+@keyframes loaderGone { to { visibility: hidden; } }
+.curtain { position: absolute; inset: 0; transform: translateY(0); animation: curtainUp .75s cubic-bezier(.8,0,.2,1) forwards; }
+.curtain.c1 { background: var(--sun); animation-delay: 1.75s; }
+.curtain.c2 { background: var(--cobalt); animation-delay: 1.65s; }
+.curtain.c3 { background: var(--pink); animation-delay: 1.55s; }
+.curtain.c4 { background: var(--tangerine); animation-delay: 1.45s; }
+.loader-ink { position: absolute; inset: 0; background: #0D0E1A; display: grid; place-content: center; justify-items: center; gap: 18px; animation: curtainUp .75s cubic-bezier(.8,0,.2,1) 1.3s forwards; }
+@keyframes curtainUp { to { transform: translateY(-101%); } }
+.loader-logo { width: min(34vw, 180px); height: auto; overflow: visible; }
+.loader-dot { fill: #FFD43B; transform-origin: 50px 50px; animation: dotPop .5s cubic-bezier(.3,1.6,.5,1) both; }
+@keyframes dotPop { from { transform: scale(0); } }
+.wave path { fill: #fff; }
+.wave { opacity: 0; transform-origin: 50px 50px; animation: waveOn .9s cubic-bezier(.2,.9,.2,1) forwards; }
+.w1 { animation-delay: .15s; --o: 1; } .w2 { animation-delay: .25s; --o: .8; } .w3 { animation-delay: .35s; --o: .6; } .w4 { animation-delay: .45s; --o: .42; } .w5 { animation-delay: .55s; --o: .26; }
+@keyframes waveOn { 0% { opacity: 0; transform: scale(.6); } 60% { opacity: var(--o); transform: scale(1.06); } 100% { opacity: var(--o); transform: scale(1); } }
+.loader-word { display: flex; font: 800 clamp(40px, 9vw, 84px)/1 var(--display); letter-spacing: -0.06em; color: #fff; overflow: hidden; padding-bottom: .08em; }
+.loader-word span { display: inline-block; transform: translateY(110%); animation: letterUp .55s cubic-bezier(.2,.9,.2,1) forwards; }
+@keyframes letterUp { to { transform: none; } }
+.loader-scan { width: 160px; height: 3px; border-radius: 3px; background: rgba(255,255,255,.14); overflow: hidden; }
+.loader-scan i { display: block; height: 100%; width: 100%; background: linear-gradient(90deg, var(--pink), var(--tangerine), var(--sun), var(--mint), var(--cobalt)); transform-origin: left; transform: scaleX(0); animation: scan 1.1s cubic-bezier(.6,0,.2,1) .1s forwards; }
+@keyframes scan { to { transform: scaleX(1); } }
+
+/* ——— Entrées de page ——— */
+@keyframes riseIn { from { transform: translateY(26px) scale(.985); } to { transform: none; } }
+@keyframes riseText { from { transform: translateY(.35em); clip-path: inset(0 0 100% 0); } to { transform: none; clip-path: inset(0 0 -10% 0); } }
+.intro h1, .page-head h1, .a-hero h1 { animation: riseText .9s cubic-bezier(.2,.9,.2,1) both; }
+.intro-side, .page-head p { animation: riseIn .9s cubic-bezier(.2,.9,.2,1) .12s both; }
+.bento > .tile { animation: riseIn .8s cubic-bezier(.2,.9,.2,1) both; }
+.bento > .tile:nth-child(1) { animation-delay: .05s } .bento > .tile:nth-child(2) { animation-delay: .1s } .bento > .tile:nth-child(3) { animation-delay: .15s } .bento > .tile:nth-child(4) { animation-delay: .2s } .bento > .tile:nth-child(5) { animation-delay: .25s } .bento > .tile:nth-child(6) { animation-delay: .3s } .bento > .tile:nth-child(7) { animation-delay: .35s } .bento > .tile:nth-child(8) { animation-delay: .4s }
+html.rl-first .intro h1, html.rl-first .page-head h1, html.rl-first .a-hero h1, html.rl-first .intro-side, html.rl-first .bento > .tile { animation-delay: calc(1.75s + var(--dl, 0s)); }
+html.rl-first .bento > .tile:nth-child(2) { --dl: .06s } html.rl-first .bento > .tile:nth-child(3) { --dl: .12s } html.rl-first .bento > .tile:nth-child(4) { --dl: .18s } html.rl-first .bento > .tile:nth-child(5) { --dl: .24s } html.rl-first .bento > .tile:nth-child(6) { --dl: .3s } html.rl-first .bento > .tile:nth-child(7) { --dl: .36s } html.rl-first .bento > .tile:nth-child(8) { --dl: .42s }
+
+/* Barres du baromètre qui se remplissent */
+.bar-fill { transform-origin: left; animation: barGrow 1.1s cubic-bezier(.2,.9,.2,1) .3s both; }
+html.rl-first .bar-fill { animation-delay: 2.1s; }
+@keyframes barGrow { from { transform: scaleX(0); } }
+
+/* Cartes qui apparaissent au scroll (navigateurs récents) */
+@supports (animation-timeline: view()) {
+  .card, .prose h2, .table-wrap, .answer { animation: riseIn linear both; animation-timeline: view(); animation-range: entry 0% entry 40%; }
+}
+
+/* Tilt 3D + reflet qui suit la souris */
+.bento > .tile, .mega-tile { transform-style: preserve-3d; }
+.bento > .tile.tilting, .mega-tile.tilting { transform: perspective(900px) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateY(-4px); transition: transform .12s ease-out; }
+.bento > .tile::before, .mega-tile::before { content: ""; position: absolute; inset: 0; border-radius: inherit; background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), rgba(255,255,255,.28), transparent 45%); opacity: 0; transition: opacity .3s; pointer-events: none; z-index: 2; }
+.bento > .tile.tilting::before, .mega-tile.tilting::before { opacity: 1; }
+
+/* Micro-interactions */
+.intro h1 .hl { transition: transform .4s cubic-bezier(.3,1.6,.5,1); }
+.intro h1 .hl:hover { transform: rotate(3deg) scale(1.06); }
+.sticker { animation: stickerWobble 4s ease-in-out infinite; }
+@keyframes stickerWobble { 0%, 100% { transform: rotate(12deg); } 50% { transform: rotate(4deg) scale(1.04); } }
+.t-feature:hover .sticker { animation-duration: 1.2s; }
+.step { transition: transform .35s cubic-bezier(.3,1.6,.5,1); }
+.t-feature:hover .step.s1 { transform: translateY(-8px); } .t-feature:hover .step.s2 { transform: translateY(-4px); } .t-feature:hover .step.s3 { transform: translateY(-2px); }
+.vs span { transition: transform .5s cubic-bezier(.3,1.6,.5,1); }
+.t-vs:hover .vs span { transform: rotate(352deg) scale(1.15); }
+.lg { transition: transform .3s cubic-bezier(.3,1.6,.5,1); }
+.logos .lg:hover, .tool-cloud button:hover .lg { transform: translateY(-3px) scale(1.12); }
+.logo:hover .logo-mark path { animation: ping .9s ease-out; }
+.logo .logo-mark path:nth-child(n+3) { animation-delay: .05s; } .logo .logo-mark path:nth-child(n+5) { animation-delay: .1s; } .logo .logo-mark path:nth-child(n+7) { animation-delay: .15s; } .logo .logo-mark path:nth-child(n+9) { animation-delay: .2s; }
+@keyframes ping { 0% { opacity: 1; } 40% { opacity: .2; } 100% { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .loader { display: none !important; }
+  .intro h1, .page-head h1, .a-hero h1, .intro-side, .page-head p, .bento > .tile, .bar-fill, .card, .prose h2, .table-wrap, .answer, .sticker { animation: none !important; }
+  .bento > .tile.tilting, .mega-tile.tilting { transform: none; }
+}

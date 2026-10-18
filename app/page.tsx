@@ -95,7 +95,7 @@ export default function Home() {
                 <ol>
                   <li>
                     <ToolLogo name="Judge.me" />
-                    <b>Judge.me</b>, le meilleur rapport qualité-prix <span className="cite us">radarecom.fr</span>
+                    <b>Judge.me</b>, le meilleur rapport qualité-prix <span className="cite us">ecomradar.co</span>
                   </li>
                   <li>
                     <ToolLogo name="Avis Vérifiés" />
@@ -103,7 +103,7 @@ export default function Home() {
                   </li>
                   <li>
                     <ToolLogo name="Loox" />
-                    <b>Loox</b>, si les avis photo comptent <span className="cite us">radarecom.fr</span>
+                    <b>Loox</b>, si les avis photo comptent <span className="cite us">ecomradar.co</span>
                   </li>
                 </ol>
               </div>

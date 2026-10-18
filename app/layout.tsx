@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Loader from "@/components/Loader";
+import Tilt from "@/components/Tilt";
 import { SITE } from "@/lib/site";
 
 const FAVICON =
@@ -31,7 +33,7 @@ const orgLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fr">
+    <html lang="fr" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
@@ -41,8 +43,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap"
         />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var d=document.documentElement;if(sessionStorage.getItem('rl')||matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('rl-seen')}else{sessionStorage.setItem('rl','1');d.classList.add('rl-first')}}catch(e){document.documentElement.classList.add('rl-seen')}",
+          }}
+        />
       </head>
       <body>
+        <Loader />
+        <Tilt />
         <Header />
         {children}
         <Footer />

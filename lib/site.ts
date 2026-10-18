@@ -1,6 +1,6 @@
 export const SITE = {
   name: "Radar Ecom",
-  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://radarecom.fr").replace(/\/$/, ""),
+  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://ecomradar.co").replace(/\/$/, ""),
   description:
     "Comparatifs indépendants des outils e-commerce et baromètre mensuel de ce que ChatGPT, Perplexity, Gemini et Google recommandent aux e-commerçants.",
   author: "Robin",
