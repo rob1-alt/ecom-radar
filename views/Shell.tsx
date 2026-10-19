@@ -9,6 +9,10 @@ import { SITE } from "@/lib/site";
 import { T, type Locale } from "@/lib/i18n";
 import { getArticles, alternatePath } from "@/lib/content";
 
+// Google Analytics 4 (G-S74LP4E3LB)
+const GA_ID = "G-S74LP4E3LB";
+const GA_INIT = `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`;
+
 const BOOT =
   "try{var d=document.documentElement;function ok(i){var p=i.parentNode;if(p&&p.classList&&p.classList.contains('lg')){p.classList.add(i.naturalWidth>0?'ok':'ko')}}document.addEventListener('load',function(e){if(e.target.tagName==='IMG')ok(e.target)},true);document.addEventListener('error',function(e){if(e.target.tagName==='IMG')ok(e.target)},true);document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.lg img').forEach(function(i){if(i.complete)ok(i)})});var p=location.pathname;if((p==='/'||p==='/en/'||p==='/en')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('rl-first')}else{d.classList.add('rl-seen')}}catch(e){}";
 
@@ -35,6 +39,8 @@ export default function Shell({ locale, children }: { locale: Locale; children: 
   return (
     <html lang={t.htmlLang} className={`${display.variable} ${body.variable} ${mono.variable}`} suppressHydrationWarning>
       <head>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+        <script dangerouslySetInnerHTML={{ __html: GA_INIT }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
         <script dangerouslySetInnerHTML={{ __html: BOOT }} />
       </head>
