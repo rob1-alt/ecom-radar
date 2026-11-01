@@ -4,7 +4,7 @@ description: "Subscription shipping software or multi-carrier platform with no s
 category: logistique
 type: Face-à-face
 date: 2026-10-11
-updated: 2026-10-18
+updated: 2026-11-01
 readTime: 7
 tools: ["Sendcloud", "Boxtal"]
 cited: [0, 0, 0, 0]
@@ -12,7 +12,7 @@ sample: false
 answer: "**Sendcloud** is subscription shipping software (free, then €26 to €599/month plus €0.08 to €0.11 per label) with 170+ carriers, support for your own carrier contracts and a returns portal from the Growth plan. **Boxtal** is a French multi-carrier platform whose Shopify app is free: you pay for shipping per parcel, at rates negotiated on its customers' combined volume. Boxtal to start without a subscription, Sendcloud when you want to automate and brand tracking and returns."
 faq:
   - q: "How much does Sendcloud cost?"
-    a: "On the pricing page checked on Oct 18, 2026: Free at €0, Lite at €26/month (400 labels/month), Growth at €89/month (1,000), Premium at €164/month (10,000) and Pro at €599/month (30,000), plus €0.08 to €0.11 per label. Above the quota, each label costs €0.15 more. Shipping costs come on top."
+    a: "On the pricing page checked on Nov 1, 2026: Free at €0, Lite at €26/month (400 labels/month), Growth at €89/month (1,000), Premium at €164/month (10,000) and Pro at €599/month (30,000), plus €0.08 to €0.11 per label. Above the quota, each label costs €0.15 more. Shipping costs come on top."
   - q: "Is Boxtal free?"
     a: "The Boxtal Shopify app is free (\"Gratuite\" plan). You pay for the shipping services you choose on the platform, per shipment. No subscription is shown on the listing."
   - q: "Which one handles returns?"
@@ -40,7 +40,7 @@ translationOf: sendcloud-vs-boxtal
 | Integrations | 100+ platforms, including Shopify, WooCommerce, Amazon, eBay | Shopify, WooCommerce, PrestaShop, Wix, Amazon, Cdiscount, ManoMano, Etsy, TikTok Shop… |
 | Support | Email and chat for everyone, phone from Growth | Single customer service for all carriers |
 
-Sources: [Sendcloud pricing page](https://www.sendcloud.com/fr/tarifs/), [Boxtal Shopify App Store listing](https://apps.shopify.com/boxtal?locale=fr), [Boxtal e-merchant services](https://www.boxtal.com/fr/fr/services-ecommercants) and [Boxtal website](https://www.boxtal.com/fr/fr/), checked on Oct 18, 2026.
+Sources: [Sendcloud pricing page](https://www.sendcloud.com/fr/tarifs/), [Boxtal Shopify App Store listing](https://apps.shopify.com/boxtal?locale=fr), [Boxtal e-merchant services](https://www.boxtal.com/fr/fr/services-ecommercants) and [Boxtal website](https://www.boxtal.com/fr/fr/), checked on Nov 1, 2026.
 
 ## Sendcloud pricing
 
@@ -52,7 +52,7 @@ Sources: [Sendcloud pricing page](https://www.sendcloud.com/fr/tarifs/), [Boxtal
 | Premium | €164/month | 10,000/month | €0.09 | 10 | Unlimited |
 | Pro | €599/month | 30,000/month | €0.08 | Unlimited | Unlimited |
 
-Pricing checked on the [Sendcloud pricing page](https://www.sendcloud.com/fr/tarifs/) on Oct 18, 2026. Above the monthly quota, each label costs €0.15 more (€0.26 on Lite). The page offers 25% off with annual billing but doesn't say whether the displayed prices are monthly or annual billing: check when you sign up. The Pro plan goes through a sales expert. Shipping costs come on top in every case.
+Pricing checked on the [Sendcloud pricing page](https://www.sendcloud.com/fr/tarifs/) on Nov 1, 2026. Above the monthly quota, each label costs €0.15 more (€0.26 on Lite). The page offers 25% off with annual billing but doesn't say whether the displayed prices are monthly or annual billing: check when you sign up. The Pro plan goes through a sales expert. Shipping costs come on top in every case.
 
 ### What it costs at your volume
 
@@ -68,6 +68,21 @@ Calculated from the displayed prices, excluding shipping costs:
 At 800 labels a month, Growth is already cheaper than Lite with overage, and it adds the returns portal and the custom tracking page.
 
 On the **Boxtal** side, the Shopify listing shows no subscription: the app is free and you pay each shipment at the chosen carrier's rate. The [Boxtal website](https://www.boxtal.com/fr/fr/) also offers insurance from €0.85 per shipment and parcel pickup from your premises, with no commitment.
+
+## Carrier rates shown by Sendcloud
+
+The pricing page also shows base rates per carrier, which fall as the plan goes up. Parcel weight, format and shipping country are not stated: read these amounts as an order of magnitude, not as your invoice.
+
+| Service | Free | Lite | Growth | Premium |
+| --- | --- | --- | --- | --- |
+| Mondial Relay Locker | €3.34 | €3.04 | €2.94 | €2.73 |
+| Chronopost Shop2Shop | €3.53 | €3.20 | €3.12 | €3.12 |
+| Colissimo Service Point | €5.25 | €4.99 | €4.91 | €4.83 |
+| DPD Predict | €6.74 | €6.61 | €6.45 | €6.32 |
+
+Rates checked on the [Sendcloud pricing page](https://www.sendcloud.com/fr/tarifs/) on Nov 1, 2026. The page states that "actual prices may vary" and that you need a free account to see all rates. It doesn't say whether these amounts exclude VAT. On the Pro plan, carrier rates are "on request".
+
+On the Boxtal side, the [shipping rates page](https://www.boxtal.com/fr/fr/tarifs-expedition) advertises all-inclusive rates: no subscription, no payment fees, no fuel surcharge to add, with no commitment or volume condition. The detailed grid is a PDF we could not read reliably: ask Boxtal for it before comparing to the cent.
 
 ## Sendcloud in detail
 

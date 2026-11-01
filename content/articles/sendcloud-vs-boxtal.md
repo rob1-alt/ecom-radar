@@ -4,7 +4,7 @@ description: "Logiciel d'expédition par abonnement ou plateforme multi-transpor
 category: logistique
 type: Face-à-face
 date: 2026-10-11
-updated: 2026-10-18
+updated: 2026-11-01
 readTime: 7
 tools: ["Sendcloud", "Boxtal"]
 cited: [0, 0, 0, 0]
@@ -12,7 +12,7 @@ sample: false
 answer: "**Sendcloud** est un logiciel d'expédition par abonnement (gratuit, puis 26 à 599 €/mois plus 0,08 à 0,11 € par étiquette) qui donne accès à plus de 170 transporteurs, à tes propres contrats et à un portail de retours dès le plan Growth. **Boxtal** est une plateforme multi-transporteurs française dont l'app Shopify est gratuite : tu paies le transport à l'envoi, à des tarifs négociés sur le volume de ses clients. Boxtal pour démarrer sans abonnement, Sendcloud quand tu veux automatiser et brander le suivi et les retours."
 faq:
   - q: "Combien coûte Sendcloud ?"
-    a: "Sur la page tarifs consultée le 18 octobre 2026 : Free à 0 €, Lite à 26 €/mois (400 étiquettes/mois), Growth à 89 €/mois (1 000), Premium à 164 €/mois (10 000) et Pro à 599 €/mois (30 000), plus 0,08 à 0,11 € par étiquette. Au-delà du quota, chaque étiquette coûte 0,15 € de plus. Le transport s'ajoute."
+    a: "Sur la page tarifs consultée le 1er novembre 2026 : Free à 0 €, Lite à 26 €/mois (400 étiquettes/mois), Growth à 89 €/mois (1 000), Premium à 164 €/mois (10 000) et Pro à 599 €/mois (30 000), plus 0,08 à 0,11 € par étiquette. Au-delà du quota, chaque étiquette coûte 0,15 € de plus. Le transport s'ajoute."
   - q: "Boxtal est-il payant ?"
     a: "L'app Boxtal pour Shopify est gratuite (plan « Gratuite »). Tu paies les prestations de transport choisies sur la plateforme, à l'envoi. Aucun abonnement n'est affiché sur la fiche."
   - q: "Lequel gère les retours ?"
@@ -38,7 +38,7 @@ faq:
 | Intégrations | 100+ plateformes, dont Shopify, WooCommerce, Amazon, eBay | Shopify, WooCommerce, PrestaShop, Wix, Amazon, Cdiscount, ManoMano, Etsy, TikTok Shop… |
 | Support | Email et chat pour tous, téléphone dès Growth | Service client unique pour tous les transporteurs |
 
-Sources : [page tarifs de Sendcloud](https://www.sendcloud.com/fr/tarifs/), [fiche Shopify App Store de Boxtal](https://apps.shopify.com/boxtal?locale=fr), [services e-commerçants de Boxtal](https://www.boxtal.com/fr/fr/services-ecommercants) et [site de Boxtal](https://www.boxtal.com/fr/fr/), consultés le 18 octobre 2026.
+Sources : [page tarifs de Sendcloud](https://www.sendcloud.com/fr/tarifs/), [fiche Shopify App Store de Boxtal](https://apps.shopify.com/boxtal?locale=fr), [services e-commerçants de Boxtal](https://www.boxtal.com/fr/fr/services-ecommercants) et [site de Boxtal](https://www.boxtal.com/fr/fr/), consultés le 1er novembre 2026.
 
 ## Les prix de Sendcloud
 
@@ -50,7 +50,7 @@ Sources : [page tarifs de Sendcloud](https://www.sendcloud.com/fr/tarifs/), [fic
 | Premium | 164 €/mois | 10 000/mois | 0,09 € | 10 | Illimitées |
 | Pro | 599 €/mois | 30 000/mois | 0,08 € | Illimités | Illimitées |
 
-Tarifs relevés sur la [page tarifs de Sendcloud](https://www.sendcloud.com/fr/tarifs/) le 18 octobre 2026. Au-delà du quota mensuel, chaque étiquette coûte 0,15 € de plus (soit 0,26 € sur Lite). La page propose -25 % en facturation annuelle mais ne précise pas si les prix affichés correspondent au mensuel ou à l'annuel : vérifie au moment de l'inscription. Le plan Pro passe par un expert commercial. Le coût du transport s'ajoute dans tous les cas.
+Tarifs relevés sur la [page tarifs de Sendcloud](https://www.sendcloud.com/fr/tarifs/) le 1er novembre 2026. Au-delà du quota mensuel, chaque étiquette coûte 0,15 € de plus (soit 0,26 € sur Lite). La page propose -25 % en facturation annuelle mais ne précise pas si les prix affichés correspondent au mensuel ou à l'annuel : vérifie au moment de l'inscription. Le plan Pro passe par un expert commercial. Le coût du transport s'ajoute dans tous les cas.
 
 ### Combien ça coûte à ton volume
 
@@ -66,6 +66,21 @@ Calcul sur la base des prix affichés, hors coût du transport :
 À 800 étiquettes par mois, le plan Growth revient déjà moins cher que Lite avec dépassement, et il ajoute le portail de retours et la page de suivi personnalisée.
 
 Côté **Boxtal**, la fiche Shopify n'affiche pas d'abonnement : l'app est gratuite et tu paies chaque envoi au tarif du transporteur choisi. Le [site de Boxtal](https://www.boxtal.com/fr/fr/) propose aussi une assurance à partir de 0,85 € par envoi et l'enlèvement des colis chez toi, sans engagement.
+
+## Les tarifs transporteurs affichés par Sendcloud
+
+La page tarifs affiche aussi des tarifs de base par transporteur, qui baissent avec le plan. Le poids, le format et le pays d'expédition ne sont pas indiqués : lis ces montants comme un ordre de grandeur, pas comme ta facture.
+
+| Service | Free | Lite | Growth | Premium |
+| --- | --- | --- | --- | --- |
+| Mondial Relay Locker | 3,34 € | 3,04 € | 2,94 € | 2,73 € |
+| Chronopost Shop2Shop | 3,53 € | 3,20 € | 3,12 € | 3,12 € |
+| Colissimo Service Point | 5,25 € | 4,99 € | 4,91 € | 4,83 € |
+| DPD Predict | 6,74 € | 6,61 € | 6,45 € | 6,32 € |
+
+Tarifs relevés sur la [page tarifs de Sendcloud](https://www.sendcloud.com/fr/tarifs/) le 1er novembre 2026. La page précise que « les prix réels peuvent varier » et qu'il faut créer un compte gratuit pour voir tous les tarifs. Elle ne dit pas si ces montants sont HT ou TTC. Sur le plan Pro, les tarifs transporteurs sont « sur demande ».
+
+Côté Boxtal, la [page tarifs d'expédition](https://www.boxtal.com/fr/fr/tarifs-expedition) annonce des tarifs « tout compris : pas d'abonnement, pas de frais de paiement, de surcharge carburant à ajouter », sans engagement ni condition de volume. La grille détaillée est un PDF que nous n'avons pas pu lire de façon fiable : demande-la à Boxtal avant de comparer au centime.
 
 ## Sendcloud en détail
 
