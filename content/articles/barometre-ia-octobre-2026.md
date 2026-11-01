@@ -25,3 +25,9 @@ answer: "En octobre, **Judge.me** gagne 9 points dans ChatGPT sur les avis clien
 ## Méthode
 
 18 prompts en français par catégorie, posés chaque semaine aux 4 moteurs. Part de voix = part des réponses qui citent l'outil.
+
+## À lire aussi
+
+- [Les 6 meilleurs outils d'avis clients pour Shopify en 2026](/avis-clients/meilleurs-outils-avis-clients-shopify/)
+- [Les 5 meilleurs outils d'emailing pour Shopify en 2026](/emailing/meilleurs-outils-emailing-shopify/)
+- [Les meilleurs outils GEO pour l'e-commerce en 2026 : le classement](/visibilite-ia/meilleurs-outils-geo-ecommerce/)

@@ -145,3 +145,7 @@ Infos relevées sur [la page tarifs de Profound](https://www.tryprofound.com/pri
 5. **Méfie-toi des chiffres sur une seule réponse :** les IA varient d'une réponse à l'autre. Un bon outil répète chaque question et affiche des tendances, pas une « position n°1 » figée.
 
 Pour aller plus loin, lis [notre méthodologie](/methodologie/) et le [comparatif des outils d'avis clients](/avis-clients/meilleurs-outils-avis-clients-shopify/), un des leviers les plus cités par les IA.
+
+## À lire aussi
+
+- [Comment analyser une boutique Shopify concurrente en 30 minutes](/veille/analyser-boutique-shopify-concurrente/)

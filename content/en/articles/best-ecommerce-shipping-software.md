@@ -64,3 +64,8 @@ What to know:
 - You pack your own parcels and want to automate labels, tracking and returns: **Sendcloud**. The free plan is enough to test, Lite (400 labels a month) once you have your own carrier contract.
 - You ship few parcels and don't have a carrier contract: **Boxtal**, to benefit from pooled rates with no commitment.
 - You sell on your store and on marketplaces, with your own warehouse: **Shippingbo**, which handles orders, stock and transport in one place.
+
+## Related reading
+
+- [Sendcloud vs Boxtal](/en/shipping/sendcloud-vs-boxtal/)
+- [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)

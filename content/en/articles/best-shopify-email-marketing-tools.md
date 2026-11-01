@@ -80,3 +80,9 @@ Compare the free plans. **Klaviyo**, **Omnisend** and **Mailchimp** all stop at 
 ### You have physical stores
 
 **Splio** is built for retail with a loyalty module and PoS integrations. Plan a demo to get a price.
+
+## Related reading
+
+- [Klaviyo vs Brevo: which one should you choose for ecommerce?](/en/email-marketing/klaviyo-vs-brevo/)
+- [How much does Klaviyo really cost at 25,000 contacts?](/en/email-marketing/klaviyo-cost-25000-contacts/)
+- [4 Klaviyo alternatives: pricing and billing models](/en/email-marketing/klaviyo-alternatives/)

@@ -80,3 +80,8 @@ Above roughly 230 returns a month, Pro becomes cheaper than Premium ($147 + 120 
 - You want to try before committing, with the 14-day free trial on Shopify.
 
 For more options, see our comparison of the [best Shopify returns apps](/en/returns-support/best-shopify-returns-apps/).
+
+## Related reading
+
+- [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)
+- [Sendcloud vs Boxtal](/en/shipping/sendcloud-vs-boxtal/)

@@ -64,3 +64,8 @@ If you already ship with **Sendcloud**, its Growth plan (€89/month, 1,000 labe
 - You want exchanges, Shop Now and store credit from the first plan, with a public price and a free trial: **ReturnGO** Premium. Above 110 returns a month, count $1.25 per extra return.
 - You already ship with Sendcloud and a returns portal is enough: **Sendcloud** Growth.
 - Your main problem is the volume of customer support requests: **Gorgias**, paired with your returns tool.
+
+## Related reading
+
+- [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)
+- [Sendcloud vs Boxtal](/en/shipping/sendcloud-vs-boxtal/)

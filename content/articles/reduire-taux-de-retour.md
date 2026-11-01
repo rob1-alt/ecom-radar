@@ -85,3 +85,8 @@ La NRF estime que 9 % des retours sont frauduleux aux États-Unis : quantités g
 - Notre sélection des [meilleurs outils de retours pour Shopify](/retours-sav/meilleurs-outils-retours-shopify/).
 - Le face-à-face [Loop vs ReturnGO](/retours-sav/loop-vs-returngo/).
 - Les [meilleurs outils d'avis clients pour Shopify](/avis-clients/meilleurs-outils-avis-clients-shopify/), pour le levier n°3.
+
+## À lire aussi
+
+- [Sendcloud vs Boxtal](/logistique/sendcloud-vs-boxtal/)
+- [Gorgias vs Zendesk pour un e-commerce](/retours-sav/gorgias-vs-zendesk/)

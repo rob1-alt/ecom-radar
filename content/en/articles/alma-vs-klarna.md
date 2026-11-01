@@ -60,3 +60,7 @@ The blocker for a French store: the list of eligible store countries (Austria, G
 Turn on installment payments for your most expensive products and measure your conversion rate before and after, over comparable periods.
 
 See also our roundup of the [best e-commerce payment solutions](/en/payments/best-ecommerce-payment-solutions/).
+
+## Related reading
+
+- [Card chargebacks: how much do they cost with Stripe, Shopify Payments, PayPal and Mollie?](/en/payments/chargeback-fees-stripe-shopify-paypal-mollie/)

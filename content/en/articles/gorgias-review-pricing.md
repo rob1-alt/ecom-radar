@@ -81,3 +81,7 @@ If your spikes happen every month, compare with the next plan up: included quota
 ## The alternative
 
 **Zendesk** bills per agent: from $19/agent/month (Support Team, annual) to $115/agent/month (Suite Professional, annual), according to its [pricing page](https://www.zendesk.com/pricing/) checked on Oct 18, 2026. Details in our [Gorgias vs Zendesk](/en/returns-support/gorgias-vs-zendesk/) comparison.
+
+## Related reading
+
+- [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)

@@ -78,3 +78,8 @@ Au-delà d'environ 230 retours par mois, le plan Pro devient moins cher que Prem
 - Tu veux tester avant de t'engager, avec l'essai gratuit de 14 jours sur Shopify.
 
 Pour d'autres options, vois notre comparatif des [meilleurs outils de retours pour Shopify](/retours-sav/meilleurs-outils-retours-shopify/).
+
+## À lire aussi
+
+- [Comment réduire le taux de retour d'une boutique en ligne](/retours-sav/reduire-taux-de-retour/)
+- [Sendcloud vs Boxtal](/logistique/sendcloud-vs-boxtal/)

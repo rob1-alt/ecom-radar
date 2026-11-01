@@ -58,3 +58,7 @@ Point bloquant pour une boutique française : la liste des pays de boutique éli
 Active le paiement en plusieurs fois sur tes produits les plus chers et mesure ton taux de conversion avant et après, sur des périodes comparables.
 
 Voir aussi notre sélection des [meilleures solutions de paiement e-commerce](/paiement/meilleures-solutions-paiement-ecommerce/).
+
+## À lire aussi
+
+- [Litige carte (chargeback) : combien ça coûte avec Stripe, Shopify Payments, PayPal et Mollie ?](/paiement/cout-litige-carte-stripe-shopify-paypal-mollie/)

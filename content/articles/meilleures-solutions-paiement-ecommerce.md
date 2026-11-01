@@ -84,3 +84,7 @@ Active **Shopify Payments** pour éviter les frais de transaction tiers, puis aj
 ### Tu veux le paiement en plusieurs fois
 
 Compare le coût marchand : **Alma** à partir de 3,60 % HT en 2 fois, **Klarna** à 4,50 % + 0,35 € via Mollie ou à partir de 4,99 % + 0,40 € via Stripe. Mesure ensuite l'effet sur ta propre conversion avant de généraliser.
+
+## À lire aussi
+
+- [Litige carte (chargeback) : combien ça coûte avec Stripe, Shopify Payments, PayPal et Mollie ?](/paiement/cout-litige-carte-stripe-shopify-paypal-mollie/)

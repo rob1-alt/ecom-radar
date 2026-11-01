@@ -79,3 +79,7 @@ Si tes pics reviennent chaque mois, compare avec le plan supérieur : le quota i
 ## L'alternative
 
 **Zendesk** facture par agent : de 19 $/agent/mois (Support Team, en annuel) à 115 $/agent/mois (Suite Professional, en annuel), d'après sa [page tarifs](https://www.zendesk.com/pricing/) consultée le 18 octobre 2026. Le détail dans notre comparatif [Gorgias vs Zendesk](/retours-sav/gorgias-vs-zendesk/).
+
+## À lire aussi
+
+- [Comment réduire le taux de retour d'une boutique en ligne](/retours-sav/reduire-taux-de-retour/)

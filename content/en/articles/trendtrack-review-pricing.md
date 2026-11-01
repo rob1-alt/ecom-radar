@@ -90,3 +90,8 @@ Prices taken from the [TrendTrack pricing page](https://www.trendtrack.io/pricin
 | **Similarweb** | Traffic and traffic sources for any website |
 
 See our comparison of the [best tools to spy on Shopify stores](/en/competitor-intel/best-shopify-spy-tools/).
+
+## Related reading
+
+- [How to analyze a competitor's Shopify store in 30 minutes](/en/competitor-intel/analyze-competitor-shopify-store/)
+- [TrendTrack vs Minea: which one should you choose?](/en/competitor-intel/trendtrack-vs-minea/)

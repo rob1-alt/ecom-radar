@@ -62,3 +62,7 @@ Tous les plans incluent la liste des pubs Meta, des produits et des boutiques, u
 - Tu compares des sites hors Shopify ou tu fais une étude de marché : **Similarweb**.
 
 Quel que soit l'outil, les chiffres de trafic et de ventes restent des estimations. Utilise-les pour comparer des boutiques entre elles, pas comme un chiffre d'affaires réel.
+
+## À lire aussi
+
+- [Comment analyser une boutique Shopify concurrente en 30 minutes](/veille/analyser-boutique-shopify-concurrente/)

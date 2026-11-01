@@ -86,3 +86,7 @@ Turn on **Shopify Payments** to avoid third-party transaction fees, then add **P
 ### You want installment payments
 
 Compare the merchant cost: **Alma** from 3.60% excl. VAT in 2 installments, **Klarna** at 4.50% + €0.35 through Mollie or from 4.99% + €0.40 through Stripe. Then measure the effect on your own conversion before rolling it out everywhere.
+
+## Related reading
+
+- [Card chargebacks: how much do they cost with Stripe, Shopify Payments, PayPal and Mollie?](/en/payments/chargeback-fees-stripe-shopify-paypal-mollie/)

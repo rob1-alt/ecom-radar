@@ -63,3 +63,7 @@ Ce qu'il faut savoir :
 - Tu envoies peu de colis et tu n'as pas de contrat transporteur : **Boxtal**, pour profiter de tarifs mutualisés sans engagement.
 - Tu vends sur ta boutique et sur des marketplaces, avec ton propre entrepôt : **Shippingbo**, qui gère commandes, stock et transport au même endroit.
 
+## À lire aussi
+
+- [Sendcloud vs Boxtal](/logistique/sendcloud-vs-boxtal/)
+- [Comment réduire le taux de retour d'une boutique en ligne](/retours-sav/reduire-taux-de-retour/)

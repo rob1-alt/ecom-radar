@@ -27,3 +27,9 @@ translationOf: barometre-ia-octobre-2026
 ## Methodology
 
 18 French-language prompts per category, asked every week to the 4 engines. Share of voice = share of answers that cite the tool.
+
+## Related reading
+
+- [The 6 best review apps for Shopify in 2026](/en/reviews/best-shopify-review-apps/)
+- [The 5 best email marketing tools for Shopify in 2026](/en/email-marketing/best-shopify-email-marketing-tools/)
+- [The best GEO tools for e-commerce in 2026: the ranking](/en/ai-visibility/best-geo-tools-ecommerce/)

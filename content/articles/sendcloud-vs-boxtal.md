@@ -113,3 +113,8 @@ L'app est disponible en français et en anglais.
 - **Tu vends aussi sur les marketplaces françaises** (Cdiscount, ManoMano, Leroy Merlin, Darty…) : Boxtal liste ces connecteurs sur sa [page services e-commerçants](https://www.boxtal.com/fr/fr/services-ecommercants).
 
 Voir aussi notre sélection des [meilleurs outils d'expédition e-commerce](/logistique/meilleurs-outils-expedition-ecommerce/).
+
+## À lire aussi
+
+- [Comment réduire le taux de retour d'une boutique en ligne](/retours-sav/reduire-taux-de-retour/)
+- [Les meilleurs outils de gestion des retours Shopify](/retours-sav/meilleurs-outils-retours-shopify/)

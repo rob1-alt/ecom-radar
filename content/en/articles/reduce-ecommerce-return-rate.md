@@ -87,3 +87,8 @@ The NRF estimates that 9% of US returns are fraudulent: overstated quantities, e
 - Our roundup of the [best Shopify returns apps](/en/returns-support/best-shopify-returns-apps/).
 - The [Loop vs ReturnGO](/en/returns-support/loop-vs-returngo/) head-to-head.
 - The [best Shopify review apps](/en/reviews/best-shopify-review-apps/), for lever #3.
+
+## Related reading
+
+- [Sendcloud vs Boxtal](/en/shipping/sendcloud-vs-boxtal/)
+- [Gorgias vs Zendesk for ecommerce](/en/returns-support/gorgias-vs-zendesk/)

@@ -88,3 +88,7 @@ Pricing checked on [Minea pricing page](https://www.minea.com/fr/pricing) on Oct
 Both tools show **estimates** (traffic, sales, ad performance), not stores' real figures. The announced volumes (95 million TikToks for TrendTrack, 80 million ads and stores for Minea) are vendor figures, not independently verified. Also check Minea's TikTok coverage when you subscribe, since it is shown as upcoming.
 
 For more options, see our roundup of the [best Shopify spy tools](/en/competitor-intel/best-shopify-spy-tools/).
+
+## Related reading
+
+- [How to analyze a competitor's Shopify store in 30 minutes](/en/competitor-intel/analyze-competitor-shopify-store/)

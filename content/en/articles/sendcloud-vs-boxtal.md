@@ -115,3 +115,8 @@ The app is available in French and English.
 - **You also sell on French marketplaces** (Cdiscount, ManoMano, Leroy Merlin, Darty…): Boxtal lists these connectors on its [e-merchant services page](https://www.boxtal.com/fr/fr/services-ecommercants).
 
 See also our roundup of the [best e-commerce shipping software](/en/shipping/best-ecommerce-shipping-software/).
+
+## Related reading
+
+- [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)
+- [The best returns management apps for Shopify](/en/returns-support/best-shopify-returns-apps/)

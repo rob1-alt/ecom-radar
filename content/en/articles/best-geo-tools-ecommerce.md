@@ -147,3 +147,7 @@ Details checked on [Profound's pricing page](https://www.tryprofound.com/pricing
 5. **Be wary of numbers based on a single answer:** AI answers vary from one run to the next. A good tool repeats each question and shows trends, not a fixed "#1 position".
 
 To go further, read [our methodology](/en/methodology/) and our [comparison of review apps](/en/reviews/best-shopify-review-apps/), one of the levers AI assistants cite most.
+
+## Related reading
+
+- [How to analyze a competitor's Shopify store in 30 minutes](/en/competitor-intel/analyze-competitor-shopify-store/)

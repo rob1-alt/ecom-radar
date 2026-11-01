@@ -62,3 +62,8 @@ Si tu expédies déjà avec **Sendcloud**, son plan Growth (89 €/mois, 1 000 �
 - Tu veux échanges, Shop Now et avoir dès le premier plan, avec un prix affiché et un essai gratuit : **ReturnGO** Premium. Au-delà de 110 retours par mois, compte 1,25 $ par retour supplémentaire.
 - Tu expédies déjà avec Sendcloud et un portail de retours suffit : **Sendcloud** Growth.
 - Ton problème est surtout le volume de demandes au service client : **Gorgias**, couplé à ton outil de retours.
+
+## À lire aussi
+
+- [Comment réduire le taux de retour d'une boutique en ligne](/retours-sav/reduire-taux-de-retour/)
+- [Sendcloud vs Boxtal](/logistique/sendcloud-vs-boxtal/)

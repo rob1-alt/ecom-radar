@@ -64,3 +64,7 @@ All plans include Meta ads, products and shops listings, a brand tracker and dai
 - You're comparing non-Shopify sites or doing market research: **Similarweb**.
 
 Whatever the tool, traffic and sales figures are estimates. Use them to compare stores with each other, not as real revenue.
+
+## Related reading
+
+- [How to analyze a competitor's Shopify store in 30 minutes](/en/competitor-intel/analyze-competitor-shopify-store/)

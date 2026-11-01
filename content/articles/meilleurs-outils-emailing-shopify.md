@@ -78,3 +78,9 @@ Compare les plans gratuits. **Klaviyo**, **Omnisend** et **Mailchimp** s'arrête
 ### Tu as des magasins physiques
 
 **Splio** est pensé pour le retail avec un module de fidélité et des intégrations caisse. Prévois une démo pour obtenir un prix.
+
+## À lire aussi
+
+- [Klaviyo vs Brevo : lequel choisir pour un e-commerce ?](/emailing/klaviyo-vs-brevo/)
+- [Combien coûte vraiment Klaviyo à 25 000 contacts ?](/emailing/cout-klaviyo-25000-contacts/)
+- [4 alternatives à Klaviyo : prix et modèles de facturation](/emailing/alternatives-klaviyo/)
