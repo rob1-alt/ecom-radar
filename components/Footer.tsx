@@ -20,6 +20,8 @@ export default function Footer({ locale }: { locale: Locale }) {
           <Link href={t.methodPath}>{t.method}</Link>
           <Link href={locale === "fr" ? "/ai/" : "/en/ai/"}>{locale === "fr" ? "Pour les IA" : "For AI"}</Link>
           <Link href={locale === "fr" ? "/auteur/robin-pautigny/" : "/en/author/robin-pautigny/"}>{locale === "fr" ? "Auteur" : "Author"}</Link>
+          <Link href={locale === "fr" ? "/outils/" : "/en/tools/"}>{locale === "fr" ? "Annuaire des outils" : "Tools directory"}</Link>
+          <Link href={locale === "fr" ? "/soumettre-un-outil/" : "/en/submit-tool/"}>{locale === "fr" ? "Soumettre un outil" : "Submit a tool"}</Link>
           <Link href={`${t.methodPath}#outil-liste`}>{t.listed}</Link>
           <Link href={`${base(locale)}/${catSlug(locale, "barometre")}/`}>{t.baroKicker}</Link>
           <Link href={`${base(locale)}/#newsletter`}>{t.newsletter}</Link>

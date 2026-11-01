@@ -1,0 +1,70 @@
+name: Soumettre un outil / Submit a tool
+description: Proposer un outil e-commerce pour l'annuaire Radar Ecom / Suggest an e-commerce tool for the Radar Ecom directory
+title: "[Outil] Nom de l'outil"
+labels: ["soumission-outil"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Chaque soumission est relue à la main. Aucun classement ne s'achète, et un outil n'est listé que si chaque fait est vérifiable sur une page publique. / Every submission is reviewed by hand. Rankings are not for sale, and a tool is listed only if every fact can be verified on a public page.
+  - type: input
+    id: name
+    attributes:
+      label: Nom de l'outil / Tool name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Site officiel / Official website
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: pricing
+    attributes:
+      label: Page tarifs publique / Public pricing page
+      description: Lien direct vers la page où les prix sont affichés. / Direct link to the page showing prices.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Catégorie / Category
+      options:
+        - Avis clients / Reviews
+        - Emailing / Email marketing
+        - Retours & SAV / Returns & support
+        - Veille & spy / Competitor intel
+        - Logistique / Shipping
+        - Paiement / Payments
+        - Visibilité IA / AI visibility
+        - Autre / Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: À quoi sert l'outil, pour quel type de boutique ? / What does it do, for which kind of store?
+      description: Deux ou trois phrases factuelles. / Two or three factual sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: compare
+    attributes:
+      label: Avec quels outils faut-il le comparer ? / Which tools should it be compared with?
+  - type: input
+    id: relation
+    attributes:
+      label: Ton lien avec l'outil / Your relationship to the tool
+      description: Éditeur, salarié, client, autre. On l'indique si on publie une comparaison. / Vendor, employee, customer, other. We disclose it if we publish a comparison.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Règles / Rules
+      options:
+        - label: Je comprends que la soumission ne garantit ni publication, ni classement, et qu'aucun paiement n'influence le contenu. / Submitting guarantees neither publication nor ranking, and no payment influences the content.
+          required: true

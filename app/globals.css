@@ -498,3 +498,15 @@ footer .foot-row a[target] { text-decoration: underline; text-underline-offset: 
 .ai-page summary { cursor: pointer; font-weight: 600; }
 .marquee a { white-space: nowrap; display: inline-flex; gap: 8px; color: inherit; }
 .marquee a:hover b { text-decoration: underline; }
+
+/* Annuaire des outils */
+.dir-sec { margin-block: 36px; }
+.dir-sec h2 { font-family: var(--display); font-weight: 800; font-size: 32px; letter-spacing: -0.04em; margin: 0 0 16px; }
+.dir-sec h2 a { color: inherit; }
+.dir-sec h2 small { font: 500 12px var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-soft); margin-left: 8px; }
+.dir-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.dir-card { border: 1px solid var(--line, rgba(127,127,127,.3)); border-radius: 14px; padding: 16px; display: grid; gap: 8px; align-content: start; }
+.dir-head { display: flex; align-items: center; gap: 10px; font-size: 17px; }
+.dir-card > a { font: 500 12px var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+.dir-card ul { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 4px; font-size: 14px; }
+.dir-btn { display: inline-flex; align-items: center; padding: 12px 20px; border-radius: 999px; background: var(--ink, #111); color: var(--bg, #fff); font-weight: 600; text-decoration: none; }

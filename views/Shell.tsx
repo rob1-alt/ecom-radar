@@ -18,7 +18,7 @@ const BOOT =
 
 // Table de correspondance FR ↔ EN pour le sélecteur de langue.
 function langMap(): Record<string, string> {
-  const m: Record<string, string> = { "/": "/en/", "/en/": "/", "/methodologie/": "/en/methodology/", "/en/methodology/": "/methodologie/", "/auteur/robin-pautigny/": "/en/author/robin-pautigny/", "/ai/": "/en/ai/", "/en/ai/": "/ai/", "/en/author/robin-pautigny/": "/auteur/robin-pautigny/" };
+  const m: Record<string, string> = { "/": "/en/", "/en/": "/", "/methodologie/": "/en/methodology/", "/en/methodology/": "/methodologie/", "/auteur/robin-pautigny/": "/en/author/robin-pautigny/", "/ai/": "/en/ai/", "/en/ai/": "/ai/", "/en/author/robin-pautigny/": "/auteur/robin-pautigny/", "/outils/": "/en/tools/", "/en/tools/": "/outils/", "/soumettre-un-outil/": "/en/submit-tool/", "/en/submit-tool/": "/soumettre-un-outil/" };
   for (const a of getArticles("fr")) {
     const en = alternatePath(a, "en");
     if (en) {
