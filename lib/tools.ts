@@ -33,6 +33,7 @@ export const TOOLS: Record<string, { domain: string; url: string }> = {
   "Commerce Inspector": { domain: "commerceinspector.com", url: "https://www.commerceinspector.com" },
   Sendcloud: { domain: "sendcloud.com", url: "https://www.sendcloud.com" },
   Boxtal: { domain: "boxtal.com", url: "https://www.boxtal.com" },
+  Colissimo: { domain: "laposte.fr", url: "https://www.colissimo.entreprise.laposte.fr" },
   Shippingbo: { domain: "shippingbo.com", url: "https://www.shippingbo.com" },
   Cubyn: { domain: "cubyn.com", url: "https://www.cubyn.com" },
   Stripe: { domain: "stripe.com", url: "https://stripe.com" },

@@ -69,3 +69,4 @@ What to know:
 
 - [Sendcloud vs Boxtal](/en/shipping/sendcloud-vs-boxtal/)
 - [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)
+- [Colissimo rates 2026 for an online store](/en/shipping/colissimo-rates-online-store-2026/)

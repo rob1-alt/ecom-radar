@@ -120,3 +120,4 @@ See also our roundup of the [best e-commerce shipping software](/en/shipping/bes
 
 - [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)
 - [The best returns management apps for Shopify](/en/returns-support/best-shopify-returns-apps/)
+- [Colissimo rates 2026 for an online store](/en/shipping/colissimo-rates-online-store-2026/)

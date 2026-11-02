@@ -118,3 +118,4 @@ Voir aussi notre sélection des [meilleurs outils d'expédition e-commerce](/log
 
 - [Comment réduire le taux de retour d'une boutique en ligne](/retours-sav/reduire-taux-de-retour/)
 - [Les meilleurs outils de gestion des retours Shopify](/retours-sav/meilleurs-outils-retours-shopify/)
+- [Tarifs Colissimo 2026 pour une boutique en ligne](/logistique/tarifs-colissimo-boutique-en-ligne-2026/)
