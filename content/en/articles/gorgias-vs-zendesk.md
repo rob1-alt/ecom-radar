@@ -78,3 +78,5 @@ With **Gorgias**, a spike in requests (sales, Black Friday) drives up your bill.
 - **Need a knowledge base, telephony with IVR or skills-based routing:** **Zendesk** Suite.
 
 See also our [Gorgias review: pricing, pros and cons, alternatives](/en/returns-support/gorgias-review-pricing/).
+
+See also: [Gorgias alternatives](/en/returns-support/gorgias-alternatives/).

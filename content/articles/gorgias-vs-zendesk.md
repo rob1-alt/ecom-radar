@@ -76,3 +76,5 @@ Avec **Gorgias**, un pic de demandes (soldes, Black Friday) fait grimper la fact
 - **Besoin d'une base de connaissances, de téléphonie avec serveur vocal ou de routage par compétences :** **Zendesk** Suite.
 
 Voir aussi notre fiche [Gorgias : prix, avis, alternatives](/retours-sav/gorgias-avis-prix/).
+
+Voir aussi : [Alternatives à Gorgias](/retours-sav/alternatives-gorgias/).

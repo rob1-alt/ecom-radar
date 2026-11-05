@@ -82,4 +82,5 @@ Si tes pics reviennent chaque mois, compare avec le plan supérieur : le quota i
 
 ## À lire aussi
 
+- [Alternatives à Gorgias : Freshdesk, Help Scout, Tidio, Zendesk](/retours-sav/alternatives-gorgias/)
 - [Comment réduire le taux de retour d'une boutique en ligne](/retours-sav/reduire-taux-de-retour/)

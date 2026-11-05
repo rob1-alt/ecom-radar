@@ -84,4 +84,5 @@ If your spikes happen every month, compare with the next plan up: included quota
 
 ## Related reading
 
+- [Gorgias alternatives: Freshdesk, Help Scout, Tidio, Zendesk](/en/returns-support/gorgias-alternatives/)
 - [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)
