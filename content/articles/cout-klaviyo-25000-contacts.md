@@ -4,20 +4,20 @@ description: "Comment Klaviyo facture à 25 000 contacts : profils actifs, capac
 category: emailing
 type: Guide
 date: 2026-10-16
-updated: 2026-10-18
+updated: 2026-11-06
 readTime: 6
 tools: ["Klaviyo", "Brevo", "Omnisend"]
 cited: [0, 0, 0, 0]
 wide: true
 sample: false
-answer: "À 25 000 profils actifs, l'email **Klaviyo** coûte 400 $/mois (250 000 emails/mois inclus), d'après son calculateur de prix au 18 octobre 2026, soit 4 800 $ sur un an. Seuls les contacts joignables comptent, et le SMS est facturé à part (dès 15 $/mois). **Omnisend** et **Brevo** n'affichent pas de prix lisible à ce volume."
+answer: "À 25 000 profils actifs, l'email **Klaviyo** coûte 400 $/mois (250 000 emails/mois inclus), d'après son calculateur de prix au 18 octobre 2026, soit 4 800 $ sur un an. Seuls les contacts joignables comptent, et le SMS est facturé à part. **Omnisend** et **Brevo** n'affichent pas de prix lisible à ce volume."
 faq:
   - q: "Klaviyo compte-t-il les contacts désinscrits ?"
     a: "Non. D'après Klaviyo, les plans email sont calculés sur les profils actifs : les contacts désinscrits et supprimés ne comptent pas."
   - q: "Que se passe-t-il si je dépasse mon palier de contacts sur Klaviyo ?"
     a: "Selon Klaviyo, si tes profils actifs dépassent ton palier, le compte passe sur un plan conforme au cycle de facturation suivant. Ces règles concernent les clients facturés au mois."
   - q: "Le SMS est-il inclus dans le prix Klaviyo ?"
-    a: "Non, le SMS est facturé séparément de l'email. Sur le Shopify App Store, le plan SMS démarre à 15 $/mois pour 1 250 crédits."
+    a: "Non, d'après Klaviyo, le SMS (comme le MMS, WhatsApp et RCS) est facturé séparément de l'email, sur un montant d'engagement qui se consomme au fil des envois, avec des tarifs variables selon le type de message et le pays."
 ---
 
 ## Le prix de Klaviyo à 25 000 contacts
@@ -40,11 +40,11 @@ Prix relevés dans le calculateur de la [page tarifs de Klaviyo](https://www.kla
 
 | Outil | Plan gratuit | Premier palier payant | À 25 000 contacts |
 | --- | --- | --- | --- |
-| **Klaviyo** | 250 contacts, 150 crédits SMS | Email à 20 $/mois (251 à 500 contacts), SMS à 15 $/mois (1 250 crédits) | 400 $/mois (250 000 emails) |
-| **Omnisend** | 250 contacts, 500 emails/mois | Standard à 16 $/mois (500 contacts, 6 000 emails/mois) | Palier « 23 501 - 25 000 » sur le curseur, prix non lisible |
+| **Klaviyo** | 250 profils actifs, 500 envois d'emails par mois | Email à 25 $/mois (jusqu'à 500 contacts), 50 $/mois (jusqu'à 1 000) | 400 $/mois (250 000 emails) |
+| **Omnisend** | 250 contacts, 500 emails/mois | Standard dès 16 $/mois d'après la page (500 contacts, 6 000 emails/mois ; 11,20 $ affichés avec l'offre en cours) | Palier « 25 001 - 26 000 » sur le curseur, prix non affiché |
 | **Brevo** | Jusqu'à 300 emails/jour | Starter dès 5 000 emails/mois (prix non affiché) | Plans au volume d'emails, pas au nombre de contacts |
 
-Tarifs relevés sur la [fiche Shopify App Store de Klaviyo](https://apps.shopify.com/klaviyo-email-marketing), la [page tarifs d'Omnisend](https://www.omnisend.com/pricing/) et la [page tarifs de Brevo](https://www.brevo.com/fr/pricing/) le 18 octobre 2026. Prix hors taxes.
+Tarifs relevés sur la [fiche Shopify App Store de Klaviyo](https://apps.shopify.com/klaviyo-email-marketing), la [page tarifs de Klaviyo](https://www.klaviyo.com/pricing), la [page tarifs d'Omnisend](https://www.omnisend.com/pricing/) et la [page tarifs de Brevo](https://www.brevo.com/fr/pricing/) le 6 novembre 2026. Prix hors taxes. Mise à jour du 6 novembre : le calculateur Klaviyo n'a pas pu être relu ce jour-là, la grille par palier ci-dessus reste celle du 18 octobre 2026.
 
 ## Comment Klaviyo calcule ta facture
 
@@ -61,7 +61,7 @@ Ces règles concernent les clients facturés au mois.
 ## Ce que ça change pour une liste de 25 000 contacts
 
 1. **Compte tes profils actifs, pas ta liste brute.** Si une partie de tes 25 000 contacts est désinscrite ou supprimée, tu paies un palier plus bas.
-2. **Ajoute le SMS séparément.** Le prix email ne couvre pas le SMS. Le plan SMS démarre à 15 $/mois pour 1 250 crédits sur la [fiche Shopify App Store](https://apps.shopify.com/klaviyo-email-marketing).
+2. **Ajoute le SMS séparément.** Le prix email ne couvre pas le SMS : il est facturé sur un montant d'engagement qui se consomme au fil des envois, d'après [How Klaviyo pricing works](https://www.klaviyo.com/platform/how-klaviyo-pricing-works).
 3. **Anticipe la croissance.** Si ta liste grossit en cours d'année, ton plan monte au cycle suivant : calcule ta facture sur 12 mois avec le palier que tu vas atteindre, pas celui d'aujourd'hui.
 
 ## Comparer avec Omnisend et Brevo au même volume

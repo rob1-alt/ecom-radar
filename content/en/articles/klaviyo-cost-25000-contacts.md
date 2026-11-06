@@ -4,20 +4,20 @@ description: "How Klaviyo bills at 25,000 contacts: active profiles, send capaci
 category: emailing
 type: Guide
 date: 2026-10-16
-updated: 2026-10-18
+updated: 2026-11-06
 readTime: 6
 tools: ["Klaviyo", "Brevo", "Omnisend"]
 cited: [0, 0, 0, 0]
 wide: true
 sample: false
-answer: "At 25,000 active profiles, **Klaviyo** email costs $400/month (250,000 emails/month included), according to its pricing calculator on Oct 18, 2026, or $4,800 a year. Only reachable contacts count, and SMS is billed separately (from $15/month). **Omnisend** and **Brevo** don't show a readable price at that volume."
+answer: "At 25,000 active profiles, **Klaviyo** email costs $400/month (250,000 emails/month included), according to its pricing calculator on Oct 18, 2026, or $4,800 a year. Only reachable contacts count, and SMS is billed separately. **Omnisend** and **Brevo** don't show a readable price at that volume."
 faq:
   - q: "Does Klaviyo count unsubscribed contacts?"
     a: "No. According to Klaviyo, email plans are based on active profiles: unsubscribed and suppressed contacts don't count."
   - q: "What happens if I exceed my contact tier on Klaviyo?"
     a: "According to Klaviyo, if your active profiles exceed your tier, the account moves to a compliant plan at the next billing cycle. These rules apply to month-to-month customers."
   - q: "Is SMS included in Klaviyo's price?"
-    a: "No, SMS is billed separately from email. On the Shopify App Store, the SMS plan starts at $15/month for 1,250 credits."
+    a: "No. According to Klaviyo, SMS (like MMS, WhatsApp and RCS) is billed separately from email, against a committed spend that burns down as you send, with rates varying by message type and country."
 slug: klaviyo-cost-25000-contacts
 translationOf: cout-klaviyo-25000-contacts
 ---
@@ -42,11 +42,11 @@ At 25,000 active profiles, budget **$400/month, or $4,800 over 12 months**, befo
 
 | Tool | Free plan | First paid tier | At 25,000 contacts |
 | --- | --- | --- | --- |
-| **Klaviyo** | 250 contacts, 150 SMS credits | Email at $20/month (251 to 500 contacts), SMS at $15/month (1,250 credits) | $400/month (250,000 emails) |
-| **Omnisend** | 250 contacts, 500 emails/month | Standard at $16/month (500 contacts, 6,000 emails/month) | "23,501 - 25,000" band on the slider, price not readable |
+| **Klaviyo** | 250 active profiles, 500 email sends per month | Email at $25/month (up to 500 contacts), $50/month (up to 1,000) | $400/month (250,000 emails) |
+| **Omnisend** | 250 contacts, 500 emails/month | Standard from $16/month per the page (500 contacts, 6,000 emails/month; $11.20 shown with the current offer) | "25,001 - 26,000" band on the slider, price not shown |
 | **Brevo** | Up to 300 emails/day | Starter from 5,000 emails/month (price not shown) | Plans by email volume, not by contact count |
 
-Pricing checked on the [Klaviyo Shopify App Store listing](https://apps.shopify.com/klaviyo-email-marketing), the [Omnisend pricing page](https://www.omnisend.com/pricing/) and the [Brevo pricing page](https://www.brevo.com/pricing/) on Oct 18, 2026. Prices exclude tax.
+Pricing checked on the [Klaviyo Shopify App Store listing](https://apps.shopify.com/klaviyo-email-marketing), the [Klaviyo pricing page](https://www.klaviyo.com/pricing), the [Omnisend pricing page](https://www.omnisend.com/pricing/) and the [Brevo pricing page](https://www.brevo.com/pricing/) on Nov 6, 2026. Prices exclude tax. Nov 6 update: the Klaviyo calculator could not be re-read that day, so the tier table above remains the Oct 18, 2026 reading.
 
 ## How Klaviyo calculates your bill
 
@@ -63,7 +63,7 @@ These rules apply to month-to-month customers.
 ## What this means for a 25,000-contact list
 
 1. **Count active profiles, not your raw list.** If part of your 25,000 contacts is unsubscribed or suppressed, you pay a lower tier.
-2. **Add SMS separately.** The email price doesn't cover SMS. The SMS plan starts at $15/month for 1,250 credits on the [Shopify App Store listing](https://apps.shopify.com/klaviyo-email-marketing).
+2. **Add SMS separately.** The email price doesn't cover SMS: it is billed against a committed spend that burns down as you send, according to [How Klaviyo pricing works](https://www.klaviyo.com/platform/how-klaviyo-pricing-works).
 3. **Plan for growth.** If your list grows during the year, your plan moves up at the next cycle: calculate your 12-month bill with the tier you'll reach, not today's.
 
 ## Comparing with Omnisend and Brevo at the same volume
