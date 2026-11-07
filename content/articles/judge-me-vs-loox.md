@@ -4,7 +4,7 @@ description: "Plans gratuits, avis photo et vidéo, prix à 1 000 commandes par 
 category: avis-clients
 type: Face-à-face
 date: 2026-10-11
-updated: 2026-10-18
+updated: 2026-11-07
 readTime: 6
 tools: ["Judge.me", "Loox"]
 cited: [0, 0, 0, 0]
@@ -33,7 +33,7 @@ faq:
 | Google Shopping | Plan Awesome | Plan Convert (avec Meta et TikTok) |
 | Essai gratuit | Non mentionné (plan gratuit permanent) | 14 jours sur Convert et Unlimited |
 
-Tarifs relevés sur la [page tarifs de Judge.me](https://judge.me/pricing) et la [fiche Shopify App Store de Loox](https://apps.shopify.com/loox) le 18 octobre 2026, en dollars.
+Tarifs relevés sur la [page tarifs de Judge.me](https://judge.me/pricing) et la [fiche Shopify App Store de Loox](https://apps.shopify.com/loox) le 18 octobre 2026, puis revérifiés le 7 novembre 2026 : aucun prix n'a changé. Prix en dollars.
 
 ## Le prix à ton volume
 
