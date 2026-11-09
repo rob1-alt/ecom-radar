@@ -4,7 +4,7 @@ description: "Klaviyo and Brevo compared on verified facts: pricing model (activ
 category: emailing
 type: Face-à-face
 date: 2026-10-12
-updated: 2026-10-18
+updated: 2026-11-09
 readTime: 6
 tools: ["Klaviyo", "Brevo"]
 cited: [0, 0, 0, 0]
@@ -14,7 +14,7 @@ translationOf: klaviyo-vs-brevo
 answer: "**Brevo** charges by email volume sent (Starter from €7/month for 5,000 emails, automation from the Standard plan at €15/month), while **Klaviyo** charges by active profiles (paid email plan from $20/month for 251 to 500 contacts according to its Shopify listing). Brevo has the lowest entry price; Klaviyo natively syncs your Shopify catalog, tags and coupons."
 faq:
   - q: "How much does Brevo cost?"
-    a: "According to the pricing grid Brevo published on Oct 18, 2026: Starter from €7/month, Standard from €15/month and Professional from €350/month on monthly billing, with 10% off on annual billing. The price goes up with the number of emails sent each month."
+    a: "According to the pricing grid Brevo published on Oct 18, 2026: Starter from €7/month, Standard from €15/month and Professional from €499/month on monthly billing (starting price including the first 150,000-email tier), with 10% off on annual billing. The price goes up with the number of emails sent each month."
   - q: "How much does Klaviyo cost?"
     a: "On its Shopify App Store listing, Klaviyo shows a free plan for up to 250 contacts and a paid email plan from $20/month for 251 to 500 contacts. After that, the price follows the number of active profiles: unsubscribed and suppressed contacts are not billed."
   - q: "Does Brevo have a Shopify app?"
@@ -42,7 +42,7 @@ This is the real difference between the two tools, and it changes everything whe
 
 **Klaviyo** charges by active profiles. According to its ["How Klaviyo pricing works"](https://www.klaviyo.com/platform/how-klaviyo-pricing-works) page, only reachable contacts count: unsubscribed and suppressed contacts are not billed. Each profile tier includes a monthly send allowance. On its [Shopify listing](https://apps.shopify.com/klaviyo-email-marketing), the free plan covers email for up to 250 contacts, and the paid email plan starts at $20/month for 251 to 500 contacts. Prices are in US dollars.
 
-**Brevo** charges by the number of emails sent each month. According to its [pricing grid](https://brevo.com/pricing.md), Starter starts at €7/month, Standard at €15/month and Professional at €350/month on monthly billing, with 10% off on annual billing. Watch out: the same grid sets a maximum number of contacts for each volume tier, namely 500 contacts at the 5,000 emails/month tier, 1,500 at the 10,000 tier and up to 500,000 from 20,000 emails/month. Check your tier in the calculator before you subscribe.
+**Brevo** charges by the number of emails sent each month. According to its [pricing grid](https://brevo.com/pricing.md), Starter starts at €7/month, Standard at €15/month and Professional from €499/month on monthly billing (checked on Nov 9, 2026, first 150,000-email tier included), with 10% off on annual billing. Watch out: the same grid sets a maximum number of contacts for each volume tier, namely 500 contacts at the 5,000 emails/month tier, 1,500 at the 10,000 tier and up to 500,000 from 20,000 emails/month. Check your tier in the calculator before you subscribe.
 
 In short: with a large list you email rarely, Brevo's model works in your favor. With a smaller list you email often, run the numbers on both calculators.
 
@@ -53,7 +53,7 @@ In short: with a large list you email rarely, Brevo's model works in your favor.
 | Free | €0 | Up to 300 emails per day | Basic email |
 | Starter | From €7/month | From 5,000 emails/month | Drag-and-drop editor, segmentation, sign-up forms, no Brevo logo |
 | Standard | From €15/month | Depends on the tier | Marketing automation, A/B testing, send-time optimization, web tracking |
-| Professional | From €350/month | From 150,000 emails/month | WhatsApp, pop-ups, push, 10 users, phone support |
+| Professional | From €499/month | From 150,000 emails/month | WhatsApp, pop-ups, push, 10 users, phone support |
 | Enterprise | Custom quote | Lists of 1M+ contacts | Multi-account, dedicated IP, SSO, CSM |
 
 Pricing checked on [Brevo pricing page](https://www.brevo.com/pricing/) and its [detailed pricing grid](https://brevo.com/pricing.md) on Oct 18, 2026.
@@ -86,3 +86,7 @@ At **Brevo**, SMS credits are sold separately from the email plans, according to
 - Your list is moderate or highly engaged: you only pay for active profiles.
 
 For a detailed Klaviyo budget estimate, see our article on [Klaviyo's cost at 25,000 contacts](/en/email-marketing/klaviyo-cost-25000-contacts/), and for other options, our [Klaviyo alternatives](/en/email-marketing/klaviyo-alternatives/).
+
+## Related reading
+
+- [Brevo pricing, plans and limits in 2026 for e-commerce](/en/email-marketing/brevo-pricing-plans-ecommerce/)

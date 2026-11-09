@@ -87,3 +87,7 @@ Ce qu'il faut savoir avant de choisir :
 Tarifs relevés le 18 octobre 2026 sur la [fiche Shopify App Store de Klaviyo](https://apps.shopify.com/klaviyo-email-marketing) et la [page tarifs de Brevo](https://www.brevo.com/fr/pricing/).
 
 Pour aller plus loin : notre sélection des [meilleurs outils d'emailing pour Shopify](/emailing/meilleurs-outils-emailing-shopify/), le face-à-face [Klaviyo vs Brevo](/emailing/klaviyo-vs-brevo/) et les [alternatives à Klaviyo](/emailing/alternatives-klaviyo/).
+
+## À lire aussi
+
+- [Brevo : prix, plans et limites en 2026 pour un e-commerce](/emailing/brevo-prix-plans-ecommerce/)
