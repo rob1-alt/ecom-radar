@@ -4,7 +4,7 @@ description: "Omnisend pour Shopify : email, SMS et web push dans un seul outil.
 category: emailing
 type: Fiche outil
 date: 2026-10-06
-updated: 2026-10-18
+updated: 2026-11-10
 readTime: 6
 tools: ["Omnisend", "Klaviyo", "Brevo"]
 cited: [0, 0, 0, 0]
@@ -12,7 +12,7 @@ sample: false
 answer: "**Omnisend** réunit email, SMS et web push dans une seule app Shopify. Le plan gratuit couvre 250 contacts et 500 emails par mois, Standard démarre à 16 $/mois (500 contacts, 6 000 emails) et Pro à 59 $/mois (2 500 contacts, emails illimités, SMS dès 0,007 $). Les prix montent avec la taille de ta liste."
 faq:
   - q: "Combien coûte Omnisend ?"
-    a: "Sur la page tarifs consultée le 18 octobre 2026 : Free à 0 $ (250 contacts, 500 emails/mois), Standard dès 16 $/mois (500 contacts, 6 000 emails/mois), Pro dès 59 $/mois (2 500 contacts, emails illimités en usage raisonnable) et Custom sur devis au-delà de 150 000 profils actifs. Payer 3 mois d'avance donne -30 %."
+    a: "Sur la page tarifs consultée le 10 novembre 2026 : Free à 0 $ (250 contacts, 500 emails/mois), Standard dès 16 $/mois (500 contacts, 6 000 emails/mois), Pro dès 59 $/mois (2 500 contacts, emails illimités en usage raisonnable) et Custom sur devis au-delà de 150 000 profils actifs. Payer 3 mois d'avance donne -30 %."
   - q: "Omnisend a-t-il une version gratuite ?"
     a: "Oui, sans limite de durée et sans carte bancaire : 250 contacts, 500 emails et 500 notifications web push par mois. Le branding Omnisend y est obligatoire."
   - q: "Combien coûte le SMS sur Omnisend ?"
@@ -30,7 +30,7 @@ faq:
 | Premier plan payant | Standard dès 16 $/mois |
 | Facturation | Selon le nombre de contacts |
 | Support | 24/7 par email et chat |
-| Fiche Shopify | 4,7/5 sur 3 193 avis (au 18 octobre 2026) |
+| Fiche Shopify | 4,7/5 sur 3 201 avis (au 10 novembre 2026) |
 
 ## Ce que fait Omnisend
 
@@ -55,7 +55,7 @@ Côté intégrations, la fiche liste Checkout, Shopify Flow, Aftership, Gorgias,
 | Pro | 59 $/mois | 2 500 | Illimités (usage raisonnable) | Illimité | Dès 0,007 $/SMS |
 | Custom | Sur devis | 150 000+ profils actifs | Illimités | Illimité | Sur devis |
 
-Tarifs relevés sur la [page tarifs d'Omnisend](https://www.omnisend.com/pricing/) le 18 octobre 2026, recoupés avec la [fiche Shopify App Store](https://apps.shopify.com/omnisend). Prix en dollars hors taxes, qui augmentent avec la taille de ta liste.
+Tarifs relevés sur la [page tarifs d'Omnisend](https://www.omnisend.com/pricing/) le 10 novembre 2026, recoupés avec la [fiche Shopify App Store](https://apps.shopify.com/omnisend). Prix en dollars hors taxes, qui augmentent avec la taille de ta liste.
 
 Ce qu'il faut savoir avant de choisir :
 
@@ -81,10 +81,10 @@ Ce qu'il faut savoir avant de choisir :
 
 | Alternative | Plan gratuit | Premier plan payant |
 | --- | --- | --- |
-| **Klaviyo** | 250 contacts, 500 emails/mois, 150 crédits SMS | Email dès 20 $/mois (251 à 500 contacts) |
+| **Klaviyo** | 250 contacts, 500 emails/mois | Email dès 20 $/mois (251 à 500 contacts) |
 | **Brevo** | Jusqu'à 300 emails/jour | Starter dès 5 000 emails/mois (prix selon volume) |
 
-Tarifs relevés le 18 octobre 2026 sur la [fiche Shopify App Store de Klaviyo](https://apps.shopify.com/klaviyo-email-marketing) et la [page tarifs de Brevo](https://www.brevo.com/fr/pricing/).
+Tarifs relevés le 10 novembre 2026 sur la [fiche Shopify App Store de Klaviyo](https://apps.shopify.com/klaviyo-email-marketing) et la [page tarifs de Brevo](https://www.brevo.com/fr/pricing/).
 
 Pour aller plus loin : notre sélection des [meilleurs outils d'emailing pour Shopify](/emailing/meilleurs-outils-emailing-shopify/), le face-à-face [Klaviyo vs Brevo](/emailing/klaviyo-vs-brevo/) et les [alternatives à Klaviyo](/emailing/alternatives-klaviyo/).
 
