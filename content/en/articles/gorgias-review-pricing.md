@@ -4,7 +4,7 @@ description: "Gorgias, the helpdesk for Shopify stores: plans from $10 to $900/m
 category: retours-sav
 type: Fiche outil
 date: 2026-10-10
-updated: 2026-10-18
+updated: 2026-11-11
 readTime: 6
 tools: ["Gorgias", "Zendesk"]
 cited: [0, 0, 0, 0]
@@ -12,7 +12,7 @@ sample: false
 answer: "**Gorgias** is a Shopify helpdesk that bills by ticket volume, not per agent: from $10/month (Starter, 50 tickets, 3 agents) to $900/month (Advanced, 5,000 tickets). Your agents can edit, refund or cancel an order directly from the ticket. Beyond the quota, each extra ticket is billed, so an activity spike drives up the bill."
 faq:
   - q: "How much does Gorgias cost?"
-    a: "According to its Shopify App Store listing checked on Oct 18, 2026: Starter at $10/month (50 tickets), Basic at $60/month (300 tickets), Pro at $360/month (2,000 tickets) and Advanced at $900/month (5,000 tickets). Basic, Pro and Advanced are also available annually ($600, $3,600 and $9,000 per year)."
+    a: "According to its Shopify App Store listing checked on Nov 11, 2026: Starter at $10/month (50 tickets), Basic at $60/month (300 tickets), Pro at $360/month (2,000 tickets) and Advanced at $900/month (5,000 tickets). Basic, Pro and Advanced are also available annually ($600, $3,600 and $9,000 per year)."
   - q: "How much is an extra ticket on Gorgias?"
     a: "$0.40 per ticket on Starter, $40 per additional 100 tickets on Basic and $36 per additional 100 tickets on Pro and Advanced."
   - q: "Does Gorgias have a free trial?"
@@ -54,7 +54,7 @@ According to its [Shopify App Store listing](https://apps.shopify.com/helpdesk):
 | Pro | $360 | $3,600/year | 2,000 | Up to 500 | $36 per 100 tickets |
 | Advanced | $900 | $9,000/year | 5,000 | Up to 500 | $36 per 100 tickets |
 
-Pricing checked on the [Gorgias Shopify App Store listing](https://apps.shopify.com/helpdesk) on Oct 18, 2026, in US dollars. The [Gorgias pricing page](https://www.gorgias.com/pricing) confirms that the helpdesk scales from 50 to 5,000 tickets a month with no per-agent pricing, that AI Agent is available on every plan and paid per resolution, and that voice and SMS are add-ons priced by volume. Live chat is included in all four plans.
+Pricing checked on the [Gorgias Shopify App Store listing](https://apps.shopify.com/helpdesk) on Nov 11, 2026, in US dollars. The [Gorgias pricing page](https://www.gorgias.com/pricing) confirms that the helpdesk scales from 50 to 5,000 tickets a month with no per-agent pricing, that AI Agent is available on every plan and paid per resolution, and that voice and SMS are add-ons priced by volume. Live chat is included in all four plans.
 
 ## What an activity spike costs
 
@@ -80,7 +80,7 @@ If your spikes happen every month, compare with the next plan up: included quota
 
 ## The alternative
 
-**Zendesk** bills per agent: from $19/agent/month (Support Team, annual) to $115/agent/month (Suite Professional, annual), according to its [pricing page](https://www.zendesk.com/pricing/) checked on Oct 18, 2026. Details in our [Gorgias vs Zendesk](/en/returns-support/gorgias-vs-zendesk/) comparison.
+**Zendesk** bills per agent: from $19/agent/month (Support Team, annual) to $115/agent/month (Suite Professional, annual), according to its [pricing page](https://www.zendesk.com/pricing/) checked on Nov 11, 2026. Details in our [Gorgias vs Zendesk](/en/returns-support/gorgias-vs-zendesk/) comparison.
 
 ## Related reading
 
