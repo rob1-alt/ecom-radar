@@ -4,7 +4,7 @@ description: "Okendo, the reviews, loyalty, referrals, quizzes and surveys platf
 category: avis-clients
 type: Fiche outil
 date: 2026-10-05
-updated: 2026-10-18
+updated: 2026-11-12
 readTime: 6
 tools: ["Okendo", "Judge.me", "Yotpo"]
 cited: [0, 0, 0, 0]
@@ -12,7 +12,7 @@ sample: false
 answer: "**Okendo** is a Shopify platform that combines customer reviews, loyalty, referrals, quizzes and surveys. The Reviews product has a free plan up to 50 orders a month, then costs $19, $119 or $299 a month depending on volume (200, 1,500 or 3,500 orders). The other products and the full platform are quote-based. On a small budget, **Judge.me** is capped at $15/month."
 faq:
   - q: "How much does Okendo cost?"
-    a: "On the Shopify App Store listing checked on Oct 18, 2026, the Reviews product is free up to 50 orders a month, then Essential at $19/month (200 orders), Growth at $119/month (1,500 orders) and Power at $299/month (3,500 orders). Loyalty, referrals, quizzes, surveys and the full platform are quote-based."
+    a: "On the Shopify App Store listing checked on Oct 18, 2026 and rechecked on Nov 12, 2026, the Reviews product is free up to 50 orders a month, then Essential at $19/month (200 orders), Growth at $119/month (1,500 orders) and Power at $299/month (3,500 orders). Loyalty, referrals, quizzes, surveys and the full platform are quote-based."
   - q: "Does Okendo have a free plan?"
     a: "Yes, the Reviews product has a Free plan up to 50 orders a month, with automated review requests, display widgets, Google rich snippets and moderation. Paid plans come with a 14-day trial."
   - q: "Does Okendo work with Klaviyo?"
@@ -55,7 +55,7 @@ Okendo also offers bundles (Attract, Convert, Retain) and a Platform Scale offer
 | Growth | $119/month | $1,308/year | Up to 1,500 | AI review summaries and keywords, TikTok Shop integration, Q&A widget |
 | Power | $299/month | $3,288/year | Up to 3,500 | Review campaigns, advanced CSS editor, email and SMS integrations, advanced reporting, managed onboarding |
 
-Pricing checked on the [Okendo Shopify App Store listing](https://apps.shopify.com/okendo-reviews) on Oct 18, 2026. The [Okendo pricing page](https://www.okendo.io/pricing/) shows no prices: loyalty, bundles and the full platform go through the sales team.
+Pricing checked on the [Okendo Shopify App Store listing](https://apps.shopify.com/okendo-reviews) on Oct 18, 2026, then rechecked on Nov 12, 2026: no price has changed. The [Okendo pricing page](https://www.okendo.io/pricing/) shows no prices: loyalty, bundles and the full platform go through the sales team.
 
 Key billing points, again from the pricing page:
 
@@ -83,7 +83,7 @@ The [Shopify listing](https://apps.shopify.com/okendo-reviews) lists: Checkout, 
 
 | Alternative | Why choose it |
 | --- | --- |
-| **Judge.me** | Free plan with unlimited review requests, then Awesome at $15/month maximum ([Judge.me pricing page](https://judge.me/pricing), checked on Oct 18, 2026) |
+| **Judge.me** | Free plan with unlimited review requests, then Awesome at $15/month maximum ([Judge.me pricing page](https://judge.me/pricing), checked on Oct 18, 2026, rechecked on Nov 12, 2026) |
 | **Yotpo** | Reviews and loyalty from one vendor, for brands that want a full suite |
 
 See our roundup of the [best Shopify review apps](/en/reviews/best-shopify-review-apps/), our [Judge.me vs Loox](/en/reviews/judge-me-vs-loox/) comparison and the [Yotpo alternatives](/en/reviews/yotpo-alternatives/).
