@@ -68,3 +68,7 @@ Tu gagnes : chez Shopify Payments, tu récupères 60 € et les 15 € de frais.
 ## Le bon réflexe
 
 Avant de choisir un prestataire, demande par écrit les frais de litige et leur remboursement en cas de victoire.
+
+## À lire aussi
+
+- [Frais PayPal 2026 pour un e-commerçant : combien coûte vraiment une commande ?](/paiement/frais-paypal-ecommercant-2026/)

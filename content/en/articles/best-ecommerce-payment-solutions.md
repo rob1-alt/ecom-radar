@@ -90,3 +90,4 @@ Compare the merchant cost: **Alma** from 3.60% excl. VAT in 2 installments, **Kl
 ## Related reading
 
 - [Card chargebacks: how much do they cost with Stripe, Shopify Payments, PayPal and Mollie?](/en/payments/chargeback-fees-stripe-shopify-paypal-mollie/)
+- [PayPal fees in 2026 for an online store: what does an order really cost?](/en/payments/paypal-fees-ecommerce-merchants-2026/)

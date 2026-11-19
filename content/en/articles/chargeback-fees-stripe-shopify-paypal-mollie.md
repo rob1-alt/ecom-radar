@@ -68,3 +68,7 @@ You win: at Shopify Payments you get back €60 and the €15 fee. At Stripe you
 ## The smart move
 
 Before choosing a provider, ask in writing for the dispute fees and whether they are refunded when you win.
+
+## Related reading
+
+- [PayPal fees in 2026 for an online store: what does an order really cost?](/en/payments/paypal-fees-ecommerce-merchants-2026/)

@@ -88,3 +88,4 @@ Compare le coût marchand : **Alma** à partir de 3,60 % HT en 2 fois, **Klarna*
 ## À lire aussi
 
 - [Litige carte (chargeback) : combien ça coûte avec Stripe, Shopify Payments, PayPal et Mollie ?](/paiement/cout-litige-carte-stripe-shopify-paypal-mollie/)
+- [Frais PayPal 2026 pour un e-commerçant : combien coûte vraiment une commande ?](/paiement/frais-paypal-ecommercant-2026/)
