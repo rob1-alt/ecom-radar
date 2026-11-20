@@ -68,3 +68,4 @@ Ce qu'il faut savoir :
 - [Sendcloud vs Boxtal](/logistique/sendcloud-vs-boxtal/)
 - [Comment réduire le taux de retour d'une boutique en ligne](/retours-sav/reduire-taux-de-retour/)
 - [Tarifs Colissimo 2026 pour une boutique en ligne](/logistique/tarifs-colissimo-boutique-en-ligne-2026/)
+- [Colissimo vers l'Europe : tarifs 2026 et 2027](/logistique/colissimo-international-tarifs-europe-2026-2027/)

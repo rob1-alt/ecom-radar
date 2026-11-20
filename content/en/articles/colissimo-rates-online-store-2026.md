@@ -1,22 +1,22 @@
 ---
 title: "Colissimo rates 2026 for an online store: price grid, pickup point and the 2027 increase"
-description: "Colissimo online price grid for 2026 (home and pickup point), the cost at 500 parcels a month and the 4.1% average increase announced for January 1, 2027."
+description: "Colissimo online price grid for 2026 (home and pickup point), the cost at 500 parcels a month and the 2027 grid published by La Poste (+5.2% to 5.6% depending on weight)."
 category: logistique
 type: Guide
 date: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-20
 readTime: 6
 tools: ["Colissimo"]
 cited: [0, 0, 0, 0]
 sample: false
-answer: "On the 2026 Colissimo online grid, a 500 g parcel costs **€7.59** for home delivery and **€6.89** to a pickup point, which is €0.70 less on every weight band up to 5 kg. At 500 parcels of 500 g a month, the pickup point is worth €350 a month. La Poste has announced an average **4.1%** increase in Colissimo rates on January 1, 2027."
+answer: "On the 2026 Colissimo online grid, a 500 g parcel costs **€7.59** for home delivery and **€6.89** to a pickup point, which is €0.70 less on every weight band up to 5 kg. At 500 parcels of 500 g a month, the pickup point is worth €350 a month. From January 1, 2027, the grid published by La Poste takes the 500 g home-delivery parcel to **€7.99**, up 5.3%, more than the 4.1% average increase announced."
 faq:
   - q: "How much does a 500 g Colissimo parcel cost in 2026?"
     a: "On the Colissimo online grid for 2026 checked on Nov 2, 2026: €7.59 for home delivery and €6.89 to a pickup point, from mainland France to mainland France, Corsica included."
   - q: "Is the pickup point cheaper than home delivery?"
     a: "Yes, by €0.70 on every weight band up to 5 kg (for example €4.79 versus €5.49 at 250 g). The pickup point is not offered above 5 kg."
   - q: "How much will Colissimo rates rise in 2027?"
-    a: "La Poste's press release of July 27, 2026 announces an average 4.1% increase in Colissimo rates for mainland France and international shipments on January 1, 2027, and a 5% decrease for parcels between mainland France and the overseas territories. It is an average: the release does not detail the new grid by weight band."
+    a: "La Poste's press release of July 27, 2026 announces an average 4.1% increase for mainland France and international shipments on January 1, 2027. The 2027 grid published on the La Poste Pro Colissimo page (checked on Nov 20, 2026) shows an increase of 5.2% to 5.6% depending on the band to mainland France: for example €7.99 instead of €7.59 for 500 g. It does not give the 2027 pickup-point rate."
   - q: "Colissimo online or a business contract?"
     a: "The online grid applies to weight-based postage with proof of drop-off. Colissimo also offers contracts for businesses, but its business page does not detail a minimum volume or negotiated rates: you have to ask Colissimo."
 ---
@@ -61,7 +61,19 @@ This assumes every parcel weighs 500 g and ships within mainland France. It does
 
 In its [press release of July 27, 2026](https://www.caissedesdepots.fr/sites/ms-cdc-fr/files/2026-07/CP_La_Poste_tarifs_au_010127.pdf) (in French), La Poste announces that Colissimo rates will rise "on average by 4.1% in 2027 for shipments to mainland France and abroad". Parcels between mainland France and the overseas territories "will see a 5% rate decrease".
 
-The release does not give the 2027 grid by weight band, and its Colissimo figures concern consumer shipments: nothing is said about business contracts. For illustration only, if that average applied as is to 500 home-delivered parcels of 500 g, the bill would go from about €3,795 to €3,951 a month (+€156). This is not a forecast: wait for the official grid.
+Since then, the [La Poste Pro Colissimo page](https://www.laposte.fr/professionnel/tarif-colissimo) (in French) has published the net rates applicable from January 1, 2027 to mainland France, Andorra and Monaco (checked on Nov 20, 2026):
+
+| Weight up to | 2026 | 2027 | Increase |
+| --- | --- | --- | --- |
+| 250 g | €5.49 | €5.79 | +5.5% |
+| 500 g | €7.59 | €7.99 | +5.3% |
+| 1 kg | €9.59 | €10.09 | +5.2% |
+| 2 kg | €11.19 | €11.79 | +5.4% |
+| 5 kg | €17.39 | €18.29 | +5.2% |
+| 10 kg | €25.29 | €26.69 | +5.5% |
+| 30 kg | €39.59 | €41.79 | +5.6% |
+
+These 2026 amounts match the "home delivery" column of the grid above; the page does not give the 2027 pickup-point rate. On the common bands, the increase is therefore above the 4.1% average. At 500 home-delivered parcels of 500 g, the bill goes from €3,795 to €3,995 a month (+€200). For Europe, see our [Colissimo international rates for 2026 and 2027](/en/shipping/colissimo-international-rates-europe-2026-2027/).
 
 ## What if you have a Colissimo business contract?
 
@@ -77,6 +89,7 @@ A multi-carrier tool can also serve as a benchmark: see [Sendcloud vs Boxtal](/e
 
 ## Related reading
 
+- [Colissimo to Europe: 2026 and 2027 rates](/en/shipping/colissimo-international-rates-europe-2026-2027/)
 - [Sendcloud vs Boxtal](/en/shipping/sendcloud-vs-boxtal/)
 - [The 3 best e-commerce shipping tools in France](/en/shipping/best-ecommerce-shipping-software/)
 - [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)
