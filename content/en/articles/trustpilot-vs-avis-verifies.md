@@ -88,3 +88,7 @@ This is often the deciding factor for a store.
 - What matters to you is **company reputation** on a public page, more than product reviews.
 
 For other options (Judge.me, Loox, Okendo, Yotpo), see our roundup of the [best Shopify review apps](/en/reviews/best-shopify-review-apps/).
+
+## Related reading
+
+- [Google Shopping star ratings: how to get them and what it costs](/en/reviews/google-shopping-star-ratings/)

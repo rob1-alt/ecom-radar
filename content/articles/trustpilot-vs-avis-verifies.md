@@ -86,3 +86,7 @@ C'est souvent le critère décisif pour une boutique.
 - Ce qui compte pour toi, c'est la **réputation de l'entreprise** sur une page publique, plus que les avis produits.
 
 Pour d'autres options (Judge.me, Loox, Okendo, Yotpo), voir notre comparatif des [meilleurs outils d'avis clients pour Shopify](/avis-clients/meilleurs-outils-avis-clients-shopify/).
+
+## À lire aussi
+
+- [Étoiles Google Shopping : comment les obtenir et combien ça coûte](/avis-clients/etoiles-google-shopping-avis-produits/)

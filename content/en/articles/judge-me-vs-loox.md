@@ -62,3 +62,7 @@ At **Judge.me**, the pricing page states it plainly: $15/month is the most you w
 - **Video reviews, Meta and TikTok syndication, social posts from reviews:** **Loox** Convert, budgeting for the order blocks.
 
 See our pick of the [best Shopify review apps](/en/reviews/best-shopify-review-apps/) and [Yotpo alternatives](/en/reviews/yotpo-alternatives/).
+
+## Related reading
+
+- [Google Shopping star ratings: how to get them and what it costs](/en/reviews/google-shopping-star-ratings/)

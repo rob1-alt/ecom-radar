@@ -60,3 +60,7 @@ Chez **Judge.me**, la page tarifs l'écrit noir sur blanc : 15 $/mois, c'est le 
 - **Avis vidéo, syndication Meta et TikTok, posts sociaux à partir des avis :** **Loox** Convert, en budgétant les tranches de commandes.
 
 Voir notre sélection des [meilleurs outils d'avis clients pour Shopify](/avis-clients/meilleurs-outils-avis-clients-shopify/) et les [alternatives à Yotpo](/avis-clients/alternatives-yotpo/).
+
+## À lire aussi
+
+- [Étoiles Google Shopping : comment les obtenir et combien ça coûte](/avis-clients/etoiles-google-shopping-avis-produits/)
