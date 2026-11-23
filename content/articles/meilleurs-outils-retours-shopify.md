@@ -4,36 +4,35 @@ description: "Loop, ReturnGO, Sendcloud et Gorgias : prix vérifiés, fonctions 
 category: retours-sav
 type: Comparatif
 date: 2026-10-13
-updated: 2026-10-18
+updated: 2026-11-23
 readTime: 6
 tools: ["Loop", "ReturnGO", "Sendcloud", "Gorgias"]
 cited: [0, 0, 0, 0]
 sample: false
-answer: "**Loop** (offre gratuite Checkout+, puis dès 155 $/mois) propose Instant Exchange, Shop Now et Bonus Credit pour pousser l'échange plutôt que le remboursement. **ReturnGO** (dès 147 $/mois pour 110 retours, essai de 14 jours) inclut échanges, Shop Now et avoir dès son premier plan. **Sendcloud** ajoute un portail de retours à son logiciel d'expédition dès le plan Growth (89 €/mois). **Gorgias** n'est pas un outil de retours mais un helpdesk qui s'intègre à Loop."
+answer: "**Loop** (offre gratuite Checkout+ sous conditions de volume, puis offre Returns dès 340 $/mois pour 1 000 retours par an) propose Instant Exchange, Shop Now et Bonus Credit pour pousser l'échange plutôt que le remboursement. **ReturnGO** (dès 147 $/mois pour 110 retours, essai de 14 jours) inclut échanges, Shop Now et avoir dès son premier plan. **Sendcloud** ajoute un portail de retours à son logiciel d'expédition dès le plan Growth (89 €/mois). **Gorgias** n'est pas un outil de retours mais un helpdesk qui s'intègre à Loop."
 ---
 
 ## Le comparatif
 
 | Outil | Type | Prix de départ | Échanges et avoir | Idéal pour |
 | --- | --- | --- | --- | --- |
-| **Loop** | Logiciel de retours | Checkout+ gratuit, Essential dès 155 $/mois | Instant Exchange, Shop Now et Bonus Credit sur le plan Advanced (dès 340 $/mois) | Marques qui veulent transformer les remboursements en échanges |
+| **Loop** | Logiciel de retours | Checkout+ gratuit (sous conditions), Returns dès 340 $/mois | Instant Exchange, Shop Now et Bonus Credit inclus dans Returns | Marques qui veulent transformer les remboursements en échanges |
 | **ReturnGO** | Application de retours Shopify | Premium à 147 $/mois (110 retours inclus) | Échanges de variante et de produit, Shop Now, avoir et cartes cadeaux dès Premium | Boutiques qui veulent les échanges sans passer au plan le plus cher |
 | **Sendcloud** | Logiciel d'expédition avec portail de retours | Growth à 89 €/mois | Portail de retours personnalisé, gestion avancée sur Premium | Boutiques européennes qui expédient déjà avec Sendcloud |
 | **Gorgias** | Helpdesk e-commerce | Selon le volume de tickets | Non, via l'intégration Loop | Traiter les demandes de retour au service client |
 
-Tarifs relevés le 18 octobre 2026 sur la [page tarifs de Loop](https://www.loopreturns.com/pricing/), la [fiche Shopify App Store de ReturnGO](https://apps.shopify.com/returngo), la [page tarifs de Sendcloud](https://www.sendcloud.com/fr/tarifs/) et la [page tarifs de Gorgias](https://www.gorgias.com/pricing). Le tableau n'est pas un classement noté : l'ordre va des outils dédiés aux retours vers les outils qui les traitent en complément.
+Tarifs Loop et ReturnGO relevés le 23 novembre 2026, tarifs Sendcloud et Gorgias le 18 octobre 2026, sur la [page tarifs de Loop](https://loopreturns.com/pricing), la [fiche Shopify App Store de ReturnGO](https://apps.shopify.com/returngo), la [page tarifs de Sendcloud](https://www.sendcloud.com/fr/tarifs/) et la [page tarifs de Gorgias](https://www.gorgias.com/pricing). Le tableau n'est pas un classement noté : l'ordre va des outils dédiés aux retours vers les outils qui les traitent en complément.
 
 ## Le détail
 
 ### Loop
 
-La [page tarifs de Loop](https://www.loopreturns.com/pricing/) affiche trois offres :
+Au 23 novembre 2026, la [page tarifs de Loop](https://loopreturns.com/pricing) n'affiche plus que deux offres :
 
-- **Checkout+** : présenté comme « logiciel gratuit + frais de retour ». Il inclut les étiquettes de retour domestiques aux États-Unis et au Canada.
-- **Essential** : dès 155 $/mois. Destinations illimitées, politiques de retour automatisées, comparaison des tarifs transporteurs, workflows.
-- **Advanced** : dès 340 $/mois. Ajoute Shop Now, Instant Exchange, Bonus Credit et la prévention de la fraude.
+- **Checkout+** : présenté comme « logiciel gratuit + frais de retour ». Il inclut les étiquettes de retour domestiques aux États-Unis et au Canada. La page précise que tous les marchands ne sont pas éligibles (critère de volume de commandes et de retours) ; la fiche Shopify annonce « gratuit pour les marques à partir de 5 000 commandes par an ».
+- **Returns** : dès 340 $/mois, jusqu'à 1 000 retours par an. Inclut Shop Now, Instant Exchange, Bonus Credit et la prévention de la fraude.
 
-Les frais par retour et les prix annuels ne sont pas affichés : toutes les offres passent par une démo. Les étiquettes incluses dans Checkout+ ne couvrent que les États-Unis et le Canada, donc pour une boutique française, regarde d'abord Essential ou Advanced.
+Le plan **Essential à 155 $/mois** que nous relevions le 18 octobre 2026 n'apparaît plus. Les frais au-delà des 1 000 retours annuels et les prix annuels ne sont pas affichés : l'offre payante passe par une démo. Les étiquettes incluses dans Checkout+ ne couvrent que les États-Unis et le Canada, donc pour une boutique française, c'est l'offre Returns qu'il faut chiffrer. Le détail du face-à-face est dans notre comparatif [Loop vs ReturnGO](/retours-sav/loop-vs-returngo/).
 
 ### ReturnGO
 
@@ -58,7 +57,7 @@ Si tu expédies déjà avec **Sendcloud**, son plan Growth (89 €/mois, 1 000 �
 
 ## Comment choisir
 
-- Tu veux tout miser sur l'échange (Instant Exchange, Bonus Credit) et ton volume justifie une démo : **Loop**, plan Advanced.
+- Tu veux tout miser sur l'échange (Instant Exchange, Bonus Credit) et ton volume justifie une démo : **Loop**, offre Returns (dès 340 $/mois).
 - Tu veux échanges, Shop Now et avoir dès le premier plan, avec un prix affiché et un essai gratuit : **ReturnGO** Premium. Au-delà de 110 retours par mois, compte 1,25 $ par retour supplémentaire.
 - Tu expédies déjà avec Sendcloud et un portail de retours suffit : **Sendcloud** Growth.
 - Ton problème est surtout le volume de demandes au service client : **Gorgias**, couplé à ton outil de retours.

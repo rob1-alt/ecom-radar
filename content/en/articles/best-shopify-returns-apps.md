@@ -4,12 +4,12 @@ description: "Loop, ReturnGO, Sendcloud and Gorgias: verified pricing, exchange 
 category: retours-sav
 type: Comparatif
 date: 2026-10-13
-updated: 2026-10-18
+updated: 2026-11-23
 readTime: 6
 tools: ["Loop", "ReturnGO", "Sendcloud", "Gorgias"]
 cited: [0, 0, 0, 0]
 sample: false
-answer: "**Loop** (free Checkout+ offer, then from $155/month) offers Instant Exchange, Shop Now and Bonus Credit to push exchanges over refunds. **ReturnGO** (from $147/month for 110 returns, 14-day trial) includes exchanges, Shop Now and store credit from its first plan. **Sendcloud** adds a returns portal to its shipping software from the Growth plan (€89/month). **Gorgias** isn't a returns tool but a helpdesk that integrates with Loop."
+answer: "**Loop** (free Checkout+ offer subject to volume eligibility, then the Returns offer from $340/month for up to 1,000 returns a year) offers Instant Exchange, Shop Now and Bonus Credit to push exchanges over refunds. **ReturnGO** (from $147/month for 110 returns, 14-day trial) includes exchanges, Shop Now and store credit from its first plan. **Sendcloud** adds a returns portal to its shipping software from the Growth plan (€89/month). **Gorgias** isn't a returns tool but a helpdesk that integrates with Loop."
 slug: best-shopify-returns-apps
 translationOf: meilleurs-outils-retours-shopify
 ---
@@ -18,24 +18,23 @@ translationOf: meilleurs-outils-retours-shopify
 
 | Tool | Type | Starting price | Exchanges and store credit | Best for |
 | --- | --- | --- | --- | --- |
-| **Loop** | Returns software | Free Checkout+, Essential from $155/month | Instant Exchange, Shop Now and Bonus Credit on the Advanced plan (from $340/month) | Brands that want to turn refunds into exchanges |
+| **Loop** | Returns software | Free Checkout+ (conditions apply), Returns from $340/month | Instant Exchange, Shop Now and Bonus Credit included in Returns | Brands that want to turn refunds into exchanges |
 | **ReturnGO** | Shopify returns app | Premium at $147/month (110 returns included) | Variant and product exchanges, Shop Now, store credit and gift cards from Premium | Stores that want exchanges without moving to the top plan |
 | **Sendcloud** | Shipping software with a returns portal | Growth at €89/month | Custom returns portal, advanced management on Premium | European stores already shipping with Sendcloud |
 | **Gorgias** | E-commerce helpdesk | Based on ticket volume | No, through the Loop integration | Handling return requests in customer support |
 
-Pricing checked on Oct 18, 2026 on the [Loop pricing page](https://www.loopreturns.com/pricing/), [ReturnGO's Shopify App Store listing](https://apps.shopify.com/returngo), the [Sendcloud pricing page](https://www.sendcloud.com/fr/tarifs/) and the [Gorgias pricing page](https://www.gorgias.com/pricing). The table is not a scored ranking: the order goes from dedicated returns tools to tools that handle returns as an add-on.
+Loop and ReturnGO pricing checked on Nov 23, 2026, Sendcloud and Gorgias on Oct 18, 2026, on the [Loop pricing page](https://loopreturns.com/pricing), [ReturnGO's Shopify App Store listing](https://apps.shopify.com/returngo), the [Sendcloud pricing page](https://www.sendcloud.com/fr/tarifs/) and the [Gorgias pricing page](https://www.gorgias.com/pricing). The table is not a scored ranking: the order goes from dedicated returns tools to tools that handle returns as an add-on.
 
 ## The details
 
 ### Loop
 
-The [Loop pricing page](https://www.loopreturns.com/pricing/) shows three offers:
+As of Nov 23, 2026, the [Loop pricing page](https://loopreturns.com/pricing) shows only two offers:
 
-- **Checkout+**: presented as "free software + return shipping". It includes US and Canada domestic return labels.
-- **Essential**: from $155/month. Unlimited destinations, automated return policies, carrier rate shopping, workflows.
-- **Advanced**: from $340/month. Adds Shop Now, Instant Exchange, Bonus Credit and fraud prevention.
+- **Checkout+**: presented as "free software + return shipping". It includes US and Canada domestic return labels. The page states that not every merchant qualifies (eligibility is based on order and return volume); the Shopify listing says it is "free for brands with 5k+ annual orders".
+- **Returns**: from $340/month, up to 1,000 returns a year. Includes Shop Now, Instant Exchange, Bonus Credit and fraud prevention.
 
-Per-return fees and annual prices aren't displayed: every offer goes through a demo. The labels included in Checkout+ only cover the US and Canada, so for a French store, look at Essential or Advanced first.
+The **Essential plan at $155/month** we recorded on Oct 18, 2026 is no longer shown. Fees beyond the 1,000 annual returns and annual prices aren't displayed: the paid offer goes through a demo. The labels included in Checkout+ only cover the US and Canada, so for a French store, the Returns offer is the one to price. The full head-to-head is in our [Loop vs ReturnGO](/en/returns-support/loop-vs-returngo/) comparison.
 
 ### ReturnGO
 
@@ -60,7 +59,7 @@ If you already ship with **Sendcloud**, its Growth plan (€89/month, 1,000 labe
 
 ## How to choose
 
-- You want to go all in on exchanges (Instant Exchange, Bonus Credit) and your volume justifies a demo: **Loop**, Advanced plan.
+- You want to go all in on exchanges (Instant Exchange, Bonus Credit) and your volume justifies a demo: **Loop**, Returns offer (from $340/month).
 - You want exchanges, Shop Now and store credit from the first plan, with a public price and a free trial: **ReturnGO** Premium. Above 110 returns a month, count $1.25 per extra return.
 - You already ship with Sendcloud and a returns portal is enough: **Sendcloud** Growth.
 - Your main problem is the volume of customer support requests: **Gorgias**, paired with your returns tool.
