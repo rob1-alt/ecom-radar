@@ -89,4 +89,5 @@ For a detailed Klaviyo budget estimate, see our article on [Klaviyo's cost at 25
 
 ## Related reading
 
+- [SMS marketing to France: how Brevo, Klaviyo and Omnisend bill it (2026)](/en/email-marketing/sms-marketing-cost-france-brevo-klaviyo-omnisend/)
 - [Brevo pricing, plans and limits in 2026 for e-commerce](/en/email-marketing/brevo-pricing-plans-ecommerce/)

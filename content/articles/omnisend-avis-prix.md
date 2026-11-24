@@ -90,4 +90,5 @@ Pour aller plus loin : notre sélection des [meilleurs outils d'emailing pour Sh
 
 ## À lire aussi
 
+- [SMS marketing en France : comment Brevo, Klaviyo et Omnisend le facturent (2026)](/emailing/prix-sms-marketing-france-brevo-klaviyo-omnisend/)
 - [Brevo : prix, plans et limites en 2026 pour un e-commerce](/emailing/brevo-prix-plans-ecommerce/)

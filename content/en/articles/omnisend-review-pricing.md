@@ -92,4 +92,5 @@ Go further: our roundup of the [best Shopify email marketing tools](/en/email-ma
 
 ## Related reading
 
+- [SMS marketing to France: how Brevo, Klaviyo and Omnisend bill it (2026)](/en/email-marketing/sms-marketing-cost-france-brevo-klaviyo-omnisend/)
 - [Brevo pricing, plans and limits in 2026 for e-commerce](/en/email-marketing/brevo-pricing-plans-ecommerce/)
