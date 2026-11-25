@@ -66,5 +66,6 @@ If you already ship with **Sendcloud**, its Growth plan (€89/month, 1,000 labe
 
 ## Related reading
 
+- [Mandatory EU withdrawal button: 7 Shopify apps compared](/en/returns-support/eu-withdrawal-button-shopify-apps-pricing/)
 - [How to reduce your online store's return rate](/en/returns-support/reduce-ecommerce-return-rate/)
 - [Sendcloud vs Boxtal](/en/shipping/sendcloud-vs-boxtal/)

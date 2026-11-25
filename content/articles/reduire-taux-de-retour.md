@@ -88,5 +88,6 @@ La NRF estime que 9 % des retours sont frauduleux aux États-Unis : quantités g
 
 ## À lire aussi
 
+- [Bouton de rétractation obligatoire : 7 apps Shopify comparées](/retours-sav/bouton-retractation-shopify-apps-prix/)
 - [Sendcloud vs Boxtal](/logistique/sendcloud-vs-boxtal/)
 - [Gorgias vs Zendesk pour un e-commerce](/retours-sav/gorgias-vs-zendesk/)

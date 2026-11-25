@@ -64,5 +64,6 @@ Si tu expédies déjà avec **Sendcloud**, son plan Growth (89 €/mois, 1 000 �
 
 ## À lire aussi
 
+- [Bouton de rétractation obligatoire : 7 apps Shopify comparées](/retours-sav/bouton-retractation-shopify-apps-prix/)
 - [Comment réduire le taux de retour d'une boutique en ligne](/retours-sav/reduire-taux-de-retour/)
 - [Sendcloud vs Boxtal](/logistique/sendcloud-vs-boxtal/)

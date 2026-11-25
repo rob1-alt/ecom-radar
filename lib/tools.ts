@@ -45,6 +45,13 @@ export const TOOLS: Record<string, { domain: string; url: string }> = {
   Alma: { domain: "almapay.com", url: "https://almapay.com" },
   Klarna: { domain: "klarna.com", url: "https://www.klarna.com" },
   "Shopify Payments": { domain: "shopify.com", url: "https://www.shopify.com/payments" },
+  "Withdrawly": { domain: "apps.shopify.com", url: "https://apps.shopify.com/withdrawly-returns" },
+  "Withdrax": { domain: "apps.shopify.com", url: "https://apps.shopify.com/withdrax-eu-withdrawal-button" },
+  "Easy Withdraw": { domain: "apps.shopify.com", url: "https://apps.shopify.com/easy-withdraw-button" },
+  "EUWithdraw": { domain: "apps.shopify.com", url: "https://apps.shopify.com/euwithdraw" },
+  "Compliantly": { domain: "apps.shopify.com", url: "https://apps.shopify.com/withdrawal-app" },
+  "WithdrawKit": { domain: "apps.shopify.com", url: "https://apps.shopify.com/withdrawkit-eu-withdrawal" },
+  "Lifetime EU Withdrawal Button": { domain: "apps.shopify.com", url: "https://apps.shopify.com/eu-withdrawal" },
 };
 
 export function logoUrl(name: string) {

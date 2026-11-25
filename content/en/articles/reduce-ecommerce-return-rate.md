@@ -90,5 +90,6 @@ The NRF estimates that 9% of US returns are fraudulent: overstated quantities, e
 
 ## Related reading
 
+- [Mandatory EU withdrawal button: 7 Shopify apps compared](/en/returns-support/eu-withdrawal-button-shopify-apps-pricing/)
 - [Sendcloud vs Boxtal](/en/shipping/sendcloud-vs-boxtal/)
 - [Gorgias vs Zendesk for ecommerce](/en/returns-support/gorgias-vs-zendesk/)
