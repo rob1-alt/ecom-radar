@@ -72,3 +72,4 @@ Avant de choisir un prestataire, demande par écrit les frais de litige et leur 
 ## À lire aussi
 
 - [Frais PayPal 2026 pour un e-commerçant : combien coûte vraiment une commande ?](/paiement/frais-paypal-ecommercant-2026/)
+- [PayPlug, Stripe ou Mollie : quels frais pour une boutique française en 2026 ?](/paiement/payplug-vs-stripe-vs-mollie-frais/)

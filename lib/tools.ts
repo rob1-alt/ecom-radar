@@ -41,6 +41,7 @@ export const TOOLS: Record<string, { domain: string; url: string }> = {
   Cubyn: { domain: "cubyn.com", url: "https://www.cubyn.com" },
   Stripe: { domain: "stripe.com", url: "https://stripe.com" },
   Mollie: { domain: "mollie.com", url: "https://www.mollie.com" },
+  PayPlug: { domain: "payplug.com", url: "https://www.payplug.com" },
   PayPal: { domain: "paypal.com", url: "https://www.paypal.com" },
   Alma: { domain: "almapay.com", url: "https://almapay.com" },
   Klarna: { domain: "klarna.com", url: "https://www.klarna.com" },

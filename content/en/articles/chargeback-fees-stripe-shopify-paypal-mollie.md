@@ -72,3 +72,4 @@ Before choosing a provider, ask in writing for the dispute fees and whether they
 ## Related reading
 
 - [PayPal fees in 2026 for an online store: what does an order really cost?](/en/payments/paypal-fees-ecommerce-merchants-2026/)
+- [PayPlug, Stripe or Mollie: what fees for a French online store in 2026?](/en/payments/payplug-vs-stripe-vs-mollie-fees/)
