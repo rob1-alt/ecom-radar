@@ -91,3 +91,4 @@ For more options, see our roundup of the [best Shopify spy tools](/en/competitor
 ## Related reading
 
 - [How to analyze a competitor's Shopify store in 30 minutes](/en/competitor-intel/analyze-competitor-shopify-store/)
+- [See your competitors' ads for free: Meta, TikTok and Google in Europe](/en/competitor-intel/see-competitor-ads-free-meta-tiktok-google/)
