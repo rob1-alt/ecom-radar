@@ -149,3 +149,4 @@ Pour aller plus loin, lis [notre méthodologie](/methodologie/) et le [comparati
 ## À lire aussi
 
 - [Comment analyser une boutique Shopify concurrente en 30 minutes](/veille/analyser-boutique-shopify-concurrente/)
+- [llms.txt sur Shopify : ta boutique en a déjà un, faut-il payer une app ?](/visibilite-ia/llms-txt-shopify-app-ou-natif/)

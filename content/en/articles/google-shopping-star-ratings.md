@@ -99,3 +99,7 @@ The direct route is **Google Customer Reviews**, available in France according t
 - **Your reviews already live in an in-house CMS:** the direct XML data source in Merchant Center, if you can regenerate it every month.
 
 Either way, collect your first 50 product reviews first: without them, no tool will make the stars appear.
+
+## Related reading
+
+- [llms.txt on Shopify: your store already has one, should you pay for an app?](/en/ai-visibility/llms-txt-shopify-app-or-native/)

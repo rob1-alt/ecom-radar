@@ -151,3 +151,4 @@ To go further, read [our methodology](/en/methodology/) and our [comparison of r
 ## Related reading
 
 - [How to analyze a competitor's Shopify store in 30 minutes](/en/competitor-intel/analyze-competitor-shopify-store/)
+- [llms.txt on Shopify: your store already has one, should you pay for an app?](/en/ai-visibility/llms-txt-shopify-app-or-native/)

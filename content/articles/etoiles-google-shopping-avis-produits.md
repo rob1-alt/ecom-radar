@@ -97,3 +97,7 @@ Le moyen direct, c'est **Avis clients Google** (Google Customer Reviews), dispon
 - **Tu as déjà tes avis dans un CMS maison :** le flux XML direct dans Merchant Center, si tu peux le régénérer chaque mois.
 
 Dans tous les cas, collecte d'abord tes 50 avis produits : sans eux, aucun outil ne fera apparaître les étoiles.
+
+## À lire aussi
+
+- [llms.txt sur Shopify : ta boutique en a déjà un, faut-il payer une app ?](/visibilite-ia/llms-txt-shopify-app-ou-natif/)

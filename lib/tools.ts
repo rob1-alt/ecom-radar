@@ -56,6 +56,15 @@ export const TOOLS: Record<string, { domain: string; url: string }> = {
   "Compliantly": { domain: "apps.shopify.com", url: "https://apps.shopify.com/withdrawal-app" },
   "WithdrawKit": { domain: "apps.shopify.com", url: "https://apps.shopify.com/withdrawkit-eu-withdrawal" },
   "Lifetime EU Withdrawal Button": { domain: "apps.shopify.com", url: "https://apps.shopify.com/eu-withdrawal" },
+  "Arc: llms.txt": { domain: "apps.shopify.com", url: "https://apps.shopify.com/llms-txt-generator-ai-search" },
+  "autoLLMs": { domain: "apps.shopify.com", url: "https://apps.shopify.com/autollm" },
+  "Gemify llms-full.txt": { domain: "apps.shopify.com", url: "https://apps.shopify.com/llms-full-txt" },
+  "LLMs.txt Generator (Gokyo)": { domain: "apps.shopify.com", url: "https://apps.shopify.com/llms-txt" },
+  "AI LLMs Txt Generator": { domain: "apps.shopify.com", url: "https://apps.shopify.com/llms-txt-generator" },
+  "LLMs, Robots and Agents Editor": { domain: "apps.shopify.com", url: "https://apps.shopify.com/llm-txt-generator" },
+  "LLMs.txt AI Optimizer": { domain: "apps.shopify.com", url: "https://apps.shopify.com/llms-txt-4" },
+  "LLMs.txt Generator by Bouquet": { domain: "apps.shopify.com", url: "https://apps.shopify.com/bouquet-llms-text-generator" },
+  "LLM Core": { domain: "apps.shopify.com", url: "https://apps.shopify.com/llm-core-llms-txt" },
 };
 
 export function logoUrl(name: string) {
